@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.sql.SQLException;
 import java.util.regex.Pattern;
 
 import org.apache.tika.exception.TikaException;
@@ -20,6 +21,10 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
+
+import utils.DatabaseConnection;
+import utils.Persistable;
+import utils.PostgreSQLPersistable;
 
 public class Main {
 		
@@ -67,22 +72,32 @@ public class Main {
 	    }
 	}
 	
-	public static void printSectionHeadings(String htmlDocument) {
+	public static void printSectionHeadings(String htmlDocument, Integer documentId) {
 		Document doc = Jsoup.parse(htmlDocument);
 		Elements els = doc.select("p");
+		boolean usage = false;
 		for(int i = 0; i < els.size(); i++) {
 			Element e = els.get(i);
 			Elements match = e.getElementsMatchingText(Pattern.compile("^\\p{Digit}\\..*"));
 			if( match.size() > 0 ) {
 				System.out.println(e.text());
-			} else {
+				if( e.text().charAt(0) == '1' ) {
+					usage = true;
+				} else {
+					usage = false;
+				}
+			} else if(usage == true && e.text().length() > 0) {
+				//System.out.println("INSERT " + documentId + " " + e.text());
 				//System.out.println("Unmatched " + e.text());
+				Persistable p = new PostgreSQLPersistable();
+				p.insertSection(new Section(documentId.toString(), "usage", e.text()));
 			}
 		}
 	}
 	
 	public static void parseDirectory(String dir) {
 		final File folder = new File(dir);
+		int documentId = 1;
 		for (final File fileEntry : folder.listFiles()) {
 	        if (fileEntry.isDirectory()) {
 	            System.out.println("Skipping " + fileEntry.getName() + " directory...");
@@ -92,18 +107,28 @@ public class Main {
 	            	String htmlDocument = parseToHTML(fileEntry.getAbsolutePath());
 	            	//String xmlDocument = parseToXML(fileEntry.getAbsolutePath());
 	            	//String autoParsedHtmlDocument = autoParseToHTML(fileEntry.getAbsolutePath());
-	            	printSectionHeadings(htmlDocument);
+	            	printSectionHeadings(htmlDocument, new Integer(documentId));
 	            	//System.out.println(xmlDocument);
 	            	//System.out.println(htmlDocument);
 	            } catch (Exception e) {
 		            	
 	            }
 	        }
+	        documentId++;
 		}
 	}
 	
 	public static void main(String args[]) {
 		parseDirectory("./data");
+		
+		/* Close connection */
+		try {
+			DatabaseConnection.getConnection().close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			System.err.println(e.getClass().getName()+": "+e.getMessage());
+			System.exit(1);
+		}
 	}
 
 }

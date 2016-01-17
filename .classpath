@@ -12,5 +12,6 @@
 			<attribute name="javadoc_location" value="http://jsoup.org/apidocs/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/matej/workspace/DocumentExtractor/lib/postgresql-9.4.1207.jre7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

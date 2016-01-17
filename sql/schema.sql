@@ -1,0 +1,12 @@
+--CREATE USER xminar29 WITH PASSWORD 'xminar29';
+--CREATE DATABASE xminar29_drugs_db;
+--GRANT ALL PRIVILEGES ON DATABASE xminar29_drugs_db TO xminar29;
+
+DROP TABLE SECTIONS;
+CREATE TABLE SECTIONS (
+	id		integer,     -- PRIMARY KEY
+	doc_id  integer,     -- FOREIGN KEY TO DOCUMENT
+	stype	varchar(20), -- SHORT TYPE IDENTIFICATION
+	content text,        -- CONCATENATED SECTION CONTENT
+	PRIMARY KEY(id)
+);
