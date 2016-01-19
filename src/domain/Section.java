@@ -16,5 +16,12 @@ public class Section {
 		this.content = content;
 		uid++;
 	}
+	
+	public static boolean usageSectionHeading(String heading) {	
+		return (
+			heading.charAt(0) == '1' &&
+			heading.toLowerCase().contains(new String("na čo")) &&
+			heading.toLowerCase().contains(new String("používa")));
+	}
 
 }

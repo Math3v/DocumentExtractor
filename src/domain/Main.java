@@ -75,22 +75,22 @@ public class Main {
 	public static void printSectionHeadings(String htmlDocument, Integer documentId) {
 		Document doc = Jsoup.parse(htmlDocument);
 		Elements els = doc.select("p");
-		boolean usage = false;
+
 		for(int i = 0; i < els.size(); i++) {
 			Element e = els.get(i);
 			Elements match = e.getElementsMatchingText(Pattern.compile("^\\p{Digit}\\..*"));
+			String section = e.text();
+			
 			if( match.size() > 0 ) {
-				System.out.println(e.text());
-				if( e.text().charAt(0) == '1' ) {
-					usage = true;
+				System.out.println(section);
+				if( Section.usageSectionHeading(section) ) {
+					SectionStateMachine.startUsage();
 				} else {
-					usage = false;
+					SectionStateMachine.endUsage();
 				}
-			} else if(usage == true && e.text().length() > 0) {
-				//System.out.println("INSERT " + documentId + " " + e.text());
-				//System.out.println("Unmatched " + e.text());
+			} else if( SectionStateMachine.isUsage() && section.length() > 0 ) {
 				Persistable p = new PostgreSQLPersistable();
-				p.insertSection(new Section(documentId.toString(), "usage", e.text()));
+				p.insertSection(new Section(documentId.toString(), "usage", section));
 			}
 		}
 	}
@@ -99,11 +99,14 @@ public class Main {
 		final File folder = new File(dir);
 		int documentId = 1;
 		for (final File fileEntry : folder.listFiles()) {
+			if( fileEntry.isHidden() ) {
+				continue;
+			}
 	        if (fileEntry.isDirectory()) {
 	            System.out.println("Skipping " + fileEntry.getName() + " directory...");
 	        } else {
 	            try {
-	            	System.out.println("Document " + fileEntry.getName());
+	            	System.out.println("Document "+documentId+". "+fileEntry.getName());
 	            	String htmlDocument = parseToHTML(fileEntry.getAbsolutePath());
 	            	//String xmlDocument = parseToXML(fileEntry.getAbsolutePath());
 	            	//String autoParsedHtmlDocument = autoParseToHTML(fileEntry.getAbsolutePath());
