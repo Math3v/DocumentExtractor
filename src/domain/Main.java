@@ -83,7 +83,7 @@ public class Main {
 			
 			if( match.size() > 0 ) {
 				System.out.println(section);
-				if( Section.usageSectionHeading(section) ) {
+				if( Section.usageSectionHeadingSPC(section) ) {
 					SectionStateMachine.startUsage();
 				} else {
 					SectionStateMachine.endUsage();
@@ -100,6 +100,9 @@ public class Main {
 		int documentId = 1;
 		for (final File fileEntry : folder.listFiles()) {
 			if( fileEntry.isHidden() ) {
+				continue;
+			}
+			if( fileEntry.getName().startsWith(new String("PIL")) ) {
 				continue;
 			}
 	        if (fileEntry.isDirectory()) {

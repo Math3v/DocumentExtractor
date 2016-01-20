@@ -17,11 +17,17 @@ public class Section {
 		uid++;
 	}
 	
-	public static boolean usageSectionHeading(String heading) {	
+	public static boolean usageSectionHeadingPIL(String heading) {	
 		return (
 			heading.charAt(0) == '1' &&
 			heading.toLowerCase().contains(new String("na čo")) &&
 			heading.toLowerCase().contains(new String("používa")));
+	}
+	
+	public static boolean usageSectionHeadingSPC(String heading) {
+		boolean sectionNumberOpt = heading.matches(new String("4\\.\\s{0,5}1.*"));
+		boolean sectionWordOccur = heading.toLowerCase().contains(new String("indikácie"));
+		return sectionNumberOpt && sectionWordOccur;
 	}
 
 }
