@@ -72,7 +72,7 @@ public class Main {
 	    }
 	}
 	
-	public static void printSectionHeadings(String htmlDocument, Integer documentId) {
+	public static void parseSectionHeadings(String htmlDocument, Integer documentId) {
 		Document doc = Jsoup.parse(htmlDocument);
 		Elements els = doc.select("p");
 
@@ -95,6 +95,17 @@ public class Main {
 		}
 	}
 	
+	public static void printQuantitiesCounts(String htmlDocument, Integer documentId) {
+		Document doc = Jsoup.parse(htmlDocument);
+		Elements els = doc.select("p");
+		
+		for(int i = 0; i < els.size(); i++) {
+			Element e = els.get(i);
+			Elements match = e.getElementsMatchingText(Pattern.compile("^\\p{Digit}\\..*"));
+			String section = e.text();
+		}
+	}
+	
 	public static void parseDirectory(String dir) {
 		final File folder = new File(dir);
 		int documentId = 1;
@@ -111,11 +122,7 @@ public class Main {
 	            try {
 	            	System.out.println("Document "+documentId+". "+fileEntry.getName());
 	            	String htmlDocument = parseToHTML(fileEntry.getAbsolutePath());
-	            	//String xmlDocument = parseToXML(fileEntry.getAbsolutePath());
-	            	//String autoParsedHtmlDocument = autoParseToHTML(fileEntry.getAbsolutePath());
-	            	printSectionHeadings(htmlDocument, new Integer(documentId));
-	            	//System.out.println(xmlDocument);
-	            	//System.out.println(htmlDocument);
+	            	parseSectionHeadings(htmlDocument, new Integer(documentId));
 	            } catch (Exception e) {
 		            	
 	            }
@@ -125,6 +132,14 @@ public class Main {
 	}
 	
 	public static void main(String args[]) {
+		
+		QuantityClassifier c = new QuantityClassifier();
+		assert 2 == c.quantityCount("10 ml a 5 mikrogramov");
+		assert 1 == c.quantityCount(" alebo preco lebo 8 g len");
+		assert 2 == c.quantityCount(" ahoj 3 ml a 5,0 g");
+		assert 3 == c.quantityCount("raz 2,3 mg a 3.5 ml lebo 5 mikrogramov");
+		assert 2 == c.quantityCount("30 mg lebo 6 ml");
+				
 		parseDirectory("./data");
 		
 		/* Close connection */
