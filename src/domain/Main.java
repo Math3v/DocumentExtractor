@@ -123,7 +123,7 @@ public class Main {
 		
 		for(int i = 0; i < els.size(); i++) {
 			Element e = els.get(i);
-			Elements match = e.getElementsMatchingText(Pattern.compile("^\\p{Digit}\\.*"));
+			Elements match = e.getElementsMatchingText(Pattern.compile("^\\p{Digit}\\..*"));
 			String section = e.text();
 			
 			if( match.size() > 0 ) {
@@ -133,7 +133,8 @@ public class Main {
 					SectionStateMachine.endActiveSubstance();
 				}
 			} else if( SectionStateMachine.isActiveSubstance() && section.length() > 0 ) {
-				System.out.println(section);
+				IntermediateRepresentation ir = new IntermediateRepresentation();
+				System.out.println(section + " -- " + ir.getInternalRepresentation(section));
 			}
 		}
 	}
@@ -158,7 +159,9 @@ public class Main {
 	            	//printQuantitiesCounts(htmlDocument, documentId);
 	            	parseActiveSubstances(htmlDocument, documentId);
 	            } catch (Exception e) {
-		            	
+		            System.out.println("Error: parseDirectory " + e.getMessage());
+		            e.printStackTrace();
+		            System.exit(1);
 	            }
 	        }
 	        documentId++;
@@ -166,7 +169,6 @@ public class Main {
 	}
 	
 	public static void main(String args[]) {
-		
 		new Test();
 				
 		parseDirectory("./data");
