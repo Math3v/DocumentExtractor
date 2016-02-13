@@ -134,7 +134,9 @@ public class Main {
 				}
 			} else if( SectionStateMachine.isActiveSubstance() && section.length() > 0 ) {
 				IntermediateRepresentation ir = new IntermediateRepresentation();
-				System.out.println(section + " -- " + ir.getInternalRepresentation(section));
+				String irValue = ir.getInternalRepresentation(section);
+				System.out.println(section + " -- " + irValue);
+				Section.printActiveSubstances(section, irValue);
 			}
 		}
 	}
@@ -170,7 +172,9 @@ public class Main {
 	
 	public static void main(String args[]) {
 		new Test();
-				
+		
+		Section.printActiveSubstances("Každá 30 ml dávka obsahuje 500 mg paracetamolu, 10 mg fenylefríniumchloridu a 200 mg guaifenezínu.", "UQUUQAQAUQA");
+		
 		parseDirectory("./data");
 		
 		/* Close connection */

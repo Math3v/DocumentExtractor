@@ -1,5 +1,8 @@
 package domain;
 
+import nlp.ITokenizer;
+import nlp.SimpleTokenizer;
+
 public class Section {
 	
 	public String id;
@@ -34,6 +37,27 @@ public class Section {
 		boolean sectionNumberOpt = heading.matches(new String("2\\..*"));
 		boolean sectionWordOccur = heading.toLowerCase().contains(new String("zloženie"));
 		return sectionNumberOpt && sectionWordOccur;
+	}
+	
+	public static void printActiveSubstances(String section, String ir) {
+		if( ir.contains("QA") || ir.contains("QG") ) {
+			ITokenizer t = new SimpleTokenizer();
+			String tokens[] = t.tokenize(section);
+			int irIdx = 0, tokIdx = 0;
+			
+			System.out.println("---------------------------");
+			for(; tokIdx < tokens.length - 1; tokIdx++, irIdx++) {
+				if(ir.charAt(irIdx) == 'Q' && ir.charAt(irIdx+1) == 'G'
+				|| ir.charAt(irIdx) == 'Q' && ir.charAt(irIdx+1) == 'A') {
+					System.out.println(tokens[tokIdx] + " " + tokens[tokIdx+1] + " " + tokens[tokIdx+2]);
+					tokIdx += 2;
+					irIdx++;
+				} else if(ir.charAt(irIdx) == 'Q') {
+					tokIdx++;
+				}
+			}
+			System.out.println("---------------------------");
+		}
 	}
 
 }
