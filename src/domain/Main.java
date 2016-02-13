@@ -22,8 +22,9 @@ import org.jsoup.select.Elements;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 
+import nlp.QuantityClassifier;
 import utils.DatabaseConnection;
-import utils.Persistable;
+import utils.IPersistable;
 import utils.PostgreSQLPersistable;
 
 public class Main {
@@ -89,7 +90,7 @@ public class Main {
 					SectionStateMachine.endUsage();
 				}
 			} else if( SectionStateMachine.isUsage() && section.length() > 0 ) {
-				Persistable p = new PostgreSQLPersistable();
+				IPersistable p = new PostgreSQLPersistable();
 				p.insertSection(new Section(documentId.toString(), "usage", section));
 			}
 		}
@@ -98,11 +99,42 @@ public class Main {
 	public static void printQuantitiesCounts(String htmlDocument, Integer documentId) {
 		Document doc = Jsoup.parse(htmlDocument);
 		Elements els = doc.select("p");
+		Integer  cnt = 0;
+		QuantityClassifier c = new QuantityClassifier();
 		
 		for(int i = 0; i < els.size(); i++) {
 			Element e = els.get(i);
 			Elements match = e.getElementsMatchingText(Pattern.compile("^\\p{Digit}\\..*"));
 			String section = e.text();
+			
+			if( match.size() > 0 ) {
+				System.out.println("Count: "+cnt);
+				System.out.println(section);
+				cnt = 0;
+			} else {
+				cnt += c.quantityCount(section);
+			}
+		}
+	}
+	
+	public static void parseActiveSubstances(String htmlDocument, Integer documentId) {
+		Document doc = Jsoup.parse(htmlDocument);
+		Elements els = doc.select("p");
+		
+		for(int i = 0; i < els.size(); i++) {
+			Element e = els.get(i);
+			Elements match = e.getElementsMatchingText(Pattern.compile("^\\p{Digit}\\.*"));
+			String section = e.text();
+			
+			if( match.size() > 0 ) {
+				if( Section.activeSubstanceSectionHeadingSPC(section) ) {
+					SectionStateMachine.startActiveSubstance();
+				} else {
+					SectionStateMachine.endActiveSubstance();
+				}
+			} else if( SectionStateMachine.isActiveSubstance() && section.length() > 0 ) {
+				System.out.println(section);
+			}
 		}
 	}
 	
@@ -122,7 +154,9 @@ public class Main {
 	            try {
 	            	System.out.println("Document "+documentId+". "+fileEntry.getName());
 	            	String htmlDocument = parseToHTML(fileEntry.getAbsolutePath());
-	            	parseSectionHeadings(htmlDocument, new Integer(documentId));
+	            	//parseSectionHeadings(htmlDocument, new Integer(documentId));
+	            	//printQuantitiesCounts(htmlDocument, documentId);
+	            	parseActiveSubstances(htmlDocument, documentId);
 	            } catch (Exception e) {
 		            	
 	            }
@@ -133,18 +167,14 @@ public class Main {
 	
 	public static void main(String args[]) {
 		
-		QuantityClassifier c = new QuantityClassifier();
-		assert 2 == c.quantityCount("10 ml a 5 mikrogramov");
-		assert 1 == c.quantityCount(" alebo preco lebo 8 g len");
-		assert 2 == c.quantityCount(" ahoj 3 ml a 5,0 g");
-		assert 3 == c.quantityCount("raz 2,3 mg a 3.5 ml lebo 5 mikrogramov");
-		assert 2 == c.quantityCount("30 mg lebo 6 ml");
+		new Test();
 				
 		parseDirectory("./data");
 		
 		/* Close connection */
 		try {
-			DatabaseConnection.getConnection().close();
+			if( DatabaseConnection.isConnected() )
+				DatabaseConnection.getConnection().close();
 		} catch (SQLException e) {
 			e.printStackTrace();
 			System.err.println(e.getClass().getName()+": "+e.getMessage());

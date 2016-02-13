@@ -1,9 +1,9 @@
-package domain;
+package nlp;
 
 public class QuantityClassifier {
 	
 	public int quantityCount(String s) {
-		Tokenizer t = new SimpleTokenizer();
+		ITokenizer t = new SimpleTokenizer();
 		String[] tokens = t.tokenize(s);
 		int count = 0;
 		

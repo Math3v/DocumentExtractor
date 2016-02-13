@@ -29,6 +29,14 @@ public class DatabaseConnection {
 		return connection;
 	}
 	
+	public static boolean isConnected() {
+		if( null == connection ) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
 	private void connect() {
 		try {
 			Class.forName("org.postgresql.Driver");

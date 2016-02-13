@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 import domain.Section;
 
-public class PostgreSQLPersistable implements Persistable {
+public class PostgreSQLPersistable implements IPersistable {
 
 	@Override
 	public boolean insertSection(Section s) {

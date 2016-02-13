@@ -29,5 +29,11 @@ public class Section {
 		boolean sectionWordOccur = heading.toLowerCase().contains(new String("indikácie"));
 		return sectionNumberOpt && sectionWordOccur;
 	}
+	
+	public static boolean activeSubstanceSectionHeadingSPC(String heading) {
+		boolean sectionNumberOpt = heading.matches(new String("2\\..*"));
+		boolean sectionWordOccur = heading.toLowerCase().contains(new String("zloženie"));
+		return sectionNumberOpt && sectionWordOccur;
+	}
 
 }
