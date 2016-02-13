@@ -1,0 +1,1197 @@
+Document 1. SPC00195752_calcium.doc
+Count: 0
+1. Názov lieku
+Count: 0
+2. Kvalitatívne a kvantitatívne zloženie lieku
+Count: 5
+3. Lieková forma
+Count: 0
+4. Klinické údaje
+Count: 0
+4.1. Terapeutické indikácie
+Count: 0
+4.2. Dávkovanie a spôsob podania
+Count: 2
+4.3. Kontraindikácie
+Count: 0
+4.4. Osobitné upozornenia a opatrenia pri používaní
+Count: 1
+4.5. Liekové a iné interakcie
+Count: 0
+4.6. Gravidita a laktácia
+Count: 0
+4.7. Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8. Nežiaduce účinky
+Count: 0
+4.9. Predávkovanie
+Count: 0
+5. Farmakologické vlastnosti
+Count: 0
+5.1. Farmakodynamické vlastnosti
+Count: 0
+5.2. Farmakokinetické vlastnosti
+Count: 3
+5.3. Preklinické údaje o bezpečnosti
+Count: 0
+6. Farmaceutické informácie
+Count: 0
+6.1. Zoznam pomocných látok
+Count: 0
+6.2. Inkompatibility
+Count: 0
+6.3. Čas použiteľnosti
+Count: 0
+6.4. Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 1
+6.6 Špeciálne opatrenia na likvidáciu a iné zaobchádzanie s liekom
+Count: 0
+7. Držiteľ rozhodnutia o registrácii
+Count: 0
+8. Registračné číslo
+Count: 0
+9. Dátum prvej registrácie/ predĺženia registrácie
+Document 2. SPC00244397_hidrasec.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 2
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 4
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 4
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilia, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 1
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu a iné zaobchádzanie s liekom
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Count: 0
+8. REGISTRAČNÉ ČÍSLO
+Count: 0
+9. DÁTUM PRVEJ REGISTRÁCIE/ PREDĹŽENIA REGISTRÁCIE
+Document 3. SPC00258796_reasec.doc
+Count: 0
+1. Názov lieku
+Count: 1
+2. Kvalitatívne a kvantitatívne zloženie
+Count: 2
+3. Lieková forma
+Count: 0
+4. Klinické údaje
+Count: 0
+4.1. Terapeutické indikácie
+Count: 0
+4.2. Dávkovanie a spôsob podávania
+Count: 2
+4.3. Kontraindikácie
+Count: 0
+4.4. Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5. Liekové a iné interakcie
+Count: 0
+4.6. Fertilita, gravidita a laktácia
+Count: 0
+4.7. Ovplyvnenie schopnosti viesť motorové vozidlá a obsluhovať stroje
+Count: 0
+4.8. Nežiaduce účinky
+Count: 0
+4.9. Predávkovanie
+Count: 2
+5. Farmakologické vlastnosti
+Count: 0
+5.1. Farmakodynamické vlastnosti
+Count: 0
+5.2. Farmakokinetické vlastnosti
+Count: 1
+5.3. Predklinické údaje o bezpečnosti
+Count: 0
+6. Farmaceutické informácie
+Count: 0
+6.1. Zoznam pomocných látok
+Count: 0
+6.2. Inkompatibility
+Count: 0
+6.3. Čas použiteľnosti
+Count: 0
+6.4. Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5. Druh obalu a obsah balenia
+Count: 1
+6.6. Špeciálne opatrenia na likvidáciu
+Count: 0
+7. Držiteľ rozhodnutia o registrácii
+Count: 0
+8. Registračné číslo
+Count: 0
+9. Dátum PRVEJ REGISTRÁCIE/predĺženia registrácie
+Document 4. SPC00301188_visine.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE LIEKU
+Count: 2
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4. 1 Terapeutické indikácie
+Count: 0
+4. 2 Dávkovanie a spôsob podávania
+Count: 0
+4. 3 Kontraindikácie
+Count: 0
+4. 4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4. 5 Liekové a iné interakcie
+Count: 0
+4. 6 Fertilita, gravidita a laktácia
+Count: 0
+4. 7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4. 8 Nežiaduce účinky
+Count: 0
+4. 9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5. 1 Farmakodynamické vlastnosti
+Count: 0
+5. 2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6. 1 Zoznam pomocných látok
+Count: 0
+6. 2 Inkompatibility
+Count: 0
+6. 3 Čas použiteľnosti
+Count: 0
+6. 4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6. 5 Druh obalu a obsah balenia
+Count: 2
+6. 6 Špeciálne opatrenia na likvidáciu a iné zaobchádzanie s liekom
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Count: 0
+8. REGISTRAČNÉ ČÍSLO
+Count: 0
+9. DÁTUM PRVEJ REGISTRÁCIE/ PREDĹŽENIA REGISTRÁCIE
+Document 5. SPC00307347_panadol.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 3
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 2
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+6.0%
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 1
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Count: 0
+8. REGISTRAČNÉ ČISLO
+Count: 0
+9. DÁTUM PRVEJ REGISTRÁCIE / PREDĹŽENIA REGISTRÁCIE
+Document 6. SPC00307430_paralen.doc
+Count: 0
+1. NÁZOV LIEKU
+Document 7. SPC00315211_bufomix.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 1
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 0
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 3
+4.5 Liekové a iné interakcie
+Count: 3
+4.6 Gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Document 8. SPC00320260_lindynette.doc
+Count: 0
+1. NÁZOV LIEKU
+Document 9. SPC00335383_symbicort.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 0
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 0
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Document 10. SPC00339442_theraflu.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 1
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 8
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie spôsob podávania
+Count: 1
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 11
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.8 Predávkovanie
+Count: 2
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 0
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu a iné zaobchádzanie s liekom
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Document 11. SPC00343955_nurofen.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 0
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 0
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 0
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Count: 0
+8. REGISTRAČNÉ ČÍSLO
+Count: 0
+9. DÁTUM PRVEJ REGISTRÁCIE/PREDĹŽENIA REGISTRÁCIE
+Document 12. SPC00345866_meloxicam.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 0
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 0
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 0
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Count: 0
+8. REGISTRAČNÉ ČÍSLO
+Count: 0
+9. DÁTUM PRVEJ REGISTRÁCIE / PREDĹŽENIA REGISTRÁCIE
+Document 13. SPC00353561_fullhale.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 0
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 0
+1. Pacient musí odstrániť kryt náustka tým, že ho zboku jemne stlačí.
+Count: 0
+2. Pacient musí skontrolovať, že inhalátor z vonkajšej ani z vnútornej strany neobsahuje voľné časti.
+Count: 0
+3. Pacient musí inhalátorom riadne potrepať, čím sa zaistí odstránenie akýchkoľvek voľných častí a rovnomerné premiešanie obsahu inhalátora.
+Count: 0
+4. Pacienti musia inhalátor držať vzpriamene medzi prstami a palcom, s palcom umiestneným na spodnej strane, pod náustkom.
+Count: 0
+5. Pacienti musia vydýchnuť čo najviac, pokiaľ im to nespôsobuje ťažkosti, a potom musia náustok umiestniť do úst medzi zuby a zovrieť okolo neho pery. Pacientov je potrebné poučiť, aby do náustka nehrýzli.
+Count: 0
+6. Ihneď potom, ako pacienti začnú vdychovať cez ústa, inhalátor zvrchu stlačia, aby sa uvoľnila dávka FULLHALE, a zároveň stále plynulo a hlboko vdychujú.
+Count: 0
+7. Zatiaľ, čo pacienti zadržiavajú dych, vyberú inhalátor z úst a dajú preč prst z hornej časti inhalátora. Pacienti majú zadržiavať dych tak dlho, ako je to možné bez námahy.
+Count: 0
+8. Ak pacient potrebuje užiť ďalšiu inhaláciu, bude držať inhalátor kolmo a počká asi pol minúty, kým zopakuje kroky 3 až 7.
+Count: 0
+9. Pacienti musia ihneď vrátiť správne natočený kryt náustka tak, že ho silno zatlačia, až zacvakne do správnej polohy. Kryt nevyžaduje použitie nadmernej sily a do správnej polohy zacvakne.
+Count: 0
+1. Odstráňte kryt z náustka.
+Count: 0
+2. Nádobu nevyberajte z plastového puzdra.
+Count: 0
+3. Poutierajte náustok a plastové puzdro zvonka a zvnútra suchou handričkou alebo papierovým obrúskom.
+Count: 0
+4. Znovu nasaďte a správne natočte kryt náustka. Kryt nevyžaduje použitie nadmernej sily a do správnej polohy zacvakne.
+Count: 0
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Document 14. SPC00360736_foster.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 4
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 0
+1. Odstráňte ochranný kryt z náustka a skontrolujte, či náustok je čistý, bez prachu a nečistôt alebo iných cudzích predmetov.
+Count: 0
+2. Pomaly a hlboko vydýchnite, tak ako je to len možné.
+Count: 0
+3. Nádobku držte vo zvislej polohe so základnou časťou nahor a pery stisnite okolo náustka. Do náustka nehryzte.
+Count: 0
+4. Hlboko a pomaly sa cez ústa nadýchnite a súčasne potlačte hornú časť inhalátora, čím uvoľníte
+Count: 0
+5. Zadržte dych tak dlho, ako je to možné a napokon vytiahnite inhalátor z úst a vydýchnite
+Count: 0
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 1
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 0
+5.2 Farmakokinetické vlastnosti
+Count: 2
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu a iné zaobchádzanie s liekom
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Count: 0
+8. REGISTRAČNÉ ČÍSLO
+Count: 0
+9. DÁTUM PRVEJ REGISTRÁCIE/PREDĹŽENIA REGISTRÁCIE
+Document 15. SPC00368284_yanimo.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 0
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 2
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 2
+4.9 Predávkovanie
+Count: 2
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Document 16. SPC00375668_calcichew.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 3
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 0
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 0
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu a iné zaobchádzanie s liekom
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Count: 0
+8. REGISTRAČNÉ ČÍSLO
+Count: 0
+9. DÁTUM PRVEJ REGISTRÁCIE/PREDĹŽENIA REGISTRÁCIE
+Document 17. SPC00381408_paricalcitol.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 0
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Document 18. SPC00388136_pleumolysin.doc
+Count: 0
+1. Názov lieku
+Count: 0
+2. Kvalitatívne a kvantitatívne zloženie
+Count: 0
+3. Lieková forma
+Count: 0
+4. Klinické údaje
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 0
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. Farmakologické vlastnosti
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 0
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. Farmaceutické INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu
+Count: 0
+7. Držiteľ rozhodnutia o registrácii
+Document 19. SPC00389475_paracetamol.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 1
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 3
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 6
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 2
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 1
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 1
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 0
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Document 20. SPC00389866_vopregin.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 1
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 2
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 13
+4.3 Kontraindikácie
+Count: 1
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 2
+4.5 Liekové a iné interakcie
+Count: 29
+4.2).
+Count: 3
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Document 21. SPC00390309_lingabat.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 4
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 0
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Document 22. SPC00390312_ezetimibe.doc
+Count: 0
+1. Názov LIEKU
+Count: 1
+2. Kvalitatívne a kvantitatívne zloženie LIEKU
+Count: 0
+3. LIEKOVÁ forma
+Count: 0
+4. Klinické údaje
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 0
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 2
+4.5 Liekové a iné interakcie
+Count: 3
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 2
+4.9 Predávkovanie
+Count: 0
+5. Farmakologické vlastnosti
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Document 23. SPC00390361_furocef.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 4
+3. LIEKOVÁ FORMA
+Count: 2
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Document 24. SPC00390446_mometasone.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 2
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 1
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 1
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Document 25. SPC00390599_cefepim.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 2
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 3
+3. LIEKOVÁ forma
+Count: 0
+4. Klinické údaje
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Document 26. SPC00390788_sevelamer.docx
+Count: 0
+1. NÁZOV LIEKU
+Count: 0
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 1
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Document 27. SPC00391143_rasagiline.docx
+Count: 0
+1. NÁZOV LIEKU
+Count: 1
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 1
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 1
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 2
+4.6 Gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 1
+0.7%)
+Count: 1
+4.9 Predávkovanie
+Count: 2
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 11
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Count: 0
+8. REGISTRAČNÉ ČÍSLO
+Count: 0
+9. DÁTUM PRVEJ REGISTRÁCIE/ PREDĹŽENIA REGISTRÁCIE
+Document 28. SPC00391279_cinakalcet.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 3
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 3
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 8
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 5
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Document 29. SPC00391575_lifsar.docx
+Count: 1
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 0
+1. OTVORENIE: Odstráňte biely kryt.
+Count: 0
+2. INHALÁCIA: Priložte pery okolo náustka a zhlboka sa nadýchnite.
+Count: 0
+3. ZATVORENIE KLIKNUTÍM: Uzavrite úplne krytom.
+Count: 0
+1. OTVORENIE
+Document 30. SPC00392016_bisoprolol.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 2
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 0
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 1
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 0
+5.2 Farmakokinetické vlastnosti
+Count: 0
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Count: 0
+8. REGISTRAČNÉ ČÍSLA
+Count: 0
+9. DÁTUM PRVEJ REGISTRÁCIE/PREDĹŽENIA REGISTRÁCIE
+Document 31. SPC00392060_cinacalcet.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 3
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 9
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 8
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 5
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Document 32. SPC00393267_melipramin.doc
+Count: 0
+1. NÁZOV LIEKU
+Count: 1
+2. KVALITATÍVNE A KVANTITATÍVNE ZLOŽENIE
+Count: 2
+3. LIEKOVÁ FORMA
+Count: 0
+4. KLINICKÉ ÚDAJE
+Count: 0
+4.1 Terapeutické indikácie
+Count: 0
+4.2 Dávkovanie a spôsob podávania
+Count: 9
+4.3 Kontraindikácie
+Count: 0
+4.4 Osobitné upozornenia a opatrenia pri používaní
+Count: 0
+4.5 Liekové a iné interakcie
+Count: 0
+4.6 Fertilita, gravidita a laktácia
+Count: 0
+4.7 Ovplyvnenie schopnosti viesť vozidlá a obsluhovať stroje
+Count: 0
+4.8 Nežiaduce účinky
+Count: 0
+4.9 Predávkovanie
+Count: 0
+5. FARMAKOLOGICKÉ VLASTNOSTI
+Count: 0
+5.1 Farmakodynamické vlastnosti
+Count: 0
+5.2 Farmakokinetické vlastnosti
+Count: 1
+5.3 Predklinické údaje o bezpečnosti
+Count: 0
+6. FARMACEUTICKÉ INFORMÁCIE
+Count: 0
+6.1 Zoznam pomocných látok
+Count: 0
+6.2 Inkompatibility
+Count: 0
+6.3 Čas použiteľnosti
+Count: 0
+6.4 Špeciálne upozornenia na uchovávanie
+Count: 0
+6.5 Druh obalu a obsah balenia
+Count: 0
+6.6 Špeciálne opatrenia na likvidáciu a iné zaobchádzanie s liekom
+Count: 0
+7. DRŽITEĽ ROZHODNUTIA O REGISTRÁCII
+Count: 0
+8. REGISTRAČNÉ ČÍSLO
+Count: 0
+9. DÁTUM PRVEJ REGISTRÁCIE/PREDĹŽENIA REGISTRÁCIE
+
