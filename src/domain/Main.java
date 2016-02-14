@@ -24,12 +24,13 @@ import org.xml.sax.SAXException;
 
 import nlp.QuantityClassifier;
 import utils.DatabaseConnection;
+import utils.FileOutput;
 import utils.IPersistable;
 import utils.PostgreSQLPersistable;
 
 public class Main {
 	
-	public static final boolean FILE = true;
+	public static final FileOutput asFile = new FileOutput( "active-substances.txt" );
 		
 	public static String parseToHTML(String fileName) throws IOException, SAXException, TikaException {
 	    ContentHandler handler = new ToXMLContentHandler();
@@ -189,6 +190,9 @@ public class Main {
 			System.err.println(e.getClass().getName()+": "+e.getMessage());
 			System.exit(1);
 		}
+		
+		/* Close file output */
+		Main.asFile.close();
 	}
 
 }

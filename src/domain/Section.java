@@ -77,6 +77,7 @@ public class Section {
 				ir.substring(i, i+4).equals("QQGA") ||
 				ir.substring(i, i+4).equals("QQAG") ) {
 				System.out.println("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]+" "+tokens[i+3]);
+				Main.asFile.writeln("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]+" "+tokens[i+3]);
 				return true;
 			}
 		} catch (StringIndexOutOfBoundsException e) {
@@ -96,6 +97,7 @@ public class Section {
 			if( ir.substring(i, i+3).equals("QQA") ||
 				ir.substring(i, i+3).equals("QQG") ) {
 				System.out.println("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]);
+				Main.asFile.writeln("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]);
 				return true;
 			}
 		} catch (StringIndexOutOfBoundsException e) {
