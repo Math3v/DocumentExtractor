@@ -28,6 +28,8 @@ import utils.IPersistable;
 import utils.PostgreSQLPersistable;
 
 public class Main {
+	
+	public static final boolean FILE = true;
 		
 	public static String parseToHTML(String fileName) throws IOException, SAXException, TikaException {
 	    ContentHandler handler = new ToXMLContentHandler();
@@ -159,6 +161,9 @@ public class Main {
 	            	String htmlDocument = parseToHTML(fileEntry.getAbsolutePath());
 	            	//parseSectionHeadings(htmlDocument, new Integer(documentId));
 	            	//printQuantitiesCounts(htmlDocument, documentId);
+	            	if(documentId == 2) {
+	            		System.out.println("Debug");
+	            	}
 	            	parseActiveSubstances(htmlDocument, documentId);
 	            } catch (Exception e) {
 		            System.out.println("Error: parseDirectory " + e.getMessage());
@@ -172,9 +177,7 @@ public class Main {
 	
 	public static void main(String args[]) {
 		new Test();
-		
-		Section.printActiveSubstances("Každá 30 ml dávka obsahuje 500 mg paracetamolu, 10 mg fenylefríniumchloridu a 200 mg guaifenezínu.", "UQUUQAQAUQA");
-		
+				
 		parseDirectory("./data");
 		
 		/* Close connection */

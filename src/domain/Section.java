@@ -39,7 +39,7 @@ public class Section {
 		return sectionNumberOpt && sectionWordOccur;
 	}
 	
-	public static void printActiveSubstances(String section, String ir) {
+	public static void printActiveSubstance__(String section, String ir) {
 		if( ir.contains("QA") || ir.contains("QG") ) {
 			ITokenizer t = new SimpleTokenizer();
 			String tokens[] = t.tokenize(section);
@@ -57,7 +57,57 @@ public class Section {
 				}
 			}
 			System.out.println("---------------------------");
+		} 
+	}
+	
+	public static void printActiveSubstances(String section, String ir) {
+		ITokenizer t = new SimpleTokenizer();
+		String tokens[] = t.tokenize(section);
+		
+		for(int i = 0; i < tokens.length; i++) {
+			if( print3AS(tokens, i, ir) == false ) 
+				print2AS(tokens, i, ir);
 		}
+	}
+	
+	private static boolean print3AS(String[] tokens, int i, String ir) {
+		try {
+			if( ir.substring(i, i+4).equals("QQAA") ||
+				ir.substring(i, i+4).equals("QQGG") ||
+				ir.substring(i, i+4).equals("QQGA") ||
+				ir.substring(i, i+4).equals("QQAG") ) {
+				System.out.println("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]+" "+tokens[i+3]);
+				return true;
+			}
+		} catch (StringIndexOutOfBoundsException e) {
+			/* This is OK */
+			return false;
+		} catch (Exception e) {
+			/* This is not */
+			System.err.println("Error: " + e.getMessage());
+			e.printStackTrace();
+			System.exit(1);
+		}
+		return false;
+	}
+	
+	private static boolean print2AS(String[] tokens, int i, String ir) {
+		try {
+			if( ir.substring(i, i+3).equals("QQA") ||
+				ir.substring(i, i+3).equals("QQG") ) {
+				System.out.println("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]);
+				return true;
+			}
+		} catch (StringIndexOutOfBoundsException e) {
+			/* This is OK */
+			return false;
+		} catch (Exception e) {
+			/* This is not */
+			System.err.println("Error: " + e.getMessage());
+			e.printStackTrace();
+			System.exit(1);
+		}
+		return false;
 	}
 
 }

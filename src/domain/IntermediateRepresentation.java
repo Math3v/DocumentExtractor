@@ -32,7 +32,7 @@ public class IntermediateRepresentation {
 		for(int i = 0; i < tokens.length; i++) {
 			if( i != tokens.length - 1 && isQuantity(tokens[i], tokens[i+1]) ) {
 				i++;
-				result += "Q";
+				result += "QQ";
 			} else if( isAccusative(tokens[i]) ) {
 				result += "A";
 			} else if( isGenitiv(tokens[i]) ) {
