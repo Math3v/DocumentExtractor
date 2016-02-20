@@ -60,22 +60,51 @@ public class Section {
 		} 
 	}
 	
-	public static void printActiveSubstances(String section, String ir) {
+	public static void printActiveSubstances(String section, String[] ir) {
 		ITokenizer t = new SimpleTokenizer();
 		String tokens[] = t.tokenize(section);
 		
 		for(int i = 0; i < tokens.length; i++) {
-			if( print3AS(tokens, i, ir) == false ) 
-				print2AS(tokens, i, ir);
+			checkOccurences(tokens, i);
+			System.out.println(tokens[i]+"-"+ir[i]);
 		}
 	}
 	
-	private static boolean print3AS(String[] tokens, int i, String ir) {
+	private static boolean checkOccurences(String[] tokens, int pos) {
+		/* TODO: 4 parts first, what about word/word, line 250 */
+		return 
+			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "SSis2"}, pos) ||
+			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "SSip2"}, pos) ||
+			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "Unknown"}, pos) ||
+			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "SSfs2"}, pos) ||
+			checkOccurence(tokens, new String[] {"Unknown", "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, new String[] {"SSis2", "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, new String[] {"%", "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "SSis2", "SSfs2"}, pos) ||
+			checkOccurence(tokens, new String[] {"Unknown", "SSis1", "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, new String[] {"%", "Unknown", "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "Unknown", "%"}, pos);
+	}
+	
+	private static boolean checkOccurence(String[] tokens, String[] tags, int pos) {
+		for(int i = 0; i < tags.length; i++) {
+			if( tokens[pos+i].equals(tags[i]) ) {
+				continue;
+			} else {
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	private static boolean print3AS__(String[] tokens, int i, String ir) {
 		try {
 			if( ir.substring(i, i+4).equals("QQAA") ||
 				ir.substring(i, i+4).equals("QQGG") ||
 				ir.substring(i, i+4).equals("QQGA") ||
-				ir.substring(i, i+4).equals("QQAG") ) {
+				ir.substring(i, i+4).equals("QQAG") ||
+				ir.substring(i, i+4).equals("QQUU") ||
+				ir.substring(i, i+4).equals("UUQQ")) {
 				System.out.println("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]+" "+tokens[i+3]);
 				Main.asFile.writeln("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]+" "+tokens[i+3]);
 				return true;
@@ -92,10 +121,12 @@ public class Section {
 		return false;
 	}
 	
-	private static boolean print2AS(String[] tokens, int i, String ir) {
+	private static boolean print2AS__(String[] tokens, int i, String ir) {
 		try {
 			if( ir.substring(i, i+3).equals("QQA") ||
-				ir.substring(i, i+3).equals("QQG") ) {
+				ir.substring(i, i+3).equals("QQG") ||
+				ir.substring(i, i+3).equals("QQU") ||
+				ir.substring(i, i+3).equals("UQQ")) {
 				System.out.println("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]);
 				Main.asFile.writeln("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]);
 				return true;

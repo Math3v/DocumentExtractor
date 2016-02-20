@@ -25,7 +25,7 @@ public class IntermediateRepresentation {
 		return 1 == c.quantityCount(new String(t1 + " " + t2));
 	}
 	
-	public String getIntermediateRepresentation(String section) {
+	public String getIntermediateRepresentation__(String section) {
 		ITokenizer t = new SimpleTokenizer();
 		String[] tokens = t.tokenize(section);
 		BonitoPosTagger bt = new BonitoPosTagger();
@@ -38,6 +38,25 @@ public class IntermediateRepresentation {
 			} else {
 				result += bt.tag(tokens[i]).toString();
 			}
+		}
+		
+		return result;
+	}
+	
+	public String[] getIntermediateRepresentation(String section) {
+		ITokenizer t = new SimpleTokenizer();
+		String[] tokens = t.tokenize(section);
+		BonitoService bs = new BonitoService();
+		String[] result = new String[tokens.length];
+		
+		for(int i = 0; i < tokens.length; i++) {
+			if( i != tokens.length - 1 && isQuantity(tokens[i], tokens[i+1])) {
+				result[i] = "Quantity";
+				result[i+1] = "Quantity";
+				i++;
+			} else {
+				result[i] = bs.getFullTag(tokens[i]);
+			}		
 		}
 		
 		return result;

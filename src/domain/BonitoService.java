@@ -21,9 +21,9 @@ public class BonitoService {
 	}
 	
 
-	public void test() {
+	public void test(String token) {
 		try {
-			Document document = Jsoup.connect(getUrl("ibuprofénu"))
+			Document document = Jsoup.connect(getUrl(token))
 						.header("Authorization", "Basic " + base64login)
 						.timeout(7000)
 						.get();
@@ -40,7 +40,11 @@ public class BonitoService {
 		}
 	}
 	
-	public String getPosTag(String word) {
+	public String getFullTag(String word) {
+		if( word.length() < 4 ) {
+			return "TooShort";
+		}
+		
 		Document document = null;
 		try {
 			document = Jsoup.connect(getUrl(word)).header("Authorization", "Basic " + base64login).timeout(0).get();
@@ -55,8 +59,43 @@ public class BonitoService {
 			Elements elements = document.select("td.word");
 			if( elements.size() > 0 ) {
 				Element element = elements.get(0);
-				int sLen = element.text().length();
-				char sPosTag = element.text().charAt(sLen - 1);
+				return element.text();
+			} else {
+				return "Unknown";
+			}
+		}
+		
+		return null;
+		
+	}
+	
+	public String getPosTag(String word) {
+		if( word.length() < 4 ) {
+			return "U";
+		}
+		
+		Document document = null;
+		try {
+			document = Jsoup.connect(getUrl(word)).header("Authorization", "Basic " + base64login).timeout(0).get();
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(1);
+		}
+		if( document == null ) {
+			System.err.println("Error: document empty");
+			System.exit(1);
+		} else {
+			Elements elements = document.select("td.word");
+			if( elements.size() > 0 ) {
+				Element element = elements.get(0);
+				char sPosTag = '0';
+				try {
+					sPosTag = element.text().charAt(4);
+				} catch( StringIndexOutOfBoundsException e) {
+					System.err.println("Out of bounds "+element.text());
+					return "U";
+				}
+				
 				switch(sPosTag) {
 				case '1':
 					return "N";
