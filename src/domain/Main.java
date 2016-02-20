@@ -137,7 +137,7 @@ public class Main {
 				}
 			} else if( SectionStateMachine.isActiveSubstance() && section.length() > 0 ) {
 				IntermediateRepresentation ir = new IntermediateRepresentation();
-				String irValue = ir.getInternalRepresentation(section);
+				String irValue = ir.getIntermediateRepresentation(section);
 				System.out.println(section + " -- " + irValue);
 				Section.printActiveSubstances(section, irValue);
 			}
@@ -178,7 +178,7 @@ public class Main {
 	
 	public static void main(String args[]) {
 		new Test();
-				
+		
 		parseDirectory("./data");
 		
 		/* Close connection */

@@ -1,5 +1,6 @@
 package domain;
 
+import nlp.BonitoPosTagger;
 import nlp.IPosTagger;
 import nlp.ITokenizer;
 import nlp.QuantityClassifier;
@@ -24,21 +25,18 @@ public class IntermediateRepresentation {
 		return 1 == c.quantityCount(new String(t1 + " " + t2));
 	}
 	
-	public String getInternalRepresentation(String section) {
+	public String getIntermediateRepresentation(String section) {
 		ITokenizer t = new SimpleTokenizer();
 		String[] tokens = t.tokenize(section);
+		BonitoPosTagger bt = new BonitoPosTagger();
 		String result = "";
 		
 		for(int i = 0; i < tokens.length; i++) {
 			if( i != tokens.length - 1 && isQuantity(tokens[i], tokens[i+1]) ) {
 				i++;
 				result += "QQ";
-			} else if( isAccusative(tokens[i]) ) {
-				result += "A";
-			} else if( isGenitiv(tokens[i]) ) {
-				result += "G";
 			} else {
-				result += "U";
+				result += bt.tag(tokens[i]).toString();
 			}
 		}
 		

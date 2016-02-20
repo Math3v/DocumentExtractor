@@ -43,7 +43,7 @@ public class BonitoService {
 	public String getPosTag(String word) {
 		Document document = null;
 		try {
-			document = Jsoup.connect(getUrl(word)).header("Authorization", "Basic " + base64login).timeout(7000).get();
+			document = Jsoup.connect(getUrl(word)).header("Authorization", "Basic " + base64login).timeout(0).get();
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.exit(1);

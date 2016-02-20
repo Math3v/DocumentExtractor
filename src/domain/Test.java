@@ -1,5 +1,6 @@
 package domain;
 
+import nlp.BonitoPosTagger;
 import nlp.IPosTagger;
 import nlp.IPosTagger.POS;
 import nlp.ITokenizer;
@@ -13,6 +14,7 @@ public class Test {
 		testSimpleTokenizer();
 		testQuantityClassifier();
 		testSimplePosTagger();
+		testBonitoPosTagger();
 		System.out.println("Tests passed!");
 	}
 
@@ -36,12 +38,20 @@ public class Test {
 	
 	public void testIntermediateRepresentation() {
 		IntermediateRepresentation ir = new IntermediateRepresentation();
-		assert ir.getInternalRepresentation("25 mg monohydrátu laktózy") == "QAG";
-		assert ir.getInternalRepresentation("10ml cinkalátu,") == "QA";
+		assert ir.getIntermediateRepresentation("25 mg monohydrátu laktózy") == "QAG";
+		assert ir.getIntermediateRepresentation("10ml cinkalátu,") == "QA";
 	}
 	
 	public void testSimpleTokenizer() {
 		ITokenizer t = new SimpleTokenizer();
 		assert 5 == t.tokenize(" 3 a 9 mikrogramov").length;
+	}
+	
+	public void testBonitoPosTagger() {
+		assert System.getenv("SNR_USERNAME").length() > 0;
+		assert System.getenv("SNR_PASSWORD").length() > 0;
+		IPosTagger bt = new BonitoPosTagger();
+		assert bt.tag("mama") == POS.N;
+		assert bt.tag("mame") == POS.D;
 	}
 }
