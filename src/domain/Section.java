@@ -65,35 +65,55 @@ public class Section {
 		String tokens[] = t.tokenize(section);
 		
 		for(int i = 0; i < tokens.length; i++) {
-			checkOccurences(tokens, i);
+			checkOccurences(tokens, ir, i);
 			System.out.println(tokens[i]+"-"+ir[i]);
 		}
 	}
 	
-	private static boolean checkOccurences(String[] tokens, int pos) {
+	private static boolean checkOccurences(String[] tokens, String[] ir, int pos) {
 		/* TODO: 4 parts first, what about word/word, line 250 */
 		return 
-			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "SSis2"}, pos) ||
-			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "SSip2"}, pos) ||
-			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "Unknown"}, pos) ||
-			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "SSfs2"}, pos) ||
-			checkOccurence(tokens, new String[] {"Unknown", "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, new String[] {"SSis2", "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, new String[] {"%", "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "SSis2", "SSfs2"}, pos) ||
-			checkOccurence(tokens, new String[] {"Unknown", "SSis1", "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, new String[] {"%", "Unknown", "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, new String[] {"Quantity", "Quantity", "Unknown", "%"}, pos);
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "AAis2x", "Unknown"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSis2", "Unknown"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSis2", "SSfs2"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "Unknown", "%"}, pos) ||
+
+			checkOccurence(tokens, ir, new String[] {"Unknown", "SSis1", "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"%", "Unknown",     "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"%", "%",           "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"SSis2", "SSfs2",   "Quantity", "Quantity"}, pos) ||
+			
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSis2"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "AAis2x"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSip2"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "Unknown"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSfs2"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSfs4"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "Dx"}, pos) ||
+			
+			checkOccurence(tokens, ir, new String[] {"Unknown",  "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"SSis2",    "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"%",        "Quantity", "Quantity"}, pos);
 	}
 	
-	private static boolean checkOccurence(String[] tokens, String[] tags, int pos) {
+	private static boolean checkOccurence(String[] tokens, String[] ir, String[] tags, int pos) {
 		for(int i = 0; i < tags.length; i++) {
-			if( tokens[pos+i].equals(tags[i]) ) {
+			try {
+				String s = ir[pos+i];
+			} catch (ArrayIndexOutOfBoundsException e) {
+				return false;
+			}
+			if( ir[pos+i].equals(tags[i]) ) {
 				continue;
 			} else {
 				return false;
 			}
 		}
+		System.out.print("AS: ");
+		for(int i = 0; i < tags.length; i++) {
+			System.out.print(tokens[pos+i]+" ");
+		}
+		System.out.println();
 		return true;
 	}
 	
