@@ -41,8 +41,14 @@ public class BonitoService {
 	}
 	
 	public String getFullTag(String word) {
+		/* Do not prompt for short words */
 		if( word.length() < 4 ) {
 			return "TooShort";
+		}
+		/* Delete punct at the end  */
+		if( word.charAt(word.length() - 1) == ',' || word.charAt(word.length() - 1) == '.' ||
+			word.charAt(word.length() - 1) == ':') {
+			word = word.substring(0, word.length() - 1);
 		}
 		
 		Document document = null;

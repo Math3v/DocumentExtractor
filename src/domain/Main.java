@@ -138,7 +138,7 @@ public class Main {
 			} else if( SectionStateMachine.isActiveSubstance() && section.length() > 0 ) {
 				IntermediateRepresentation ir = new IntermediateRepresentation();
 				String[] irValue = ir.getIntermediateRepresentation(section);
-				System.out.println(section + " -- " + irValue);
+				System.out.println(section);
 				Section.printActiveSubstances(section, irValue);
 			}
 		}

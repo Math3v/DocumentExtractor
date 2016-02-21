@@ -64,15 +64,16 @@ public class Section {
 		ITokenizer t = new SimpleTokenizer();
 		String tokens[] = t.tokenize(section);
 		
-		for(int i = 0; i < tokens.length; i++) {
-			checkOccurences(tokens, ir, i);
+		for(int i = 0; i < tokens.length; ) {
+			int step = checkOccurences(tokens, ir, i);
 			System.out.println(tokens[i]+"-"+ir[i]);
+			i += step;
 		}
 	}
 	
-	private static boolean checkOccurences(String[] tokens, String[] ir, int pos) {
+	private static int checkOccurences(String[] tokens, String[] ir, int pos) {
 		/* TODO: 4 parts first, what about word/word, line 250 */
-		return 
+		if(
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "AAis2x", "Unknown"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSis2", "Unknown"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSis2", "SSfs2"}, pos) ||
@@ -81,8 +82,10 @@ public class Section {
 			checkOccurence(tokens, ir, new String[] {"Unknown", "SSis1", "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"%", "Unknown",     "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"%", "%",           "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"SSis2", "SSfs2",   "Quantity", "Quantity"}, pos) ||
-			
+			checkOccurence(tokens, ir, new String[] {"SSis2", "SSfs2",   "Quantity", "Quantity"}, pos) ) {
+			return 4;
+		}
+		if(
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSis2"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "AAis2x"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSip2"}, pos) ||
@@ -93,7 +96,11 @@ public class Section {
 			
 			checkOccurence(tokens, ir, new String[] {"Unknown",  "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"SSis2",    "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"%",        "Quantity", "Quantity"}, pos);
+			checkOccurence(tokens, ir, new String[] {"%",        "Quantity", "Quantity"}, pos) ) {
+			return 3;
+		}
+		
+		return 1;
 	}
 	
 	private static boolean checkOccurence(String[] tokens, String[] ir, String[] tags, int pos) {
