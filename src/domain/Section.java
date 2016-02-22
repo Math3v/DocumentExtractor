@@ -72,7 +72,12 @@ public class Section {
 	}
 	
 	private static int checkOccurences(String[] tokens, String[] ir, int pos) {
-		/* TODO: 4 parts first, what about word/word, line 250 */
+		/* TODO: snr_tokens_full_output_2.txt:550
+		 * monohydrát laktózy (7600 mikrogramov/inhalácia).
+		 * theraflu Document 10. pomocne latky???
+		 * sorbitol (E 420) 9,89 mg/kapsula >> AS: 420) 9,89 mg 
+		 * (ex-actuator) 84,6 mikrogramov beklometazóndipropionátu >> AS: (ex-actuator) 84,6 mikrogramov 
+		 *  */
 		if(
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "AAis2x", "Unknown"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSis2", "Unknown"}, pos) ||
@@ -96,6 +101,7 @@ public class Section {
 			
 			checkOccurence(tokens, ir, new String[] {"Unknown",  "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"SSis2",    "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"SSis1",    "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"%",        "Quantity", "Quantity"}, pos) ) {
 			return 3;
 		}
