@@ -1,0 +1,673 @@
+{\rtf1\adeflang1025\ansi\ansicpg1250\uc1\adeff0\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1051\deflangfe1051{\fonttbl{\f0\froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset238\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset238\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}
+{\f11\froman\fcharset128\fprq1{\*\panose 02020609040205080304}MS Mincho{\*\falt ?l?r ??\'81\'66c};}{\f15\fmodern\fcharset128\fprq1{\*\panose 020b0609070205080204}MS Gothic{\*\falt ?l?r \'83\'53\'83\'56\'83\'62\'83\'4e};}
+{\f36\fswiss\fcharset238\fprq2{\*\panose 020b0604030504040204}Tahoma;}{\f174\fswiss\fcharset238\fprq2{\*\panose 020f0502020204030204}Calibri;}{\f181\fmodern\fcharset128\fprq1{\*\panose 00000000000000000000}@MS Mincho;}
+{\f210\fmodern\fcharset128\fprq1{\*\panose 00000000000000000000}@MS Gothic;}{\f225\froman\fcharset0\fprq2 Times New Roman;}{\f224\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f226\froman\fcharset161\fprq2 Times New Roman Greek;}
+{\f227\froman\fcharset162\fprq2 Times New Roman Tur;}{\f228\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f229\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f230\froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\f231\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f235\fswiss\fcharset0\fprq2 Arial;}{\f234\fswiss\fcharset204\fprq2 Arial Cyr;}{\f236\fswiss\fcharset161\fprq2 Arial Greek;}{\f237\fswiss\fcharset162\fprq2 Arial Tur;}
+{\f238\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f239\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}{\f240\fswiss\fcharset186\fprq2 Arial Baltic;}{\f241\fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f245\fmodern\fcharset0\fprq1 Courier New;}
+{\f244\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f246\fmodern\fcharset161\fprq1 Courier New Greek;}{\f247\fmodern\fcharset162\fprq1 Courier New Tur;}{\f248\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}
+{\f249\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f250\fmodern\fcharset186\fprq1 Courier New Baltic;}{\f251\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f585\fswiss\fcharset0\fprq2 Tahoma;}
+{\f584\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f586\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f587\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f588\fbidi \fswiss\fcharset177\fprq2 Tahoma (Hebrew);}{\f589\fbidi \fswiss\fcharset178\fprq2 Tahoma (Arabic);}
+{\f590\fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f591\fswiss\fcharset163\fprq2 Tahoma (Vietnamese);}{\f592\fswiss\fcharset222\fprq2 Tahoma (Thai);}{\f1965\fswiss\fcharset0\fprq2 Calibri;}{\f1964\fswiss\fcharset204\fprq2 Calibri Cyr;}
+{\f1966\fswiss\fcharset161\fprq2 Calibri Greek;}{\f1967\fswiss\fcharset162\fprq2 Calibri Tur;}{\f1970\fswiss\fcharset186\fprq2 Calibri Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;\red34\green34\blue34;\red245\green245\blue245;}{\stylesheet{\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 
+\fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \snext0 \styrsid1198292 Normal;}{\s1\ql \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 
+\fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext0 \styrsid16347451 heading 1;}{\s2\qr \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 
+\ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext0 \styrsid16347451 heading 2;}{\s3\qj \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \rtlch\fcs1 
+\ab\af0\afs20\alang1025 \ltrch\fcs0 \b\fs32\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext0 \styrsid16347451 heading 3;}{\s4\qr \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel3\adjustright\rin0\lin0\itap0 
+\rtlch\fcs1 \ab\ai\af0\afs20\alang1025 \ltrch\fcs0 \b\i\fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext0 \styrsid16347451 heading 4;}{
+\s5\qj \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel4\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\ai\af0\afs20\alang1025 \ltrch\fcs0 \b\i\fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 
+\sbasedon0 \snext0 \styrsid16347451 heading 5;}{\s6\qj \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel5\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ai\af0\afs20\alang1025 \ltrch\fcs0 
+\i\fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext0 \styrsid16347451 heading 6;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{
+\s15\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext15 \slink30 \styrsid16347451 Body Text;}{
+\s16\ql \li0\ri0\widctlpar\tqc\tx4536\tqr\tx9072\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext16 \styrsid16347451 
+header;}{\s17\ql \li0\ri0\widctlpar\tqc\tx4536\tqr\tx9072\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 
+\sbasedon0 \snext17 \slink40 \styrsid16347451 footer;}{\*\cs18 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \sbasedon10 \styrsid16347451 page number;}{\*\cs19 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf2 \sbasedon10 \styrsid16347451 Hyperlink;}{\*\cs20 
+\additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf12 \sbasedon10 \styrsid16347451 FollowedHyperlink;}{\s21\qj \li284\ri0\widctlpar\wrapdefault\nooverflow\faauto\rin0\lin284\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 
+\f1\fs22\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext21 \styrsid16347451 Body Text 21;}{\s22\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 
+\fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext22 \ssemihidden \styrsid16347451 annotation text;}{\s23\qc \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 
+\ltrch\fcs0 \fs36\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext23 \styrsid16347451 Title;}{\s24\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af36\afs16\alang1025 \ltrch\fcs0 
+\f36\fs16\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext24 \ssemihidden \styrsid6888960 Balloon Text;}{\s25\ql \fi-567\li567\ri0\sa120\sl480\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin567\itap0 
+\rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs22\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext25 \styrsid7758234 Body Text 2;}{\*\cs26 \additive \styrsid12717462 hps;}{\*\cs27 \additive \styrsid1198292 short_text;}{\*\cs28 
+\additive \styrsid1198292 atn;}{\*\cs29 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \i \sbasedon10 \styrsid15091653 Emphasis;}{\*\cs30 \additive \fs24\lang1051\langfe1051\langnp1051\langfenp1051 \slink15 \slocked \styrsid11953324 Body Text Char;}{\*\cs31 
+\additive \b\fs24\lang0\langfe2052\loch\f1\hich\af1\dbch\af15\langnp0\langfenp2052 \slink32 \slocked \styrsid3440397 Not toc-headings Char;}{\s32\ql \li0\ri0\sb240\sa60\keep\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1051\langfe2052\loch\f1\hich\af1\dbch\af15\cgrid\langnp1051\langfenp2052 \sbasedon0 \snext0 \slink31 \styrsid3440397 Not toc-headings;}{\*\cs33 \additive 
+\fs24\lang0\langfe2052\loch\f11\hich\af11\dbch\af11\langnp0\langfenp2052 \slink34 \slocked \styrsid6705499 Text Char;}{\s34\qj \li0\ri0\sb120\keep\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 
+\ltrch\fcs0 \fs24\lang1051\langfe2052\loch\f11\hich\af11\dbch\af11\cgrid\langnp1051\langfenp2052 \sbasedon0 \snext34 \slink33 \styrsid6705499 Text,Graphic;}{\s35\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 
+\rtlch\fcs1 \af174\afs22\alang1025 \ltrch\fcs0 \f174\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext35 \styrsid7763494 Odstavec se seznamem1;}{\*\cs36 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \fs16 
+\sbasedon10 \ssemihidden \styrsid9325934 annotation reference;}{\s37\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs20\alang1025 \ltrch\fcs0 
+\b\fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon22 \snext22 \ssemihidden \styrsid9325934 annotation subject;}{\s38\ql \li283\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin283\itap0 \rtlch\fcs1 
+\af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 \sbasedon0 \snext38 \slink39 \styrsid11364279 Body Text Indent;}{\*\cs39 \additive \lang1051\langfe1051\langnp1051\langfenp1051 \slink38 \slocked \styrsid11364279 
+Body Text Indent Char;}{\*\cs40 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \lang1051\langfe1051\langnp1051\langfenp1051 \sbasedon10 \slink17 \slocked \styrsid10902639 Footer Char;}}
+{\*\latentstyles\lsdstimax156\lsdlockeddef0{\lsdlockedexcept Normal;heading 1;heading 2;heading 3;heading 4;heading 5;heading 6;heading 7;heading 8;heading 9;footer;caption;List Number;List 4;List 5;Title;Subtitle;Salutation;Date;Body Text First Indent;Strong;Emphasis;Table Grid;}}
+{\*\listtable{\list\listtemplateid1313521734\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li720\lin720 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1211\lin1211 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436545\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0
+\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436545
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 
+\fi-360\li5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\lin6480 }{\listname 
+;}\listid303698642}{\list\listtemplateid-127078096\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid-1409126622\'01-;}{\levelnumbers;}\f0\fbias0 
+\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\lin1440 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436545\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0
+{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436545
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 
+\fi-360\li5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\lin6480 }{\listname 
+;}\listid403332885}{\list\listtemplateid998780522\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat4\levelspace0\levelindent0{\leveltext\leveltemplateid879131922\'01\'95;}{\levelnumbers;}
+\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li360\lin360 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\lin1080 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436545\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0
+\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436545\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436547
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 
+\fi-360\li6120\lin6120 }{\listname ;}\listid602611250}{\list\listtemplateid1251876122\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat4\levelspace0\levelindent0{\leveltext\leveltemplateid879131922
+\'01\'95;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li360\lin360 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\leveltemplateid-361585968\'01\u-3913 ?;}{\levelnumbers
+;}\loch\af3\hich\af3\dbch\af0\fbias0 \fi-360\li1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}
+\f10\fbias0 \fi-360\li1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436545\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2520\lin2520 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436545\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6120\lin6120 }{\listname ;}\listid737362862}{\list\listtemplateid877584744\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67436559\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1287\lin1287 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0
+{\leveltext\leveltemplateid67436569\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2007\lin2007 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436571\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2727\lin2727 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436559\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3447\lin3447 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436569\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li4167\lin4167 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436571\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4887\lin4887 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436559\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5607\lin5607 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436569\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6327\lin6327 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436571\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li7047\lin7047 }{\listname ;}\listid854807367}{\list\listtemplateid-1120900204\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436549
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436545\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fbias0 \fi-360\li3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\lin3960 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436545\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436547\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0
+\levelindent0{\leveltext\leveltemplateid67436549\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\lin6840 }{\listname ;}\listid1097290836}{\list\listtemplateid736685812\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid134807555\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid134807555\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid134807557\'01\u-3929 ?;}{\levelnumbers;}
+\f10\fbias0 \fi-360\li2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid134807553\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\lin2880 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid134807555\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid134807557\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid134807553\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid134807555
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid134807557\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 
+\fi-360\li6480\lin6480 }{\listname ;}\listid1750156919}{\list\listtemplateid499935456{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat5\levelspace0\levelindent0{\leveltext\'01\'00;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0 \fi-708\li708\jclisttab\tx708\lin708 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 
+\fi-708\li708\jclisttab\tx708\lin708 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-720\li720
+\jclisttab\tx720\lin720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-720\li720
+\jclisttab\tx720\lin720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 
+\fi-1080\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0 \fi-1080\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-1440\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-1440\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-1440\li1440\jclisttab\tx1440\lin1440 }{\listname ;}\listid1948197933}}
+{\*\listoverridetable{\listoverride\listid1948197933\listoverridecount0\ls1}{\listoverride\listid1750156919\listoverridecount0\ls2}{\listoverride\listid737362862\listoverridecount0\ls3}{\listoverride\listid1097290836\listoverridecount0\ls4}
+{\listoverride\listid602611250\listoverridecount0\ls5}{\listoverride\listid303698642\listoverridecount0\ls6}{\listoverride\listid403332885\listoverridecount0\ls7}{\listoverride\listid854807367\listoverridecount0\ls8}}{\*\pgptbl {\pgp\ipgp14\itap0\li0\ri0
+\sb0\sa0}{\pgp\ipgp13\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp5\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp37\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp20\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp19\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp38\itap0\li0\ri0\sb0\sa120\brdrt\brdrs\brdrw15\brdrcf18 \brdrl
+\brdrs\brdrw15\brdrcf18 \brdrb\brdrs\brdrw15\brdrcf18 \brdrr\brdrs\brdrw15\brdrcf18 }{\pgp\ipgp17\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp16\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp30\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0
+\sa0}{\pgp\ipgp4\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp9\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp1\itap0\li60\ri0\sb0\sa0}{\pgp\ipgp3\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp2\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp7\itap0\li0\ri0\sb0\sa0}{\pgp
+\ipgp34\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp8\itap0\li60\ri0\sb0\sa0}{\pgp\ipgp15\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp24\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp10\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0
+\li0\ri0\sb0\sa0}{\pgp\ipgp29\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp35\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp40\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp39\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0
+\sa0}{\pgp\ipgp7\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp23\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp21\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp7\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp22\itap0\li0\ri0\sb0\sa120\brdrt\brdrs\brdrw15\brdrcf18 \brdrl
+\brdrs\brdrw15\brdrcf18 \brdrb\brdrs\brdrw15\brdrcf18 \brdrr\brdrs\brdrw15\brdrcf18 }}{\*\rsidtbl \rsid3662\rsid15566\rsid156551\rsid162909\rsid228730\rsid270604\rsid292038\rsid335420\rsid336410\rsid402688\rsid555943\rsid723430\rsid739052\rsid793776
+\rsid818333\rsid879080\rsid922758\rsid940076\rsid994965\rsid1051846\rsid1125960\rsid1184645\rsid1198292\rsid1207420\rsid1255573\rsid1263477\rsid1398179\rsid1448234\rsid1576441\rsid1589965\rsid1655966\rsid1656180\rsid1663344\rsid1712725\rsid1800471
+\rsid1909890\rsid1920296\rsid1931551\rsid1968864\rsid1987399\rsid1996466\rsid2062466\rsid2101483\rsid2252252\rsid2255780\rsid2258594\rsid2322508\rsid2368359\rsid2378546\rsid2380704\rsid2388152\rsid2426955\rsid2500358\rsid2564543\rsid2703004\rsid2719054
+\rsid2754338\rsid2777018\rsid2838902\rsid2902919\rsid2949340\rsid2950828\rsid2981372\rsid3087026\rsid3099864\rsid3103938\rsid3154015\rsid3166489\rsid3212494\rsid3347098\rsid3351736\rsid3440397\rsid3498248\rsid3563987\rsid3565693\rsid3605921\rsid3686727
+\rsid3749190\rsid3751350\rsid3869334\rsid3956813\rsid4070298\rsid4083646\rsid4210410\rsid4477679\rsid4525402\rsid4536789\rsid4546551\rsid4588359\rsid4617378\rsid4654224\rsid4659983\rsid4666664\rsid4739296\rsid4746306\rsid4799476\rsid4803262\rsid4808008
+\rsid4808181\rsid4865224\rsid4866125\rsid4986450\rsid5007938\rsid5010737\rsid5261507\rsid5338749\rsid5376767\rsid5383251\rsid5398868\rsid5461550\rsid5512474\rsid5521925\rsid5524815\rsid5582028\rsid5602634\rsid5657074\rsid5710317\rsid5718834\rsid5769023
+\rsid5774155\rsid5798324\rsid5835660\rsid5863036\rsid5911943\rsid5965855\rsid5980615\rsid6098333\rsid6111403\rsid6258364\rsid6297410\rsid6301515\rsid6319294\rsid6361571\rsid6518114\rsid6520390\rsid6553666\rsid6578946\rsid6626381\rsid6647820\rsid6705499
+\rsid6713571\rsid6714174\rsid6818888\rsid6819687\rsid6888960\rsid6907634\rsid6962847\rsid7040909\rsid7161828\rsid7229437\rsid7235638\rsid7290589\rsid7301148\rsid7342797\rsid7346430\rsid7407767\rsid7475070\rsid7479034\rsid7610527\rsid7624334\rsid7696037
+\rsid7758234\rsid7762701\rsid7763494\rsid7827607\rsid7829930\rsid7886818\rsid7886840\rsid7941822\rsid8013358\rsid8022367\rsid8070690\rsid8206527\rsid8278317\rsid8331473\rsid8353798\rsid8421141\rsid8456488\rsid8461109\rsid8523967\rsid8539211\rsid8539351
+\rsid8652353\rsid8726539\rsid8729980\rsid8791993\rsid8799193\rsid8853100\rsid8870116\rsid8996814\rsid9002635\rsid9050974\rsid9056388\rsid9133289\rsid9196701\rsid9259110\rsid9325934\rsid9377480\rsid9446710\rsid9451080\rsid9510779\rsid9514019\rsid9521187
+\rsid9528090\rsid9729767\rsid9832491\rsid9835913\rsid9837663\rsid9850956\rsid9901578\rsid9910229\rsid9919297\rsid10048151\rsid10057115\rsid10298718\rsid10364437\rsid10443039\rsid10446527\rsid10492239\rsid10583147\rsid10645385\rsid10682943\rsid10829568
+\rsid10830629\rsid10842301\rsid10902639\rsid10948815\rsid10953596\rsid11031969\rsid11079700\rsid11101738\rsid11281178\rsid11281422\rsid11289628\rsid11298044\rsid11364279\rsid11407920\rsid11417608\rsid11430667\rsid11474489\rsid11494245\rsid11556848
+\rsid11562585\rsid11692166\rsid11697175\rsid11796777\rsid11819524\rsid11943333\rsid11953324\rsid12059117\rsid12070141\rsid12194727\rsid12198027\rsid12219278\rsid12260062\rsid12272365\rsid12275975\rsid12283174\rsid12349584\rsid12458635\rsid12474366
+\rsid12526775\rsid12540098\rsid12717232\rsid12717462\rsid12744678\rsid12803495\rsid12805415\rsid12861768\rsid12862398\rsid12977002\rsid13008072\rsid13050474\rsid13064622\rsid13073269\rsid13254824\rsid13325297\rsid13385691\rsid13449386\rsid13456790
+\rsid13465857\rsid13503852\rsid13519712\rsid13522701\rsid13525863\rsid13566667\rsid13898784\rsid13968996\rsid14041376\rsid14045401\rsid14050788\rsid14050792\rsid14056748\rsid14093644\rsid14111688\rsid14118111\rsid14165270\rsid14175777\rsid14230017
+\rsid14244542\rsid14246102\rsid14381639\rsid14559721\rsid14573078\rsid14575033\rsid14616047\rsid14617121\rsid14642170\rsid14643375\rsid14683781\rsid14748880\rsid14751075\rsid14877371\rsid14900188\rsid14946198\rsid14949328\rsid14949710\rsid14950780
+\rsid14962269\rsid15085124\rsid15091653\rsid15147443\rsid15169979\rsid15170453\rsid15227708\rsid15279893\rsid15336321\rsid15336571\rsid15410932\rsid15431470\rsid15484574\rsid15552744\rsid15617710\rsid15625919\rsid15681991\rsid15729825\rsid15879421
+\rsid15938842\rsid15948317\rsid15993752\rsid16064477\rsid16076394\rsid16078071\rsid16132568\rsid16143031\rsid16279584\rsid16332258\rsid16332340\rsid16347451\rsid16350552\rsid16403729\rsid16452961\rsid16462652\rsid16518057\rsid16540968\rsid16587485
+\rsid16590456\rsid16597736\rsid16662813\rsid16711782}{\*\generator Microsoft Word 11.0.0000;}{\info{\title SmPC}{\author Dubovska}{\operator Miroslava Caletkova}{\creatim\yr2015\mo9\dy3\hr9\min53}{\revtim\yr2015\mo9\dy3\hr9\min55}
+{\printim\yr2015\mo9\dy3\hr9\min54}{\version4}{\edmins4}{\nofpages7}{\nofwords2344}{\nofchars13363}{\*\company privat}{\nofcharsws15676}{\vern24611}{\*\password 00000000}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}
+{\xmlns2 urn:schemas-microsoft-com:office:smarttags}}\paperw11906\paperh16838\margl1417\margr1417\margt1417\margb1417\gutter0\ltrsect 
+\deftab567\widowctrl\ftnbj\aenddoc\hyphhotz425\revisions\donotembedsysfont0\donotembedlingdata0\grfdocevents0\validatexml1\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors1\noxlattoyen
+\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\formshade\horzdoc\dghspace180\dgvspace180\dghorigin1701\dgvorigin1984\dghshow0\dgvshow0
+\jexpand\viewkind1\viewscale130\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule\nobrkwrptbl\snaptogridincell\allowfieldendsel\wrppunct
+\asianbrkrule\nojkernpunct\rsidroot5602634\newtblstyruls\nogrowautofit \fet0{\*\wgrffmtfilter 013f}\ilfomacatclnup0{\*\ftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 
+\af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid3212494 \chftnsep 
+\par }}{\*\ftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid3212494 \chftnsepc 
+\par }}{\*\aftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid3212494 \chftnsep 
+\par }}{\*\aftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid3212494 \chftnsepc 
+\par }}\ltrpar \sectd \ltrsect\psz9\linex0\headery709\footery709\colsx708\endnhere\titlepg\sectlinegrid272\sectdefaultcl\sectrsid9451080\sftnbj {\footerl \ltrpar \pard\plain \ltrpar\s17\ql \li0\ri0\widctlpar
+\tqc\tx4536\tqr\tx9072\pvpara\phmrg\posxc\posy0\wraparound\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid11079700 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\field{\*\fldinst {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cs18\insrsid3212494 PAGE  }}{\fldrslt }}\sectd \linex0\headery708\footery708\colsx708\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af0 \ltrch\fcs0 \cs18\insrsid3212494 
+\par }\pard \ltrpar\s17\ql \li0\ri0\widctlpar\tqc\tx4536\tqr\tx9072\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid3212494 
+\par }}{\footerr \ltrpar \pard\plain \ltrpar\s17\qc \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9451080 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 
+{\field{\*\fldinst {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid3212494\charrsid2368359 PAGE   \\* MERGEFORMAT}}{\fldrslt {\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid13073269 7}}}\sectd 
+\linex0\headery708\footery708\colsx708\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid3212494\charrsid2368359 /}{\field{\*\fldinst {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid3212494  NUMPAGES   \\* MERGEFORMAT }}{\fldrslt {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid13073269 7}}}\sectd \linex0\headery708\footery708\colsx708\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid3212494 
+\par }}{\headerf \ltrpar \pard\plain \ltrpar\s23\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12474366 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs36\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {
+\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 \fs18\cgrid0\insrsid3212494 Pr\'edloha \'e8. 2 k notifik\'e1cii o\~zmene ev. \'e8}{\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 \fs18\cgrid0\insrsid12803495 .: }{\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 \fs18\cgrid0\insrsid3212494 
+2015/04097-Z1B}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid5261507 
+\par }\pard\plain \ltrpar\s16\ql \li0\ri0\widctlpar\tqc\tx4536\tqr\tx9072\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid3212494 
+\par }}{\footerf \ltrpar \pard\plain \ltrpar\s17\qc \li0\ri0\widctlpar\tqc\tx4536\tqr\tx9072\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9451080 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 
+\fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\field{\*\fldinst {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid3212494 PAGE   \\* MERGEFORMAT}}{\fldrslt {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1024\langfe1024\noproof\langnp1029\insrsid13073269\charrsid13073269 1}}}\sectd \linex0\headery708\footery708\colsx708\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid3212494 /}{\field{\*\fldinst {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid3212494  NUMPAGES   \\* MERGEFORMAT }}{\fldrslt {\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid13073269 7}}}\sectd \linex0\headery708\footery708\colsx708\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid3212494 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar
+\s23\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs36\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid3212494\charrsid12803495 {\*\bkmkstart _GoBack}{\*\bkmkend _GoBack}
+\par }\pard \ltrpar\s23\qc \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\caps\fs22\insrsid3212494\charrsid12803495 S\'fahrn charakteristick\'fdch vlastnost\'ed lieku
+
+\par }\pard \ltrpar\s23\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\caps\fs22\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \ab\af0\afs22 
+\ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 1.\tab }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\caps\fs22\insrsid3212494\charrsid12803495 N\'e1zov lieku
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\tx851\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Nogrip}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 500}{\rtlch\fcs1 
+\af0\afs22 \ltrch\fcs0 \fs22\insrsid12803495\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 mg/200 mg/25 mg}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par granul\'e1t na peror\'e1lny roztok
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par 
+\par }\pard\plain \ltrpar\s21\ql \li0\ri0\widctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \f1\fs22\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\b\f0\insrsid3212494\charrsid12803495 2.\tab }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\caps\f0\insrsid3212494\charrsid12803495 Kvalitat\'edvne a kvantitat\'edvne zlo\'9eenie 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par Ka\'9ed\'e9 vrecko obsahuje 500 mg paracetamolu, 200 mg kyseliny askorbovej, 25 mg feniram\'edniumhydrog\'e9nmalein\'e1tu}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\tx3119\tx4962\tx6804\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Pomocn\'e9 l\'e1tky so zn\'e1mym \'fa\'e8inkom:}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495  sachar\'f3za, etanol
+\par Ka\'9ed\'e9 vrecko obsahuje {\*\xmlopen\xmlns2{\factoidname metricconverter}{\xmlattr\xmlattrns0{\xmlattrname ProductID}{\xmlattrvalue 11,555 g}}}11,555 g{\*\xmlclose} sachar\'f3zy a\~menej ako 15,2 mg etanolu. 
+\par 
+\par \'dapln\'fd zoznam pomocn\'fdch l\'e1tok, pozri \'e8as\'9d 6.1 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par 
+\par 3.\tab }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\caps\fs22\insrsid3212494\charrsid12803495 Liekov\'e1 forma
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par Granul\'e1t na peror\'e1lny roztok 
+\par 
+\par Biely a\'9e svetlo \'9elt\'fd pr\'e1\'9aok s charakteristickou v\'f4\'f2ou citrusov\'fdch plodov a rumu.
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 4.\tab }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\caps\fs22\insrsid3212494\charrsid12803495 Klinick\'e9 \'fadaje
+\par 
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 4.1\tab Terapeutick\'e9 indik\'e1cie
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Na zmiernenie pr\'edznakov spojen\'fdch s\~be\'9en\'fdm nachladen\'edm, chr\'edpkou a\~infekciami horn\'fdch d\'fdchac\'edch ciest. 
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Nogrip}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495  je ur\'e8en\'fd pre dospel\'fdch a\~dospievaj\'facich star\'9a\'edch ako 15 rokov.
+\par 
+\par 
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \ab\af0\afs22 
+\ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 4.2\tab D\'e1vkovanie a sp\'f4sob pod\'e1vania
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\tx851\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 D\'e1vkovanie}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid14683781\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \i\fs22\insrsid3212494\charrsid12803495 Dospel\'ed a dospievaj\'faci star\'9a\'ed ako 15 rokov
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Odpor\'fa\'e8an\'e1 denn\'e1 d\'e1vka je jedno vrecko 2 alebo 3 kr\'e1t denne.
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \i\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Medzi jednotliv\'fdmi d\'e1vkami m\'e1 by\'9d minim\'e1lny interval 4 hodiny.
+\par 
+\par Odpor\'fa\'e8a sa }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Nogrip}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495  rozpusti\'9d v\~poh\'e1ri hor\'facej vody a\~vypi\'9d ve\'e8er v\~
+priebehu trvania pr\'edznakov chr\'edpky.
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Maxim\'e1lna d\'e5\'9eka lie\'e8by je 5 dn\'ed bez vyh\'be
+adania lek\'e1rskej pomoci.
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\tx851\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Ren\'e1lna insuficiencia}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par U pacientov so stredne z\'e1va\'9enou ren\'e1lnou insuficienciou (kl\'edrens kreatin\'ednu 10 a\'9e 50 ml/min) m\'e1 by\'9d interval medzi d\'e1vkami najmenej 6 hod\'edn.
+\par 
+\par U\~pacientov s \'9da\'9ekou ren\'e1lnou insuficienciou (kl\'edrens kreatin\'ednu <}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 \~}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 10 ml/min) m\'e1 by\'9d
+ interval medzi d\'e1vkami najmenej 8 hod\'edn.
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Sp\'f4sob pod\'e1vania}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid14683781\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Peror\'e1lne podanie.
+\par 
+\par Obsah jedn\'e9ho vrecka sa rozpust\'ed v\~dostato\'e8nom mno\'9estve studenej alebo hor\'facej vody.
+\par 
+\par }\pard\plain \ltrpar\s6\ql \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel5\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \ai\af0\afs20\alang1025 \ltrch\fcs0 \i\fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {
+\rtlch\fcs1 \ab\ai0\af0\afs22 \ltrch\fcs0 \b\i0\fs22\insrsid3212494\charrsid12803495 4.3\tab Kontraindik\'e1cie
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }\pard \ltrpar\ql \fi-567\li567\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin567\itap0\pararsid14683781 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 \bullet \tab Precitlivenos\'9d}{
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 na}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid14683781 paracetamol/kyselina askorbov\'fa/feniram\'edniumhydrog\'e9nmalein\'e1t}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495  alebo}{\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 na}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 ktor\'fako\'bevek z pomocn\'fdch}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\cs26\fs22\cf17\insrsid3212494\charrsid12803495 l\'e1tok uveden\'fdch v \'e8asti}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 6.1}{
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495 .
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 \bullet \tab Pacienti}{\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  s\~insuficienciou pe\'e8ene
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 \bullet \tab Pacienti}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  s\~g}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\cs26\fs22\cf17\insrsid3212494\charrsid12803495 lauk\'f3mom}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 s}{\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 uzavret\'fdm}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 
+\af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 uhlom}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 \bullet }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495 \tab Pacienti s rizikom retencie mo\'e8u v s\'favislosti s\~uretr\'e1
+lnou poruchou prostaty 
+\par }\pard \ltrpar\ql \fi-567\li567\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin567\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 \bullet }{\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495 \tab }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 Pacienti,}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 
+\af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 ktor\'ed}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 u\'9e\'ed
+vaj\'fa}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 alebo}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 u\'9e\'edvali}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 inhib\'edtory}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 monoaminooxid
+\'e1zy}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 (}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495 
+MAOI) }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 v}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\cs26\fs22\cf17\insrsid3212494\charrsid12803495 posledn\'fdch}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 2}{\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\cf17\insrsid14683781 \~}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 t\'fd\'9ed\'f2och
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 \bullet }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\cf17\insrsid3212494\charrsid12803495 \tab }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs26\fs22\cf17\insrsid3212494\charrsid12803495 U\'9e\'edvanie u det\'ed mlad\'9a\'edch ako 15 rokov.
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 4.4\tab Osobitn\'e9 upozornenia a\~opatrenia pri pou\'9e\'edvan\'ed
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par Lie\'e8ba sa m\'e1 prehodnoti\'9d v pr\'edpade vysokej alebo pretrv\'e1vaj\'facej hor\'fa\'e8ky, vzniku superinfekcie alebo v\~pr\'edpade pr\'edznakov pretrv\'e1vaj\'facich dlh\'9aie ako 5 dn\'ed.
+\par 
+\par Riziko vzniku psychickej z\'e1vislosti sa vyskytuje len pri vy\'9a\'9a\'edch d\'e1vkach ako s\'fa odpor\'fa\'e8an\'e9 a pri dlhodobom u\'9e\'edvan\'ed.
+\par 
+\par Tento liek sa nem\'e1 kombinova\'9d s in\'fdmi liekmi, ktor\'e9 obsahuj\'fa paracetamol vzh\'beadom na riziko pred\'e1vkovania. Maxim\'e1lna denn\'e1 d\'e1vka paracetamolu je {\*\xmlopen\xmlns2{\factoidname metricconverter}
+{\xmlattr\xmlattrns0{\xmlattrname ProductID}{\xmlattrvalue 4 g}}}4 g{\*\xmlclose} denne pre dospel\'fdch nad {\*\xmlopen\xmlns2{\factoidname metricconverter}{\xmlattr\xmlattrns0{\xmlattrname ProductID}{\xmlattrvalue 50 kg}}}50 kg{\*\xmlclose} (pozri \'e8
+as\'9d 4.9). Riziko pred\'e1vkovania je zv\'fd\'9aen\'e9 u pacientov s\~ochoren\'edm pe\'e8ene. 
+\par  
+\par Paracetamol sa m\'e1 pod\'e1va\'9d s opatrnos\'9dou u pacientov s poruchou funkcie obli\'e8iek, s ak\'fatnou hepatit\'eddou, s\~nedostatkom gluk\'f3za-6-fosf\'e1t dehydrogen\'e1zy a\~u\~pacientov s hemolytickou an\'e9miou. Riziko pred\'e1vkovania je vy
+\'9a\'9aie u\~pacientov s\~nealkoholov\'fdm, necirhotick\'fdm ochoren\'edm pe\'e8ene.
+\par 
+\par Paracetamol m\'f4\'9ee by\'9d hepatotoxick\'fd pri denn\'fdch d\'e1vkach nad 6-{\*\xmlopen\xmlns2{\factoidname metricconverter}{\xmlattr\xmlattrns0{\xmlattrname ProductID}{\xmlattrvalue 8 gramov}}}8 gramov{\*\xmlclose}. Po\'9akodenie pe\'e8ene sa m\'f4
+\'9ee vyvin\'fa\'9d aj pri ove\'bea ni\'9e\'9a\'edch d\'e1vkach, ak je u\'9e\'edvan\'fd s\'fa}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 be\'9ene}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495  s alkoholom, s\~in
+\'fdmi induktormi pe\'e8e\'f2ov\'fdch enz\'fdmov alebo s in\'fdmi hepatotoxick\'fdmi liekmi, napr. IMAO. Dlhodob\'e1 konzum\'e1cia alkoholu v\'fdznamne zvy\'9auje riziko hepatotoxicity paracetamolu. Paracetamol je kontraindikovan\'fd u}{\rtlch\fcs1 
+\af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 \~}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 pacientov s\'fa}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 be\'9ene}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid3212494\charrsid12803495  u\'9e\'edvaj\'facich IMAO alebo ak IMAO u\'9e\'edvali v\~posledn\'fdch dvoch t\'fd\'9ed\'f2ov kv\'f4li mo\'9en\'e9mu riziku vzniku hypertenznej kr\'edzy.
+\par 
+\par V\~priebehu lie\'e8by sa nem\'e1 pi\'9d alkohol a\~u\'9e\'edva\'9d lieky s obsahom alkoholu. Alkohol zvy\'9auje sedat\'edvny \'fa\'e8inok H1 antihistamin\'edk. To m\'f4\'9ee ovplyvni\'9d schopnos\'9d vies\'9d vozidl\'e1 a obsluhova\'9d stroje.
+\par 
+\par Liek sa m\'e1 pod\'e1va\'9d s opatrnos\'9dou u pacientov s astmou alebo chronickou ob\'9atruk\'e8nou chorobou p\'be\'fac, s kardiovaskul\'e1rnym ochoren\'edm, s vysok\'fdm krvn\'fdm tlakom, hypertyre\'f3zou a\~s\~pyloroduoden\'e1lneou ob\'9atrukciou.
+
+\par 
+\par V\~priebehu lie\'e8by je potrebn\'e9 sa vyhn\'fa\'9d pod\'e1vaniu sedat\'edv (najm\'e4 barbitur\'e1tov), ktor\'e9 zosil\'f2uj\'fa sedat\'edvny \'fa\'e8inok antihistamin\'edk.
+\par 
+\par Jedno vrecko obsahuje {\*\xmlopen\xmlns2{\factoidname metricconverter}{\xmlattr\xmlattrns0{\xmlattrname ProductID}{\xmlattrvalue 25\'a0\'b0C}}}11,5 g{\*\xmlclose} sachar\'f3zy, \'e8o sa mus\'ed vzia\'9d do \'favahy u pacientov s\~
+diabetes mellitus, alebo pri di\'e9te s n\'edzkym obsahom cukru v potrave.
+\par 
+\par Jedno vrecko obsahuje mal\'e9 mno\'9estvo etanolu (menej ako 15,2 mg), toto mno\'9estvo sa nepova\'9euje za \'9akodliv\'e9.
+\par 
+\par }\pard \ltrpar\s15\ql \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 4.5\tab Liekov\'e9 a in\'e9 interakcie}{
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par Paracetamol
+\par }\pard \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Induktory hepat\'e1lnych mikrozom\'e1lnych enz\'fd
+mov, ako je alkohol, barbitur\'e1ty, a\~antikonvulz\'edva, ako je fenyto\'edn, fenobarbital, metylfenobarbital, primid\'f3n, rifampic\'edn, a\~inhib\'edtory monoaminooxid\'e1zy a\~tricyklick\'e9 antidepres\'edva, m\'f4\'9eu zv\'fd\'9ai\'9d
+ hepatotoxicitu paracetamolu, najm\'e4 po pred\'e1vkovan\'ed.}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 R\'fdchlos\'9d absorpcie paracetamolu m\'f4\'9ee by\'9d zn\'ed\'9een\'e1 anticholinergick\'fdmi l\'e1tkami (napr. glykopyron, propantel\'edn), alebo pri s\'fa\'e8asnej lie\'e8
+be cholestyram\'ednom a pri s\'fa\'e8asnom u\'9e\'edvan\'ed metoklopramidu alebo domperid\'f3nu.
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Izoniazid zni\'9euje kl\'edrens paracetamolu s mo\'9en\'fdm zosilnen\'edm \'fa\'e8inku a/alebo toxicity, nako\'beko inhibuje jeho metabolizmus v\~pe\'e8eni. 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Dlhodob\'e9 pravideln\'e9 denn\'e9 u\'9e\'edvanie paracetamolu m\'f4\'9ee zvy\'9aova\'9d antikoagula\'e8n\'fd \'fa\'e8inok warfar\'ednu a\~in\'fdch deriv\'e1tov kumar\'ednu}{
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 . }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 M\'f4\'9ee tak by\'9d zv\'fd\'9aen\'e9 riziko krv\'e1cania}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\b\fs22\insrsid3212494\charrsid12803495 . }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Ob\'e8asn\'e9 d\'e1vky nemaj\'fa z\'e1sadn\'fd vplyv.
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Probenecid zabra\'f2uje viazaniu paracetamolu na kyselinu glukur\'f3nov\'fa a tak zni\'9euje jeho kl\'edrens.}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\b\fs22\insrsid3212494\charrsid12803495 
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Pravideln\'e9 u\'9e\'edvanie paracetamolu m\'f4\'9ee zn\'ed\'9ei\'9d metabolizmus zidovud\'ednu (zv\'fd\'9aen\'e9 riziko neutrop\'e9nie).
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Tieto interakcie nie s\'fa klinicky v\'fdznamn\'e9, v\~pr\'edpade \'9ee sa liek u\'9e\'edva v odpor\'fa\'e8anej d\'e1vke a\~v\~odpor\'fa\'e8anej d\'e5\'9eke lie\'e8by.
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 Feniram\'edn
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 S\'fa}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 be\'9en\'e9}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495  u\'9e\'edvanie deriv\'e1
+tov morf\'ednu (analgetik\'e1, antitusik\'e1 a substitu\'e8n\'e1 lie\'e8ba), antipsychot\'edk, barbitur\'e1tov, benzodiazep\'ednov, anxyolit\'edk in\'fdch ako benzodiazep\'edny (napr. meprobam\'e1t), hypnot\'edk, sedat\'edvnych antidepres\'edv (amitriptyl
+\'edn, doxep}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 \'ed}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 n, mianser\'edn, mirtazap\'edn, trimipramin), sedat\'edvnych H1 antihistamin\'edk, centr\'e1
+lnych antihypertenz\'edv, baklof\'e9nu a talidomidu m\'f4\'9ee zv\'fd\'9ai\'9d \'fatlm centr\'e1lneho nervov\'e9ho syst\'e9mu. Schopnos\'9d riadi\'9d a obsluhova\'9d stroje m\'f4\'9ee by\'9d zn\'ed\'9een\'e1.
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 S\'fa}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 be\'9en\'e9}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495  u\'9e\'edvanie in\'fdch atrop
+\'ednov\'fdch deriv\'e1tov ako s\'fa tricyklick\'e9 antidepres\'edva, v\'e4\'e8\'9aina atrop\'ednov\'fdch H1 antihistamin\'edk, anticholinergn\'e9 antiparkinsonika, antispazmodick\'e9 atrop\'edny, dizopyramid, fenotiaz\'ednov\'e9 neuroleptik\'e1
+ rovnako ako aj klozap\'edn m\'f4\'9eu vyvola\'9d atrop\'ednov\'e9 ne\'9eiaduce \'fa\'e8inky, ako je zadr\'9eiavanie mo\'e8u, z\'e1pcha, sucho v \'fastach.
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 4.6\tab Fertilita, gravidita a lakt\'e1cia}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Gravidita a\~fertilita
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 \'8at\'fadie na zvierat\'e1ch so zameran\'edm na reproduk\'e8n\'fa toxicitu nie s\'fa dostato\'e8n\'e9. U\'9e\'edvanie tohto lieku sa po\'e8as tehotenstva neodpor\'fa\'e8a. 
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Lakt\'e1cia
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Paracetamol je vylu\'e8ovan\'fd do matersk\'e9ho mlieka, ale nie v klinicky v\'fdznamnom mno\'9estve. Neboli zaznamenan\'e9 \'9eiadne negat\'edvne \'fa\'e8inky na doj\'e8at\'e1
+. Nie je zn\'e1me, \'e8i sa feniram\'edn a\~jeho metabolity vylu\'e8uj\'fa do matersk\'e9ho mlieka. U\'9e\'edvanie tohto lieku sa neodpor\'fa\'e8a v\~obdob\'ed doj\'e8enia. 
+\par 
+\par }\pard \ltrpar\s15\ql \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 4.7\tab Ovplyvnenie schopnosti vies\'9d vozidl
+\'e1 a obsluhova\'9d stroje
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }\pard \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Tento liek m\'e1 ve\'bek\'fd vplyv na schopnos\'9d vies\'9d
+ vozidl\'e1 a obsluhova\'9d stroje vzh\'beadom na mo\'9enos\'9d v\'fdskytu ospalosti ako ved\'beaj\'9aieho \'fa\'e8inku a to najm\'e4 na za\'e8iatku lie\'e8by. Tento \'fa\'e8inok m\'f4\'9ee by\'9d zv\'fd\'9aen\'fd konzum\'e1ciou alkoholick\'fdch n\'e1
+pojov, liekov obsahuj\'facich alkohol a\~sedat\'edv.
+\par 
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 4.8\tab Ne\'9eiaduce \'fa\'e8inky}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par 
+\par Ne\'9eiaduce \'fa\'e8inky s\'fa uveden\'e9 ni\'9e\'9aie pod\'bea frekvencie. Frekvencie s\'fa definovan\'e9 ako: ve\'bemi \'e8ast\'e9 (\u8805\'3f}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 \~}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid3212494\charrsid12803495 1/10); \'e8ast\'e9 (\u8805\'3f 1/100 a\'9e <}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 \~}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 1/10); menej \'e8ast\'e9 (\u8805\'3f
+ 1/1 000 a\'9e <}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 \~}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 1/100); zriedkav\'e9 (\u8805\'3f 1/10 000 a\'9e <}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid14683781 \~}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 1/1}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 \~}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 000); ve\'be
+mi zriedkav\'e9 (<}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid14683781 \~}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 1/10 000), nezn\'e1me (ned\'e1 sa odhadn\'fa\'9d z\~dostupn\'fdch \'fadajov).
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\cf17\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Ne\'9eiaduce \'fa\'e8inky vz\'9dahuj\'face sa na feniram\'edn
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Farmakologick\'e9 vlastnosti lie\'e8iva s\'fa pr\'ed\'e8inou na d\'e1vke z\'e1visl\'fdch ne\'9eiaducich \'fa\'e8inkov (pozri \'e8as\'9d 5.1):
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 \loch\af0\dbch\af0\hich\f0 \'95\tab}}\pard \ltrpar\s15\ql \fi-360\li360\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls3
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst34\pnrxst32\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc4\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr4\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin360\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 Poruchy nervov\'e9ho syst\'e9mu
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-360\li1080\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls4
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin1080\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 \'fatlm alebo ospalos\'9d, v\'fdraznej\'9aie na za\'e8iatku lie\'e8by;
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-360\li1080\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls4
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr2\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin1080\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 anticholinergn\'e9 \'fa\'e8inky ako je sucho v \'fastach, z\'e1pcha, rozmazan\'e9 videnie, mydri\'e1za, b\'fa\'9aenie srdca, riziko retencie mo\'e8u;
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-360\li1080\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls4
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc3\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr3\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin1080\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 ortostatick\'e1 hypotenzia;
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-360\li1080\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls4
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc4\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr4\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin1080\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 z\'e1vraty, vertigo, poruchy pam\'e4te a\~koncentr\'e1cie, \'e8astej\'9aie u star\'9a\'edch os\'f4b;
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-360\li1080\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls4
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc5\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr5\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin1080\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 poruchy motorickej koordin\'e1cie, tras;
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-360\li1080\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls4
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc6\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr6\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin1080\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 zm\'e4tenos\'9d, halucin\'e1cie;
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-360\li1080\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls4
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc7\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr7\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin1080\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 zriedkavo excita\'e8n\'e9 \'fa\'e8inky ako je agit\'e1cia, nervozita, nespavos\'9d.
+\par }\pard \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 \loch\af0\dbch\af0\hich\f0 \'95\tab}}\pard \ltrpar\s15\ql \fi-360\li360\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls3
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst34\pnrxst32\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc5\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr5\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin360\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 Poruchy imunitn\'e9ho syst\'e9mu (zriedkav\'e9):
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-360\li1080\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls5\ilvl1
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc4\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr4\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin1080\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 hypersenzit\'edvne reakcie ako za\'e8ervenanie, svrbenie, ekz\'e9m, \'9eih\'beavka, purpura;
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-360\li1080\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls5\ilvl1
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc4\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc2\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr4\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr2\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin1080\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 opuch, zriedka angioed\'e9m;
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-360\li1080\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls5\ilvl1
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc4\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc3\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr4\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr3\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin1080\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 anafylaktick\'fd \'9aok.
+\par }\pard \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 \loch\af0\dbch\af0\hich\f0 \'95\tab}}\pard \ltrpar\s15\ql \fi-360\li360\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls5
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst34\pnrxst32\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc5\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr5\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin360\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 Poruchy krvi a lymfatick\'e9ho syst\'e9mu:
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-11\li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls6
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin720\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 leukop\'e9nia, neutrop\'e9nia;
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-11\li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls6
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr2\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin720\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 trombocytop\'e9nia;
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f2\fs22\insrsid3212494\charrsid12803495 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \ltrpar\s15\ql \fi-11\li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls6
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst111\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc3\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr3\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin720\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 hemolytick\'e1 an\'e9mia.
+\par }\pard \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Ne\'9eiaduce \'fa\'e8inky vz\'9d\ltrpar ahuj\'face sa na paracetamol
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Boli hl\'e1sen\'e9 zriedkav\'e9 pr\'edpady hypersenzit\'edvnych reakci\'ed ako anafylaxia, angioed\'e9m, vyr\'e1\'9eka, \'9eih\'beavka a ko\'9en\'e9 vyr\'e1\'9eky. V pr\'edpade tak
+\'fdchto reakci\'ed m\'e1 by\'9d u\'9e\'edvanie lieku }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Nogrip}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495  okam\'9eite preru\'9aen\'e9.
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Trombocytop\'e9nia, leukop\'e9nia a neutrop\'e9nia boli hl\'e1sen\'e9 vo ve\'bemi v\'fdnimo\'e8n\'fdch pr\'edpadoch.
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\ul\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 Hl\'e1senie podozren\'ed na ne\'9eiaduce reakcie}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 Hl\'e1senie podozren\'ed na ne\'9eiaduce reakcie po registr\'e1cii lieku je d\'f4le\'9eit\'e9.}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 Umo\'9e\'f2uje priebe\'9en\'e9 monitorovanie pomeru pr\'ednosu}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid3212494\charrsid12803495  a}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 \~rizika lieku.}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495  Od }{\rtlch\fcs1 
+\af0\afs22 \ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 zdravotn\'edckych pracovn\'edkov sa vy\'9eaduje, aby hl\'e1sili ak\'e9ko\'bevek podozrenia na ne\'9eiaduce reakcie prostredn\'edctvom }{\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\lang1024\langfe1024\highlight16\noproof\insrsid3212494\charrsid12803495 n\'e1rodn\'e9ho syst\'e9mu hl\'e1senia uveden\'e9ho v\~}{\field\flddirty{\*\fldinst {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+HYPERLINK "http://www.ema.europa.eu/docs/en_GB/document_library/Template_or_form/2013/03/WC500139752.doc"}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid13064622\charrsid12803495 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90bd400000068007400740070003a002f002f007700770077002e0065006d0061002e006500750072006f00700061002e00650075002f0064006f00630073002f0065006e005f00470042002f0064006f00630075006d00
+65006e0074005f006c006900620072006100720079002f00540065006d0070006c006100740065005f006f0072005f0066006f0072006d002f0032003000310033002f00300033002f00570043003500300030003100330039003700350032002e0064006f0063000000795881f43b1d7f48af2c825dc485276300000000a5
+ab000000}}}{\fldrslt {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs19\fs22\ul\cf2\lang1024\langfe1024\highlight16\noproof\insrsid3212494\charrsid12803495 P}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs19\fs22\ul\cf2\highlight16\insrsid3212494\charrsid12803495 r\'ed
+lohe }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \cs19\fs22\ul\cf2\lang1024\langfe1024\highlight16\noproof\insrsid3212494\charrsid12803495 V}}}\sectd 
+\psz9\linex0\headery709\footery709\colsx708\endnhere\titlepg\sectlinegrid272\sectdefaultcl\sectrsid9451080\sftnbj {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 .
+\par }\pard \ltrpar\ql \li0\ri0\sl240\slmult0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \ab\af0\afs22 
+\ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 4.9\tab Pred\'e1vkovanie}{\rtlch\fcs1 \ab\ai\af0\afs22 \ltrch\fcs0 \b\i\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Pred\'e1vkovanie vz\'9dahuj\'face sa na feniram\'edn
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Pred\'e1vkovanie m\'f4\'9ee sp\'f4sobi\'9d z\'e1chvaty (najm\'e4 u det\'ed), stratu vedomia a k\'f3mu.
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Pred\'e1vkovanie vz\'9dahuj\'face sa na paracetamol
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Paracetamol m\'f4\'9ee vies\'9d k otrave, a to najm\'e4 u star\'9a\'edch os\'f4b, mal\'fdch det\'ed, pacientov s ochoren\'edm pe\'e8ene, v pr\'edpade chronick\'e9
+ho alkoholizmu, u pacientov, ktor\'ed trpia chronickou podv\'fd\'9eivou a}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid2388152 \~}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 pacientov u\'9e\'edvaj\'facich induktory pe\'e8
+e\'f2ov\'fdch enz\'fdmov. V\~t\'fdchto pr\'edpadoch m\'f4\'9ee by\'9d pred\'e1vkovanie fat\'e1lne. 
+\par 
+\par }\pard \ltrpar\s15\ql \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Pr\'edznaky
+\par }\pard \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Pr\'edznaky pred\'e1vkovania paracetamolom v\~priebehu prv
+\'fdch 24 hod\'edn s\'fa nevo\'benos\'9d, vracanie, nechutenstvo, bledos\'9d a bolesti brucha. Po\'9akodenie pe\'e8ene sa m\'f4\'9ee prejavi\'9d po 12 a\'9e 48 hodin\'e1ch po u\'9eit\'ed. M\'f4\'9eu sa objavi\'9d abnormality metabolizmu gluk\'f3
+zy a metabolick\'e1 acid\'f3za. Pri \'9da\'9ekej otrave, m\'f4\'9ee zlyhanie pe\'e8ene vy\'fasti\'9d do encefalopatie, krv\'e1cania, hypoglyk\'e9mie, ed\'e9mu mozgu a smrti. Ak\'fatne ren\'e1lne zlyhanie s ak\'fatnou tubul\'e1rnou nekr\'f3zou, ktor\'e9
+ sa prejavuje boles\'9dou v\~bedrovo-p\'e1nvovej oblasti, hemat\'fariou a\~protein\'fariou, sa m\'f4\'9ee vyvin\'fa\'9d aj pri absencii \'9da\'9ek\'e9ho po\'9akodenia pe\'e8ene. Boli hl\'e1sen\'e9 srdcov\'e9 arytmie a pankreatit\'edda.
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Lie\'e8ba
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 V\~pr\'edpade pred\'e1vkovania paracetamolom je nevyhnutn\'e1 okam\'9eit\'e1 lie\'e8ba. Napriek nepr\'edtomnosti zjavn\'fdch skor\'fdch pr\'edznakov, maj\'fa by\'9d
+ pacienti prepraven\'ed do nemocnice, aby im bola poskytnut\'e1 okam\'9eit\'e1 lek\'e1rska starostlivos\'9d. Pr\'edznaky otravy m\'f4\'9eu by\'9d iba nevo\'benos\'9d alebo vracanie a nemusia odr\'e1\'9ea\'9d z\'e1va\'9enos\'9d pred\'e1
+vkovania alebo riziko po\'9akodenia org\'e1nov. Lie\'e8ba m\'e1 prebieha\'9d v s\'falade so zaveden\'fdmi odpor\'fa\'e8aniami pre lie\'e8bu pred\'e1vkovania.
+\par 
+\par Do 1 hodiny po pred\'e1vkovan\'ed sa m\'e1 zv\'e1\'9ei\'9d podanie akt\'edvneho uhlia. Plazmatick\'e1 koncentr\'e1cia paracetamolu sa m\'e1 zmera\'9d aspo\'f2 4 hodiny po po\'9eit\'ed paracetamolu (predt\'fdm nameran\'e9 koncentr\'e1cie s\'fa nespo\'be
+ahliv\'e9). Lie\'e8bu s\~pou\'9eit\'edm N-acetylcyste\'ednom je mo\'9en\'e9 vyu\'9ei\'9d a\'9e do 24 hod\'edn po pred\'e1vkovan\'ed, ale najvy\'9a\'9a\'ed ochrann\'fd efekt sa dosiahne ak sa s\~\'f2ou za\'e8ne do 8 hod\'edn od pred\'e1vkovania. \'da\'e8
+innos\'9d antidota po tomto \'e8ase prudko kles\'e1. V\~pr\'edpade potreby je mo\'9en\'e9 poda\'9d N-acetylcyste\'edn intraven\'f3zne. Ak stav nekomplikuje vracanie, je pod\'e1vanie N-acetylcyste\'ednu a\~metion\'ednu peror\'e1lne vhodnou alternat\'ed
+vou najm\'e4 v\~od\'beahl\'fdch oblastiach mimo nemocnice. Lie\'e8ba pacientov, ktor\'ed sa dostan\'fa do nemocnice so z\'e1va\'9enou poruchou funkcie pe\'e8ene po 24 hodin\'e1ch od pred\'e1vkovania, sa m\'e1 konzultova\'9d s\~toxikologick\'fdm
+ centrom alebo hepatologickou jednotkou. 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \ab\af0\afs22 
+\ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par 
+\par 5.\tab }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\caps\fs22\insrsid3212494\charrsid12803495 Farmakologick\'e9 vlastnosti}{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \ab\af0\afs22 
+\ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 \hich\af0\dbch\af0\loch\f0 5.1\tab}}\pard \ltrpar\s15\ql \fi-708\li708\ri0\widctlpar
+\jclisttab\tx708\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst3\pnrxst0\pnrxst0\pnrxst0\pnrxst46\pnrxst0\pnrxst1\pnrxst0\pnrstop8\pnrstart1\pnrrgb1\pnrrgb3\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9
+\pnrstart2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc5\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr5\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrstop36\adjustright\rin0\lin708\itap0\pararsid12803495 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 Farmakodynamick\'e9 vlastnosti
+\par }\pard \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Farmakoterapeutick\'e1 skupina: Paracetamol, kombin\'e1cie s v\'fdnimkou psycholept\'edk}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid2388152 , }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid3212494\charrsid12803495 ATC k\'f3d: N02BE51
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \ab\af0\afs22 
+\ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Mechanizmus \'fa\'e8inku 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Tento liek m\'e1 tri farmakologick\'e9 \'fa\'e8inky.
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 \hich\af0\dbch\af0\loch\f0 -\tab}}\pard \ltrpar\s15\ql \fi-567\li567\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls7
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst45\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin567\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Antihistam\'ednov\'fd efekt, ktor\'fd zni\'9euje sekr\'e9ciu z nosa a \'e8asto spojen\'e9 slzenie a tie\'9e zni\'9euje n\'e1razov\'e9 spazmodick\'e9 prejavy ako je z\'e1chvat k\'fd
+chania.
+\par }\pard \ltrpar\s15\ql \li567\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin567\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Feniram\'edn je antagonista H1 receptora a br\'e1ni \'fa
+\'e8inku histam\'ednu a\~to uvo\'beneniu chemick\'fdch medi\'e1torov a\~t\'fdm  v\'fdsledn\'fdm prejavom z\'e1palovej reakcie.
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 \hich\af0\dbch\af0\loch\f0 -\tab}}\pard \ltrpar\s15\ql \fi-567\li567\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls7
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst45\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr2\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin567\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Antipyretick\'fd a analgetick\'fd \'fa\'e8inok zni\'9euj\'faci hor\'fa\'e8ku a\~boles\'9d (bolesti hlavy, svalov).
+\par }\pard \ltrpar\s15\ql \li567\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin567\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Paracetamol inhibuje cyklooxygen\'e1zu, enz\'fdm, ktor
+\'fd je d\'f4le\'9eit\'fd pre synt\'e9zu prostagland\'ednov. Cyklooxygen\'e1za v centr\'e1lnom nervovom syst\'e9me je k\~paracetamolu citlivej\'9aia ako perif\'e9rna cyklooxygen\'e1za a\~preto m\'e1 paracetamol antipyretick\'fd a analgetick\'fd \'fa\'e8
+inok bez vidite\'benej perif\'e9rnej protiz\'e1palovej aktivity.
+\par {\listtext\pard\plain\ltrpar \s15 \rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 \hich\af0\dbch\af0\loch\f0 -\tab}}\pard \ltrpar\s15\ql \fi-567\li567\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\ls7
+\pnrauth2\pnrdate-2026300813\pnrstart0\pnrxst1\pnrxst0\pnrxst45\pnrxst0\pnrstop4\pnrstart1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23\pnrnfc23
+\pnrnfc23\pnrnfc23\pnrnfc0\pnrnfc0\pnrnfc3\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr3\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin567\itap0\pararsid12803495 {
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Kompenz\'e1cia kyseliny askorbovej v \'beudskom tele.
+\par }\pard \ltrpar\s15\ql \li567\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin567\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Kyselina askorbov\'e1 je vo vode rozpustn\'fd vitam\'ed
+n a siln\'fd antioxidant. Je to kofaktor v mnoh\'fdch biologick\'fdch procesoch, ako je napr\'edklad metabolizmus kyseliny listovej, oxid\'e1cia aminokysel\'edn a absorpcia a transport \'9eeleza. Tak isto je potrebn\'e1 pre tvorbu, \'fadr\'9e
+bu a opravu medzibunkov\'e9ho stavebn\'e9ho materi\'e1lu. Kyselina askorbov\'e1 je d\'f4le\'9eit\'e1 v obrane proti infekci\'e1m, pre norm\'e1lnu funkciu T-lymfocytov a pre \'fa\'e8inn\'fa fagocyt\'e1rnu aktivitu leukocytov. Toto tie\'9e chr\'e1
+ni bunky pred oxida\'e8n\'fdm po\'9akoden\'edm z\'e1kladn\'fdch molek\'fal.
+\par }\pard \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par 5.2\tab Farmakokinetick\'e9 vlastnosti
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\ul\insrsid3212494\charrsid12803495 Paracetamol
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Absorpcia
+\par }\pard\plain \ltrpar\s38\ql \li0\ri0\widctlpar\tx567\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2703004 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 
+\af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Vstreb\'e1vanie paracetamolu po peror\'e1lnom podan\'ed je r\'fdchle a\~takmer \'fapln\'e9. Jeho koncentr\'e1cia v\~plazme dosiahne vrchol za 30 min\'fat a\'9e 2 hodiny.
+\par 
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2703004 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Distrib\'facia
+\par }\pard \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Paracetamol sa distribuuje r\'fdchlo do v\'9aetk\'fdch tkan
+\'edv. Koncentr\'e1cie v krvi, slin\'e1ch a plazme s\'fa vz\'e1jomne porovnate\'ben\'e9. Pri terapeutick\'fdch d\'e1vkach je v\'e4zba na plazmatick\'e9 bielkoviny zanedbate\'ben\'e1.
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Biotransform\'e1cia
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Paracetamol sa metabolizuje v\~pe\'e8eni. Dve hlavn\'e9 metabolick\'e9 cesty s\'fa glukuronid\'e1cia a sulfat\'e1cia. Druh\'e1 cesta sa pri vy\'9a\'9a\'edch ne\'9e terapeutick\'fd
+ch d\'e1vkach r\'fdchlo nas\'fdti. Minoritn\'e1 cesta katalyzovan\'e1 cytochr\'f3mom P450, vedie k tvorbe reakt\'edvneho medziproduktu (N-acetyl-}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \i\fs22\insrsid3212494\charrsid12803495 p}{\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 -benzochin\'f3nim\'edn), ktor\'fd sa pri u\'9eit\'ed \'9atandardn\'fdch d\'e1vok r\'fdchlo detoxikuje glutati\'f3nom a vylu\'e8uje sa mo\'e8om po konjug\'e1cii s cyste\'ednom a kyselinou merkaptopurovou.
+
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri28\keepn\widctlpar\tx567\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin28\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 
+\af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Elimin\'e1cia
+\par }\pard \ltrpar\ql \li0\ri28\widctlpar\tx567\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin28\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 K elimin\'e1cii paracetamolu doch\'e1dza hlavne mo\'e8
+om. 90\~% po\'9eitej d\'e1vky sa vylu\'e8uje obli\'e8kami v\~priebehu 24 hod\'edn, preva\'9ene ako glukuronidov\'e9 (60-80\~%) a sulf\'e1tov\'e9 (20-30\~%) konjug\'e1ty. Menej ne\'9e 5\~% sa vylu\'e8uje v\~nezmenenej forme. Elimina\'e8n\'fd pol\'e8
+as je asi 2 hodiny. 
+\par 
+\par V\~pr\'edpade ren\'e1lnej alebo hepat\'e1lnej insuficiencie, po pred\'e1vkovan\'ed a u novorodencov je elimina\'e8n\'fd pol\'e8as paracetamolu pred\'e5\'9een\'fd. Maxim\'e1lny \'fa\'e8inok zodpoved\'e1 koncentr\'e1ci\'e1m v\~plazme. U star\'9a\'ed
+ch pacientov nie je kapacita tvorby konjug\'e1tov modifikovan\'e1.
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\ul\insrsid3212494\charrsid12803495 Feniram\'edniumhydrog\'e9nmalein\'e1t}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\ul\insrsid3212494\delrsid16076394\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\b\fs22\ul\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Absorpcia
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Feniram\'edniumhydrog\'e9nmalein\'e1t je dobre vstrebate\'ben\'fd z\~gastrointestin\'e1lneho traktu. Jeho plazmatick\'fd pol\'e8as je 1-1,5 hodiny.
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\ul\insrsid3212494\charrsid12803495 Elimin\'e1cia
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 M\'e1 vysok\'fa afinitu k tkaniv\'e1m a je vylu\'e8ovan\'fd predov\'9aetk\'fdm obli\'e8kami.
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\ul\insrsid2388152 Kyselina askorbov\'e1 (v}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\ul\insrsid2388152\charrsid12803495 itam\'edn C}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\ul\insrsid2388152 )}{
+\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\ul\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Kyselina askorbov\'e1 sa r\'fdchlo a \'faplne absorbuje z gastrointestin\'e1lneho traktu a je distribuovan\'e1 do v\'9aetk\'fdch telov\'fdch tkan\'edv. Kyselina askorbov\'e1
+ sa reverzibilne oxiduje na kyselinu dehydroaskorbov\'fa; \'e8as\'9d sa metabolizuje na neakt\'edvny askorb\'e1t-2-sulf\'e1t a\~na kyselinu \'9a\'9dave\'beov\'fa, ktor\'e9 s\'fa vylu\'e8ovan\'e9 mo\'e8om.
+\par 
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 5.3\tab Predklinick\'e9 \'fadaje o bezpe\'e8nosti
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Neaplikovate\'ben\'e9.
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par 
+\par }\pard \ltrpar\s15\ql \li0\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 6.\tab }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 
+\b\caps\fs22\insrsid3212494\charrsid12803495 Farmaceutick\'e9 inform\'e1cie
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par 6.1\tab Zoznam pomocn\'fdch l\'e1tok
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }\pard \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Sachar\'f3za
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Karibsk\'e1 pr\'edchu\'9d
+\par Bezvod\'e1 kyselina citr\'f3nov\'e1
+\par Arabsk\'e1 guma, su\'9aen\'e1 rozpra\'9aovan\'edm
+\par Sodn\'e1 so\'be sachar\'ednu (E954)
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par 6.2\tab Inkompatibility
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }\pard \ltrpar\s15\ql \li0\ri0\sl240\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Neaplikovate\'ben\'e9.
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par 6.3\tab \'c8as pou\'9eite\'benosti
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 21 mesiacov
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 
+\par 6.4\tab \'8apeci\'e1lne upozornenia na uchov\'e1vanie}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 
+\par 
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Uchov\'e1va\'9d pri teplote do {\*\xmlopen\xmlns0{\factoidname metricconverter}{\xmlattr\xmlattrns0{\xmlattrname ProductID}{\xmlattrvalue 25\'a0\'b0C}}}25\~\'b0C{\*\xmlclose}. 
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 6.5\tab Druh obalu a obsah balenia}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\cf2\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495  }{\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Papier/Al/PE vrecko
+\par 
+\par Ve\'bekos\'9d balenia: 2, 4, 5, 6, 8, 10, 12, 14, 15, 16, 18, 20 vreciek. 
+\par 
+\par Na trh nemusia by\'9d uveden\'e9 v\'9aetky ve\'bekosti balenia.
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 6.6\tab }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 \'8apeci\'e1lne opatrenia na likvid\'e1ciu a in\'e9 zaobch
+\'e1dzanie s liekom
+\par }\pard\plain \ltrpar\s25\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs22\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 \'8eiadne zvl\'e1\'9atne po\'9eiadavky.
+\par 
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 7.\tab DR\'8eITE\'bc ROZHODNUTIA O REGISTR\'c1CII}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\s22\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 Dr.Max Pharma Limited
+\par First Floor Roxburghe House
+\par 273-287 Regent Street
+\par W1B 2HA Lond\'fdn 
+\par Ve\'bek\'e1 Brit\'e1nia
+\par 
+\par 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 8.\tab REGISTRA\'c8N\'c9 \'c8\'cdSLO}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495  
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 07/0182/15-S
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 
+\par 
+\par 9.\tab D\'c1TUM PRVEJ REGISTR\'c1CIE/PRED\'c5\'8eENIA REGISTR\'c1CIE}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \fs22\insrsid3212494\charrsid12803495 D\'e1tum prvej registr\'e1cie: }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \fs22\insrsid2388152 13. m\'e1ja 2015}{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 
+\fs22\insrsid3212494\charrsid12803495 
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid3212494\charrsid12803495 
+\par 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12803495 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs22 
+\ltrch\fcs0 \b\fs22\lang1024\langfe1024\noproof\insrsid3212494\charrsid12803495 10.\tab D\'c1TUM REV\'cdZIE TEXTU
+\par }\pard\plain \ltrpar\s15\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2388152 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs24\lang1051\langfe1051\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid3212494 
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid2388152\charrsid2388152 September 2015}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid2388152\charrsid2388152 
+\par }}
