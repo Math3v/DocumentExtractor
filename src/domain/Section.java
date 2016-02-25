@@ -98,10 +98,12 @@ public class Section {
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSfs2"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSfs4"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "Dx"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "%"}, pos) ||
 			
 			checkOccurence(tokens, ir, new String[] {"Unknown",  "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"SSis2",    "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"SSis1",    "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"SSip1",    "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"%",        "Quantity", "Quantity"}, pos) ) {
 			return 3;
 		}
