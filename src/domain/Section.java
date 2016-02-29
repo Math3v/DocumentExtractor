@@ -194,14 +194,12 @@ public class Section {
 		while( matcher.find() ) {
 			String s = matcher.group();
 			int count = c.quantityCount(s.substring(1, s.length() - 2));
-			System.out.println("BRACKETS "+s+" count "+count);
 			if( count == 0 ) {
 				section = section.replace(s, "");
 			} else {
 				section = section.replace(s, s.substring(1, s.length() - 2));
 			}
 		}
-		System.out.println("Result: "+section);
 		return section;
 	}
 

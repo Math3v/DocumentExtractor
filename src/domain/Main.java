@@ -164,9 +164,6 @@ public class Main {
 	            	String htmlDocument = parseToHTML(fileEntry.getAbsolutePath());
 	            	//parseSectionHeadings(htmlDocument, new Integer(documentId));
 	            	//printQuantitiesCounts(htmlDocument, documentId);
-	            	if(documentId == 2) {
-	            		System.out.println("Debug");
-	            	}
 	            	parseActiveSubstances(htmlDocument, documentId);
 	            } catch (Exception e) {
 		            System.out.println("Error: parseDirectory " + e.getMessage());
