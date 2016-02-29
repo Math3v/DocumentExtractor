@@ -8,6 +8,9 @@ public class QuantityClassifier {
 		int count = 0;
 		
 		for( int i = 0; i < tokens.length - 1; i++ ) {
+			if(tokens[i].length() < 1) {
+				continue;
+			}
 			if( tokens[i].charAt(tokens[i].length() - 1) == '.' || 
 				tokens[i].charAt(tokens[i].length() - 1) == ',' ) {
 				tokens[i] = tokens[i].substring(0, tokens[i].length() - 1);

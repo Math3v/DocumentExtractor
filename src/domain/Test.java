@@ -38,8 +38,10 @@ public class Test {
 	
 	public void testIntermediateRepresentation() {
 		IntermediateRepresentation ir = new IntermediateRepresentation();
-		//assert ir.getIntermediateRepresentation("25 mg monohydrátu laktózy") == "QAG";
-		//assert ir.getIntermediateRepresentation("10ml cinkalátu,") == "QA";
+		assert ir.getIntermediateRepresentation("25")[0] == "Quantity";
+		assert ir.getIntermediateRepresentation("mg")[0] == "Quantity";
+		assert ir.getIntermediateRepresentation("monohydrátu")[0] == "SSis2";
+		assert ir.getIntermediateRepresentation("lakózy")[0] == "SSfs2";
 	}
 	
 	public void testSimpleTokenizer() {
