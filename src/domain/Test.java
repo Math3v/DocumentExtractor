@@ -62,5 +62,8 @@ public class Test {
 		assert Section.removeBrackets("slovo (E 240) slovo slovo").equals("slovo  slovo slovo");
 		assert Section.removeBrackets("slovo (20 mg monohydratu) slovo").equals("slovo 20 mg monohydrat slovo");
 		assert Section.removeBrackets("nieco (E240) nieco nic").equals("nieco  nieco nic");
+		assert Section.removeBrackets("mikrogramu tiotropia (ako monohydrát bromidu) a 2,5 mikrogramu olodaterolu (ako hydrochlorid) na jeden vstrek")
+				.equals("mikrogramu tiotropia  a 2,5 mikrogramu olodaterolu  na jeden vstrek");
+		assert Section.removeBrackets("slovo (E240).").equals("slovo .");
 	}
 }

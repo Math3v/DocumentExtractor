@@ -108,6 +108,7 @@ public class Section {
 			checkOccurence(tokens, ir, new String[] {"SSis2",    "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"SSis1",    "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"SSip1",    "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"VLdscm+",  "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"%",        "Quantity", "Quantity"}, pos) ) {
 			return 3;
 		}
@@ -186,19 +187,21 @@ public class Section {
 	}
 	
 	public static String removeBrackets(String section) {
-		Pattern pattern = Pattern.compile("\\(.*\\)");
+		Pattern pattern = Pattern.compile("\\([^\\(\\)]*\\)");
 		Matcher matcher = pattern.matcher(section);
 		QuantityClassifier c = new QuantityClassifier();
 		
 		while( matcher.find() ) {
 			String s = matcher.group();
 			int count = c.quantityCount(s.substring(1, s.length() - 2));
+			System.out.println("BRACKETS "+s+" count "+count);
 			if( count == 0 ) {
 				section = section.replace(s, "");
 			} else {
 				section = section.replace(s, s.substring(1, s.length() - 2));
 			}
 		}
+		System.out.println("Result: "+section);
 		return section;
 	}
 
