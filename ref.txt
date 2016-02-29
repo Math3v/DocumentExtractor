@@ -1,0 +1,99 @@
+SPC00331139_tadalafil
+AS: 5 mg tadalafilu.
+AS: 10 mg tadalafilu.
+AS: 20 mg tadalafilu.
+AS: 225,50 mg monohydrátu laktózy.
+SPC00332201_salofalk
+AS: 500 mg mesalazínu.
+AS: 1000 mg mesalazínu.
+AS: 1,5 mg mesalazínu.
+AS: 3 mg mesalazínu.
+AS: 1,0 mg aspartámu
+AS: 0,02mg sachrózy.
+AS: 2,0 mg aspartámu
+AS: 0,04mg sachrózy.
+AS: 3,0 mg aspartámu
+AS: 0,06mg sachrózy.
+AS: 6,0 mg aspartámu
+AS: 0,12mg sachrózy.
+SPC00332739_dualkopt
+AS: 22,25 mg dorzolamidiumchloridu,
+AS: 20 mg dorzolamidu
+AS: 6,83 mg timololiumhydrogenmaleinátu,
+AS: 5 mg timololu.
+SPC00337546_terbinafin
+AS: 250 mg terbinafínu.
+SPC00350917_sildenafil
+AS: 25 mg sildenafilu
+AS: 50 mg sildenafilu
+AS: 100 mg sildenafilu
+AS: 1,86 mg monohydrát laktózy.
+AS: 3,72 mg monohydrát laktózy.
+AS: 7,44 mg monohydrát laktózy.
+SPC00358238_afreloxa
+AS: 875 mg amoxicilínu
+AS: 125 mg kyseliny klavulanovej.
+SPC00361235_inhafort
+AS: 12 mikrogramov dihydrátu formoteroliumfumarátu.
+AS: 10 mikrogramov dihydrátu formoteroliumfumarátu.
+AS: 25 mg monohydrátu laktózy
+SPC00374163_septolete
+AS: 3 mg benzydamíniumchloridu
+AS: 1 mg cetylpyridíniumchloridu.
+#izomalt (E953): 2471,285 mg/pastilka !!!!
+SPC00378501_nogrip
+AS: 500 mg paracetamolu,
+AS: 200 mg kyseliny askorbovej,
+AS: 25 mg feniramíniumhydrogénmaleinátu
+AS: 11,555 g sacharózy
+AS: 15,2 mg etanolu.
+SPC00381393_paricalcitol
+AS: 2 mikrogramy parikalcitolu.
+AS: 5 mikrogramov parikalcitolu.
+AS: 10 mikrogramov parikalcitolu.
+#AS: etanol !!!!!
+SPC00381758_mar
+AS: 200 mg ibuprofenu
+AS: 5 mg fenylefríniumchloridu
+SPC00382542_truflo
+AS: 250 mikrogramov flutikazónpropionátu.
+# !!!!!!!
+AS: 227 µg flutikazónpropionátu.
+SPC00390361_furocef
+AS: 250 mg cefuroxímu,
+AS: 300,715 mg cefuroxímiumaxetilu.
+AS: 500 mg cefuroxímu,
+AS: 601,43 mg cefuroxímiumaxetilu.
+SPC00390446_mometasone
+AS: 51,73 mikrogramov monohydrátu  mometazónfuroátu,
+AS: 50 mikrogramov bezvodého mometazónfuroátu.
+AS: 20 mikrogramov benzalkóniumchloridu
+SPC00393283_coldrex
+# !!!!!
+#AS: paracetamol 500
+#AS: guajfenezín 200
+#AS: fenylefríniumchlorid 10
+AS: sacharóza 2 077 mg
+AS: aspartam 12 mg
+AS: citrát sodný 500 mg
+#AS: cyklaman sodný (E952) 100 mg
+AS: cyklaman sodný 100 mg
+SPC00393314_gerasa
+AS: 100 mg kyseliny acetylsalicylovej.
+AS: 60 mg monohydrátu laktózy.
+SPC00393868_eplerenon
+AS: 25 mg eplerenónu.
+AS: 50 mg eplerenónu.
+AS: 35,7 mg monohydrátu laktózy
+AS: 71,4 mg monohydrátu laktózy
+SPC00395402_perindopril
+AS: 10 mg perindoprilu arginínu,
+AS: 6,790 mg perindoprilu.
+AS: 141,56 mg monohydrátu laktózy.
+SPC00395679_coltowan
+AS: 10 mg ezetimibu.
+AS: 55 mg monohydrátu laktózy.
+SPC00397743_budenofalk
+AS: budezonid v množstve 2 mg.
+AS: cetylalkohol 8,40 mg
+AS: propylénglykol 600,30 mg
