@@ -15,6 +15,7 @@ public class Test {
 		testQuantityClassifier();
 		testSimplePosTagger();
 		testBonitoPosTagger();
+		testRemoveBrackets();
 		System.out.println("Tests passed!");
 	}
 
@@ -55,5 +56,11 @@ public class Test {
 		IPosTagger bt = new BonitoPosTagger();
 		assert bt.tag("mama") == POS.N;
 		assert bt.tag("mame") == POS.D;
+	}
+	
+	public void testRemoveBrackets() {
+		assert Section.removeBrackets("slovo (E 240) slovo slovo").equals("slovo  slovo slovo");
+		assert Section.removeBrackets("slovo (20 mg monohydratu) slovo").equals("slovo 20 mg monohydrat slovo");
+		assert Section.removeBrackets("nieco (E240) nieco nic").equals("nieco  nieco nic");
 	}
 }

@@ -1,6 +1,10 @@
 package domain;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import nlp.ITokenizer;
+import nlp.QuantityClassifier;
 import nlp.SimpleTokenizer;
 
 public class Section {
@@ -179,6 +183,23 @@ public class Section {
 			System.exit(1);
 		}
 		return false;
+	}
+	
+	public static String removeBrackets(String section) {
+		Pattern pattern = Pattern.compile("\\(.*\\)");
+		Matcher matcher = pattern.matcher(section);
+		QuantityClassifier c = new QuantityClassifier();
+		
+		while( matcher.find() ) {
+			String s = matcher.group();
+			int count = c.quantityCount(s.substring(1, s.length() - 2));
+			if( count == 0 ) {
+				section = section.replace(s, "");
+			} else {
+				section = section.replace(s, s.substring(1, s.length() - 2));
+			}
+		}
+		return section;
 	}
 
 }
