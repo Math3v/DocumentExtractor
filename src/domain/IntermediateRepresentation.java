@@ -10,11 +10,13 @@ import nlp.IPosTagger.POS;
 
 public class IntermediateRepresentation {
 	
+	@SuppressWarnings("unused")
 	private boolean isAccusative(String token) {
 		IPosTagger t = new SimplePosTagger();
 		return POS.A == t.tag(token);
 	}
 	
+	@SuppressWarnings("unused")
 	private boolean isGenitiv(String token) {
 		IPosTagger t = new SimplePosTagger();
 		return POS.G == t.tag(token);

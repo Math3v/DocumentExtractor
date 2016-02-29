@@ -114,6 +114,7 @@ public class Section {
 	private static boolean checkOccurence(String[] tokens, String[] ir, String[] tags, int pos) {
 		for(int i = 0; i < tags.length; i++) {
 			try {
+				@SuppressWarnings("unused")
 				String s = ir[pos+i];
 			} catch (ArrayIndexOutOfBoundsException e) {
 				return false;
@@ -132,6 +133,7 @@ public class Section {
 		return true;
 	}
 	
+	@SuppressWarnings("unused")
 	private static boolean print3AS__(String[] tokens, int i, String ir) {
 		try {
 			if( ir.substring(i, i+4).equals("QQAA") ||
@@ -156,6 +158,7 @@ public class Section {
 		return false;
 	}
 	
+	@SuppressWarnings("unused")
 	private static boolean print2AS__(String[] tokens, int i, String ir) {
 		try {
 			if( ir.substring(i, i+3).equals("QQA") ||
