@@ -18,7 +18,7 @@ public class QuantityClassifier {
 			if( tokens[i].matches("\\d{1,5}") ||
 				tokens[i].matches("\\d{1,5}\\.\\d{1,5}") ||
 				tokens[i].matches("\\d{1,5},\\d{1,5}") ) {
-				if( tokens[i+1].matches("g|mg|ml|mikrogramov|mikrogramom|mikrogramu|miligramov|mmol|ml\\.|mmol\\.|mg\\.") ) {
+				if( tokens[i+1].matches("(g|mg|ml|mikrogramov|mikrogramom|mikrogramu|mikrogramy|miligramov|mmol|ml|mmol|mg)(\\.|\\,)?") ) {
 					count++;
 				}
 			}

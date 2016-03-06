@@ -127,4 +127,8 @@ public class BonitoService {
 		}
 		return "U";
 	}
+	
+	public void printFullTag(String word) {
+		System.out.println( word+": "+getFullTag(word) );
+	}
 }

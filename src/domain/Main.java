@@ -176,8 +176,11 @@ public class Main {
 	}
 	
 	public static void main(String args[]) {
-		new Test();
+		BonitoService bs = new BonitoService();
+		bs.printFullTag("parikalcitolu");
 		
+		new Test();
+		System.exit(0);
 		parseDirectory("./data");
 		
 		/* Close connection */

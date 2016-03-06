@@ -27,6 +27,7 @@ public class Test {
 		assert 3 == c.quantityCount("raz 2,3 mg a 3.5 ml lebo 5 mikrogramov");
 		assert 2 == c.quantityCount("30 mg lebo 6 ml");
 		assert 2 == c.quantityCount("obsahuje: 320 mikrogramov budezonidu/inhaláciu a 9 mikrogramov dihydrátu formoteroliumfumarátu/inhaláciu");
+		assert 5 == c.quantityCount("Saponín 5 mg, hemihydrát kodeíniumfosfátu 3,06 mg, prilbicová tinktúra 40 mg, pomarančová tinktúra 150 mg, tekutý tymianový extrakt 30 mg v");
 	}
 	
 	public void testSimplePosTagger() {
@@ -60,10 +61,11 @@ public class Test {
 	
 	public void testRemoveBrackets() {
 		assert Section.removeBrackets("slovo (E 240) slovo slovo").equals("slovo  slovo slovo");
-		assert Section.removeBrackets("slovo (20 mg monohydratu) slovo").equals("slovo 20 mg monohydrat slovo");
+		assert Section.removeBrackets("slovo (20 mg monohydratu) slovo").equals("slovo 20 mg monohydratu slovo");
 		assert Section.removeBrackets("nieco (E240) nieco nic").equals("nieco  nieco nic");
 		assert Section.removeBrackets("mikrogramu tiotropia (ako monohydrát bromidu) a 2,5 mikrogramu olodaterolu (ako hydrochlorid) na jeden vstrek")
 				.equals("mikrogramu tiotropia  a 2,5 mikrogramu olodaterolu  na jeden vstrek");
 		assert Section.removeBrackets("slovo (E240).").equals("slovo .");
+		assert Section.removeBrackets("(10 mikrogramov) cholekalciferolu").equals("10 mikrogramov cholekalciferolu");
 	}
 }
