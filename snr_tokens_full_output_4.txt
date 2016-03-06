@@ -1,0 +1,1342 @@
+parikalcitolu: Dx
+Tests passed!
+Document 1. SPC00195752_calcium.doc
+Liečivo: Calcii chloridum dihydricum 0,671 g v 10 ml.
+Liečivo: Calcii chloridum dihydricum 0,671 g v 10 ml.
+Liečivo:-SSnp2
+Calcii-%
+chloridum-Unknown
+AS: dihydricum 0,671 g 
+dihydricum-%
+v-TooShort
+10-Quantity
+ml.-Quantity
+10 ml obsahuje 183 mg vápnika, to zodpovedá 4,56 mmol.
+10 ml obsahuje 183 mg vápnika, to zodpovedá 4,56 mmol.
+10-Quantity
+ml-Quantity
+obsahuje-VKesc+
+AS: 183 mg vápnika, 
+183-Quantity
+to-TooShort
+zodpovedá-VKesc+
+4,56-Quantity
+mmol.-Quantity
+10 ml obsahuje 324 mg chloridov, to zodpovedá 9,12 mmol.
+10 ml obsahuje 324 mg chloridov, to zodpovedá 9,12 mmol.
+10-Quantity
+ml-Quantity
+obsahuje-VKesc+
+AS: 324 mg chloridov, 
+324-Quantity
+to-TooShort
+zodpovedá-VKesc+
+9,12-Quantity
+mmol.-Quantity
+Pomocné látky: úplný zoznam pomocných látok, pozri časť 6.1.
+Pomocné látky: úplný zoznam pomocných látok, pozri časť 6.1.
+Pomocné-AAfp4x
+látky:-SSfs2
+úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 2. SPC00244397_hidrasec.doc
+Každé vrecúško obsahuje 30 mg racekadotrilu. Každé vrecúško obsahuje 2,9 g sacharózy.
+Každé vrecúško obsahuje 30 mg racekadotrilu. Každé vrecúško obsahuje 2,9 g sacharózy.
+Každé-PAns4
+vrecúško-SSns4
+obsahuje-VKesc+
+AS: 30 mg racekadotrilu. 
+30-Quantity
+Každé-PAns4
+vrecúško-SSns4
+obsahuje-VKesc+
+AS: 2,9 g sacharózy. 
+2,9-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 3. SPC00258796_reasec.doc
+atropíniumsulfát 0,025 mg
+atropíniumsulfát 0,025 mg
+AS: atropíniumsulfát 0,025 mg 
+atropíniumsulfát-Unknown
+hydrochlorid difenoxylátu 2,5 mg v každej tablete
+hydrochlorid difenoxylátu 2,5 mg v každej tablete
+AS: hydrochlorid difenoxylátu 2,5 mg 
+hydrochlorid-%
+v-TooShort
+každej-PAfs6
+tablete-SSfs6
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 4. SPC00301188_visine.doc
+Liečivo: tetryzolini hydrochloridum
+Liečivo: tetryzolini hydrochloridum
+Liečivo:-SSnp2
+tetryzolini-Unknown
+hydrochloridum-%
+1 ml očnej roztokovej instilácie obsahuje 0,5 mg tetryzolini hydrochloridum (0,05 %).
+1 ml očnej roztokovej instilácie obsahuje 0,5 mg tetryzolini hydrochloridum .
+1-Quantity
+ml-Quantity
+očnej-AAfs2x
+roztokovej-AAfs2x
+instilácie-SSfs2
+obsahuje-VKesc+
+AS: 0,5 mg tetryzolini hydrochloridum 
+0,5-Quantity
+.-TooShort
+Pomocná látka so známym účinkom: benzalkóniumchlorid.
+Pomocná látka so známym účinkom: benzalkóniumchlorid.
+Pomocná-AAfs1x
+látka-SSfp2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+benzalkóniumchlorid.-SSis1
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 5. SPC00307347_panadol.doc
+Liečivá
+Liečivá
+Liečivá-AAfs1x
+paracetamol 500 mg
+paracetamol 500 mg
+AS: paracetamol 500 mg 
+paracetamol-SSis2
+kodeíniumfosfát hemihydrát 8 mg
+kodeíniumfosfát hemihydrát 8 mg
+AS: kodeíniumfosfát hemihydrát 8 mg 
+kodeíniumfosfát-Unknown
+kofeín 30 mg
+kofeín 30 mg
+AS: kofeín 30 mg 
+kofeín-SSis2
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 6. SPC00307430_paralen.doc
+Jedna tableta obsahuje paracetamolum 500 mg.
+Jedna tableta obsahuje paracetamolum 500 mg.
+Jedna-NFfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: paracetamolum 500 mg. 
+paracetamolum-%
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 7. SPC00315211_bufomix.doc
+Každá dodaná dávka (dávka, ktorá sa uvoľní cez náustok) obsahuje: 320 mikrogramov budezonidu/inhaláciu a 9 mikrogramov dihydrátu formoteroliumfumarátu/inhaláciu.
+Každá dodaná dávka  obsahuje: 320 mikrogramov budezonidu/inhaláciu a 9 mikrogramov dihydrátu formoteroliumfumarátu/inhaláciu.
+Každá-PAfs1
+dodaná-Gtfs1x
+dávka-SSfs4
+obsahuje:-VKesc+
+AS: 320 mikrogramov budezonidu 
+320-Quantity
+inhaláciu-SSfs4
+a-TooShort
+AS: 9 mikrogramov dihydrátu formoteroliumfumarátu 
+9-Quantity
+inhaláciu.-SSfs4
+Inhalačný systém Easyhaler zabezpečuje, že podaná dávka (ex-actuator) obsahuje podobné množstvo liečiva ako odmeraná dávka (ex-reservoir).
+Inhalačný systém Easyhaler zabezpečuje, že podaná dávka  obsahuje podobné množstvo liečiva ako odmeraná dávka .
+Inhalačný-AAfs1x
+systém-SSis2
+Easyhaler-%
+zabezpečuje,-VKesc+
+že-TooShort
+podaná-Gtfs1x
+dávka-SSfs4
+obsahuje-VKesc+
+podobné-AAns1x
+množstvo-SSns4
+liečiva-SSns2
+ako-TooShort
+odmeraná-Gtfs1x
+dávka-SSfs4
+.-TooShort
+Pomocná látka: monohydrát laktózy (7600 mikrogramov/inhalácia).
+Pomocná látka: monohydrát laktózy 7600 mikrogramov/inhalácia.
+Pomocná-AAfs1x
+látka:-SSfp2
+AS: monohydrát laktózy 7600 mikrogramov 
+monohydrát-SSis2
+inhalácia.-SSfs1
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 8. SPC00320260_lindynette.doc
+Každá obalená tableta obsahuje 75 mikrogramov gestodénu a 20 mikrogramov etinylestradiolu.
+Každá obalená tableta obsahuje 75 mikrogramov gestodénu a 20 mikrogramov etinylestradiolu.
+Každá-PAfs1
+obalená-Gtfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 75 mikrogramov gestodénu 
+75-Quantity
+a-TooShort
+AS: 20 mikrogramov etinylestradiolu. 
+20-Quantity
+Pomocné látky so známym účinkom každá obalená tableta obsahuje 37,17 mg monohydrátu laktózy a 19,66 mg sacharózy.
+Pomocné látky so známym účinkom každá obalená tableta obsahuje 37,17 mg monohydrátu laktózy a 19,66 mg sacharózy.
+Pomocné-AAfp4x
+látky-SSfs2
+so-TooShort
+známym-SAmp3
+účinkom-SSis7
+každá-PAfs1
+obalená-Gtfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 37,17 mg monohydrátu laktózy 
+37,17-Quantity
+a-TooShort
+AS: 19,66 mg sacharózy. 
+19,66-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 9. SPC00335383_symbicort.doc
+Každá dodaná dávka (dávka, ktorá je uvoľnená cez náustok inhalátora) obsahuje: budezonid 160 mikrogramov/inhalácia a dihydrát formoteroliumfumarátu 4,5 mikrogramov/inhalácia.
+Každá dodaná dávka  obsahuje: budezonid 160 mikrogramov/inhalácia a dihydrát formoteroliumfumarátu 4,5 mikrogramov/inhalácia.
+Každá-PAfs1
+dodaná-Gtfs1x
+dávka-SSfs4
+obsahuje:-VKesc+
+AS: budezonid 160 mikrogramov 
+budezonid-SSis1
+inhalácia-SSfs1
+a-TooShort
+AS: dihydrát formoteroliumfumarátu 4,5 mikrogramov 
+dihydrát-%
+inhalácia.-SSfs1
+Každá odmeraná dávka obsahuje: budezonid 200 mikrogramov/inhalácia a dihydrát formoteroliumfumarátu 6 mikrogramov /inhalácia.
+Každá odmeraná dávka obsahuje: budezonid 200 mikrogramov/inhalácia a dihydrát formoteroliumfumarátu 6 mikrogramov /inhalácia.
+Každá-PAfs1
+odmeraná-Gtfs1x
+dávka-SSfs4
+obsahuje:-VKesc+
+AS: budezonid 200 mikrogramov 
+budezonid-SSis1
+inhalácia-SSfs1
+a-TooShort
+AS: dihydrát formoteroliumfumarátu 6 mikrogramov 
+dihydrát-%
+inhalácia.-SSfs1
+Pomocné látky so známym účinkom: monohydrát laktózy 730 mikrogramov v jednej dodanej dávke.
+Pomocné látky so známym účinkom: monohydrát laktózy 730 mikrogramov v jednej dodanej dávke.
+Pomocné-AAfp4x
+látky-SSfs2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+AS: monohydrát laktózy 730 mikrogramov 
+monohydrát-SSis2
+v-TooShort
+jednej-NFfs6
+dodanej-Gtfs2x
+dávke.-SSfs6
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 10. SPC00339442_theraflu.doc
+Každá 30 ml dávka obsahuje 500 mg paracetamolu, 10 mg fenylefríniumchloridu a 200 mg guaifenezínu.
+Každá 30 ml dávka obsahuje 500 mg paracetamolu, 10 mg fenylefríniumchloridu a 200 mg guaifenezínu.
+Každá-PAfs1
+AS: 30 ml dávka 
+30-Quantity
+obsahuje-VKesc+
+AS: 500 mg paracetamolu, 
+500-Quantity
+AS: 10 mg fenylefríniumchloridu 
+10-Quantity
+a-TooShort
+AS: 200 mg guaifenezínu. 
+200-Quantity
+Pomocné látky so známym účinkom: každá dávka obsahuje aj 9,5 g tekutého maltitolu (E965), benzoan sodný, citran sodný, dinátrium edetát (celkový sodík 15,68 mg), 5,4 g propylénglykolu, 2,4 g bezvodého etanolu (10,15 % v/v), 17,27 mg draslíka a oranžovo žlté farbivo (E110).
+Pomocné látky so známym účinkom: každá dávka obsahuje aj 9,5 g tekutého maltitolu , benzoan sodný, citran sodný, dinátrium edetát celkový sodík 15,68 mg, 5,4 g propylénglykolu, 2,4 g bezvodého etanolu , 17,27 mg draslíka a oranžovo žlté farbivo .
+Pomocné-AAfp4x
+látky-SSfs2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+každá-PAfs1
+dávka-SSfs4
+obsahuje-VKesc+
+aj-TooShort
+AS: 9,5 g tekutého maltitolu 
+9,5-Quantity
+,-TooShort
+benzoan-%
+sodný,-AAis2x
+citran-SSis1
+sodný,-AAis2x
+dinátrium-Unknown
+edetát-Unknown
+celkový-AAfs1x
+AS: sodík 15,68 mg, 
+sodík-SSis2
+AS: 5,4 g propylénglykolu, 
+5,4-Quantity
+AS: 2,4 g bezvodého etanolu 
+2,4-Quantity
+,-TooShort
+AS: 17,27 mg draslíka 
+17,27-Quantity
+a-TooShort
+oranžovo-Dx
+žlté-AAfp1x
+farbivo-SSns1
+.-TooShort
+Úplný zoznam pomocných látok pozri časť 6.1.
+Úplný zoznam pomocných látok pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 11. SPC00343955_nurofen.doc
+Každá kapsula obsahuje 200 mg ibuprofénu.
+Každá kapsula obsahuje 200 mg ibuprofénu.
+Každá-PAfs1
+kapsula-SSfs6
+obsahuje-VKesc+
+AS: 200 mg ibuprofénu. 
+200-Quantity
+Pomocné látky: sorbitol (E 420) 9,89 mg/kapsula
+Pomocné látky: sorbitol  9,89 mg/kapsula
+Pomocné-AAfp4x
+látky:-SSfs2
+AS: sorbitol 9,89 mg 
+sorbitol-VLdscm+
+kapsula-SSfs6
+košenilová červeň A (E 124) 0,485 mg/kapsula
+košenilová červeň A  0,485 mg/kapsula
+košenilová-SAfs1
+červeň-SSfs1
+A-TooShort
+0,485-Quantity
+mg-Quantity
+kapsula-SSfs6
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 12. SPC00345866_meloxicam.doc
+Meloxicam Mylan 7,5 mg
+Meloxicam Mylan 7,5 mg
+AS: Meloxicam Mylan 7,5 mg 
+Meloxicam-%
+Každá tableta obsahuje 7,5 mg meloxikamu.
+Každá tableta obsahuje 7,5 mg meloxikamu.
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 7,5 mg meloxikamu. 
+7,5-Quantity
+Pomocná látka: každá tableta obsahuje 40,8 mg laktózy (vo forme monohydrátu laktózy).
+Pomocná látka: každá tableta obsahuje 40,8 mg laktózy .
+Pomocná-AAfs1x
+látka:-SSfp2
+každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 40,8 mg laktózy 
+40,8-Quantity
+.-TooShort
+Meloxicam Mylan 15 mg
+Meloxicam Mylan 15 mg
+AS: Meloxicam Mylan 15 mg 
+Meloxicam-%
+Každá tableta obsahuje 15,0 mg meloxikamu.
+Každá tableta obsahuje 15,0 mg meloxikamu.
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 15,0 mg meloxikamu. 
+15,0-Quantity
+Pomocná látka: každá tableta obsahuje 81,7 mg laktózy (vo forme monohydrátu laktózy).
+Pomocná látka: každá tableta obsahuje 81,7 mg laktózy .
+Pomocná-AAfs1x
+látka:-SSfp2
+každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 81,7 mg laktózy 
+81,7-Quantity
+.-TooShort
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 13. SPC00353561_fullhale.doc
+Každá odmeraná dávka FULLHALE poskytuje:
+Každá odmeraná dávka FULLHALE poskytuje:
+Každá-PAfs1
+odmeraná-Gtfs1x
+dávka-SSfs4
+FULLHALE-Unknown
+poskytuje:-VKesc+
+25 mikrogramov salmeterolu (vo forme salmeterol xinafoátu) a 125 alebo 250 mikrogramov flutikazónpropionátu (uvoľneného z ventilu). To zodpovedá 21 mikrogramom salmeterolu a 110 alebo 220 mikrogramom flutikazónpropionátu uvoľneného z dávkovača (uvoľnená dávka).
+25 mikrogramov salmeterolu  a 125 alebo 250 mikrogramov flutikazónpropionátu . To zodpovedá 21 mikrogramom salmeterolu a 110 alebo 220 mikrogramom flutikazónpropionátu uvoľneného z dávkovača .
+AS: 25 mikrogramov salmeterolu 
+25-Quantity
+a-TooShort
+125-TooShort
+alebo-O
+AS: 250 mikrogramov flutikazónpropionátu 
+250-Quantity
+.-TooShort
+To-TooShort
+zodpovedá-VKesc+
+AS: 21 mikrogramom salmeterolu 
+21-Quantity
+a-TooShort
+110-TooShort
+alebo-O
+AS: 220 mikrogramom flutikazónpropionátu 
+220-Quantity
+uvoľneného-Gtis2x
+z-TooShort
+dávkovača-SSis2
+.-TooShort
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 14. SPC00360736_foster.doc
+Každá odmeraná dávka (ex-valve) obsahuje:
+Každá odmeraná dávka  obsahuje:
+Každá-PAfs1
+odmeraná-Gtfs1x
+dávka-SSfs4
+obsahuje:-VKesc+
+100 mikrogramov beklometazóndipropionátu a 6 mikrogramov dihydrátu formoteroliumfumarátu.
+100 mikrogramov beklometazóndipropionátu a 6 mikrogramov dihydrátu formoteroliumfumarátu.
+AS: 100 mikrogramov beklometazóndipropionátu 
+100-Quantity
+a-TooShort
+AS: 6 mikrogramov dihydrátu formoteroliumfumarátu. 
+6-Quantity
+Toto množstvo zodpovedá podanej dávke (ex-actuator) 84,6 mikrogramov beklometazóndipropionátu a 5,0 mikrogramov dihydrátu formoteroliumfumarátu.
+Toto množstvo zodpovedá podanej dávke  84,6 mikrogramov beklometazóndipropionátu a 5,0 mikrogramov dihydrátu formoteroliumfumarátu.
+Toto-PFns1
+množstvo-SSns4
+zodpovedá-VKesc+
+podanej-Gtfs2x
+dávke-SSfs6
+AS: 84,6 mikrogramov beklometazóndipropionátu 
+84,6-Quantity
+a-TooShort
+AS: 5,0 mikrogramov dihydrátu formoteroliumfumarátu. 
+5,0-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 15. SPC00368284_yanimo.doc
+Podaná dávka je 2,5 mikrogramu tiotropia (ako monohydrát bromidu) a 2,5 mikrogramu olodaterolu (ako hydrochlorid) na jeden vstrek.
+Podaná dávka je 2,5 mikrogramu tiotropia  a 2,5 mikrogramu olodaterolu  na jeden vstrek.
+Podaná-Gtfs1x
+dávka-SSfs4
+je-TooShort
+AS: 2,5 mikrogramu tiotropia 
+2,5-Quantity
+a-TooShort
+AS: 2,5 mikrogramu olodaterolu 
+2,5-Quantity
+na-TooShort
+jeden-NFms1
+vstrek.-SSis1
+Podaná dávka je dávka, ktorá je dostupná pre pacienta po stlačení náustku.
+Podaná dávka je dávka, ktorá je dostupná pre pacienta po stlačení náustku.
+Podaná-Gtfs1x
+dávka-SSfs4
+je-TooShort
+dávka,-SSfs4
+ktorá-PAfs1
+je-TooShort
+dostupná-AAfs1x
+pre-TooShort
+pacienta-SSms2
+po-TooShort
+stlačení-SSns6
+náustku.-SSis2
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 16. SPC00375668_calcichew.doc
+Jedna tableta obsahuje:
+Jedna tableta obsahuje:
+Jedna-NFfs1
+tableta-SSfs4
+obsahuje:-VKesc+
+Uhličitan vápenatý, čo zodpovedá 500 mg vápnika.
+Uhličitan vápenatý, čo zodpovedá 500 mg vápnika.
+Uhličitan-SSis2
+vápenatý,-AAis2x
+čo-TooShort
+zodpovedá-VKesc+
+AS: 500 mg vápnika. 
+500-Quantity
+Koncentrát cholekalciferolu (prášková forma), čo zodpovedá 400 IU (10 mikrogramov) cholekalciferolu (vitamín D3).
+Koncentrát cholekalciferolu , čo zodpovedá 400 IU 10 mikrogramov cholekalciferolu .
+Koncentrát-SSis1
+cholekalciferolu-SSis2
+,-TooShort
+čo-TooShort
+zodpovedá-VKesc+
+400-TooShort
+IU-TooShort
+AS: 10 mikrogramov cholekalciferolu 
+10-Quantity
+.-TooShort
+Pomocné látky so známym účinkom:
+Pomocné látky so známym účinkom:
+Pomocné-AAfp4x
+látky-SSfs2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+1 tableta obsahuje 1 mg aspartamu (E951), 390 mg sorbitolu (E420) a 0,7 mg sacharózy
+1 tableta obsahuje 1 mg aspartamu , 390 mg sorbitolu  a 0,7 mg sacharózy
+1-TooShort
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 1 mg aspartamu 
+1-Quantity
+,-TooShort
+AS: 390 mg sorbitolu 
+390-Quantity
+a-TooShort
+AS: 0,7 mg sacharózy 
+0,7-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 17. SPC00381408_paricalcitol.doc
+Paricalcitol Medice 2 mikrogramy/ml:
+Paricalcitol Medice 2 mikrogramy/ml:
+Paricalcitol-VLdscm+
+AS: Medice 2 mikrogramy 
+Medice-%
+ml:-TooShort
+1 ml injekčného roztoku obsahuje 2 mikrogramy parikalcitolu.
+1 ml injekčného roztoku obsahuje 2 mikrogramy parikalcitolu.
+1-Quantity
+ml-Quantity
+injekčného-AAns2x
+roztoku-SSis2
+obsahuje-VKesc+
+AS: 2 mikrogramy parikalcitolu. 
+2-Quantity
+Paricalcitol Medice 5 mikrogramov/ml:
+Paricalcitol Medice 5 mikrogramov/ml:
+Paricalcitol-VLdscm+
+AS: Medice 5 mikrogramov 
+Medice-%
+ml:-TooShort
+1 ml injekčného roztoku obsahuje 5 mikrogramov parikalcitolu.
+1 ml injekčného roztoku obsahuje 5 mikrogramov parikalcitolu.
+1-Quantity
+ml-Quantity
+injekčného-AAns2x
+roztoku-SSis2
+obsahuje-VKesc+
+AS: 5 mikrogramov parikalcitolu. 
+5-Quantity
+2 ml injekčného roztoku obsahujú 10 mikrogramov parikalcitolu.
+2 ml injekčného roztoku obsahujú 10 mikrogramov parikalcitolu.
+2-Quantity
+ml-Quantity
+injekčného-AAns2x
+roztoku-SSis2
+obsahujú-VKepc+
+AS: 10 mikrogramov parikalcitolu. 
+10-Quantity
+Pomocné látky so známym účinkom: etanol, bezvodý (11 % v/v, 0,110 ml/1 ml)
+Pomocné látky so známym účinkom: etanol, bezvodý 11 % v/v, 0,110 ml/1 ml
+Pomocné-AAfp4x
+látky-SSfs2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+etanol,-SSis2
+bezvodý-AAis2x
+11-TooShort
+%-TooShort
+v-TooShort
+v,-TooShort
+0,110-Quantity
+ml-Quantity
+1-Quantity
+ml-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 18. SPC00388136_pleumolysin.doc
+Saponín 5 mg, hemihydrát kodeíniumfosfátu 3,06 mg, prilbicová tinktúra 40 mg, pomarančová tinktúra 150 mg, tekutý tymianový extrakt 30 mg v 1 ml (= 33 kvapiek).
+Saponín 5 mg, hemihydrát kodeíniumfosfátu 3,06 mg, prilbicová tinktúra 40 mg, pomarančová tinktúra 150 mg, tekutý tymianový extrakt 30 mg v 1 ml .
+AS: Saponín 5 mg, 
+Saponín-SSip1
+hemihydrát-SSis1
+AS: kodeíniumfosfátu 3,06 mg, 
+kodeíniumfosfátu-Unknown
+prilbicová-Unknown
+tinktúra-SSfs4
+40-Quantity
+mg,-Quantity
+pomarančová-AAfs1x
+tinktúra-SSfs4
+150-Quantity
+mg,-Quantity
+tekutý-AAis1x
+tymianový-AAfs1x
+AS: extrakt 30 mg 
+extrakt-SSis1
+v-TooShort
+1-Quantity
+ml-Quantity
+.-TooShort
+Pomocná látka so známym účinkom: etanol 96 % v/v.
+Pomocná látka so známym účinkom: etanol 96 % v/v.
+Pomocná-AAfs1x
+látka-SSfp2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+etanol-SSis2
+96-TooShort
+%-TooShort
+v-TooShort
+v.-TooShort
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 19. SPC00389475_paracetamol.doc
+Každá šumivá tableta obsahuje 1000 mg paracetamolu.
+Každá šumivá tableta obsahuje 1000 mg paracetamolu.
+Každá-PAfs1
+šumivá-AAfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 1000 mg paracetamolu. 
+1000-Quantity
+Pomocné látky so známym účinkom:
+Pomocné látky so známym účinkom:
+Pomocné-AAfp4x
+látky-SSfs2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+Každá šumivá tableta obsahuje 533,51 mg sodíka.
+Každá šumivá tableta obsahuje 533,51 mg sodíka.
+Každá-PAfs1
+šumivá-AAfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 533,51 mg sodíka. 
+533,51-Quantity
+Každá šumivá tableta obsahuje 10 mg aspartámu.
+Každá šumivá tableta obsahuje 10 mg aspartámu.
+Každá-PAfs1
+šumivá-AAfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 10 mg aspartámu. 
+10-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 20. SPC00389866_vopregin.doc
+Jedna injekčná liekovka obsahuje 200 mg vorikonazolu.
+Jedna injekčná liekovka obsahuje 200 mg vorikonazolu.
+Jedna-NFfs1
+injekčná-AAfs1x
+liekovka-SSfs1
+obsahuje-VKesc+
+AS: 200 mg vorikonazolu. 
+200-Quantity
+Po rekonštitúcii jeden ml obsahuje 10 mg vorikonazolu. Rekonštituovaný liek vyžaduje pred podaním
+Po rekonštitúcii jeden ml obsahuje 10 mg vorikonazolu. Rekonštituovaný liek vyžaduje pred podaním
+Po-TooShort
+rekonštitúcii-SSfs6
+jeden-NFms1
+ml-TooShort
+obsahuje-VKesc+
+AS: 10 mg vorikonazolu. 
+10-Quantity
+Rekonštituovaný-Gtfs1x
+liek-SSip2
+vyžaduje-VKesc+
+pred-Eu7
+podaním-SSns7
+ďalšie riedenie.
+ďalšie riedenie.
+ďalšie-AAip4x
+riedenie.-SSns4
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 21. SPC00390309_lingabat.doc
+Tvrdé želatínové kapsuly obsahujúce biely až šedobiely prášok.
+Tvrdé želatínové kapsuly obsahujúce biely až šedobiely prášok.
+Tvrdé-AAns4x
+želatínové-AAip1x
+kapsuly-SSfs2
+obsahujúce-Gkfp1x
+biely-AAfs1x
+až-TooShort
+šedobiely-AAfp4x
+prášok.-SSis4
+Každá tvrdá kapsula obsahuje 25/75/150/300 mg pregabalínu.
+Každá tvrdá kapsula obsahuje 25/75/150/300 mg pregabalínu.
+Každá-PAfs1
+tvrdá-AAfs1x
+kapsula-SSfs6
+obsahuje-VKesc+
+25-TooShort
+75-TooShort
+150-TooShort
+AS: 300 mg pregabalínu. 
+300-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 22. SPC00390312_ezetimibe.doc
+Každá tableta obsahuje 10 mg ezetimibu.
+Každá tableta obsahuje 10 mg ezetimibu.
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 10 mg ezetimibu. 
+10-Quantity
+Pomocná látka so známym účinkom:
+Pomocná látka so známym účinkom:
+Pomocná-AAfs1x
+látka-SSfp2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+Každá tableta obsahuje 69,75 mg monohydrátu laktózy.
+Každá tableta obsahuje 69,75 mg monohydrátu laktózy.
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 69,75 mg monohydrátu laktózy. 
+69,75-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 23. SPC00390361_furocef.doc
+Každá filmom obalená tableta obsahuje 250 mg cefuroxímu, čo zodpovedá 300,715 mg cefuroxímiumaxetilu.
+Každá filmom obalená tableta obsahuje 250 mg cefuroxímu, čo zodpovedá 300,715 mg cefuroxímiumaxetilu.
+Každá-PAfs1
+filmom-SSis7
+obalená-Gtfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 250 mg cefuroxímu, 
+250-Quantity
+čo-TooShort
+zodpovedá-VKesc+
+AS: 300,715 mg cefuroxímiumaxetilu. 
+300,715-Quantity
+Každá filmom obalená tableta obsahuje 500 mg cefuroxímu, čo zodpovedá 601,43 mg cefuroxímiumaxetilu.
+Každá filmom obalená tableta obsahuje 500 mg cefuroxímu, čo zodpovedá 601,43 mg cefuroxímiumaxetilu.
+Každá-PAfs1
+filmom-SSis7
+obalená-Gtfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 500 mg cefuroxímu, 
+500-Quantity
+čo-TooShort
+zodpovedá-VKesc+
+AS: 601,43 mg cefuroxímiumaxetilu. 
+601,43-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 24. SPC00390446_mometasone.doc
+Každá podaná dávka obsahuje 51,73 mikrogramov monohydrátu mometazónfuroátu, čo zodpovedá 50 mikrogramov bezvodého mometazónfuroátu.
+Každá podaná dávka obsahuje 51,73 mikrogramov monohydrátu mometazónfuroátu, čo zodpovedá 50 mikrogramov bezvodého mometazónfuroátu.
+Každá-PAfs1
+podaná-Gtfs1x
+dávka-SSfs4
+obsahuje-VKesc+
+AS: 51,73 mikrogramov monohydrátu mometazónfuroátu, 
+51,73-Quantity
+čo-TooShort
+zodpovedá-VKesc+
+AS: 50 mikrogramov bezvodého mometazónfuroátu. 
+50-Quantity
+Pomocná látka so známym účinkom: tento liek obsahuje 20 mikrogramov benzalkóniumchloridu v jednom vstreknutí.
+Pomocná látka so známym účinkom: tento liek obsahuje 20 mikrogramov benzalkóniumchloridu v jednom vstreknutí.
+Pomocná-AAfs1x
+látka-SSfp2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+tento-PFis4
+liek-SSip2
+obsahuje-VKesc+
+AS: 20 mikrogramov benzalkóniumchloridu 
+20-Quantity
+v-TooShort
+jednom-NFis6
+vstreknutí.-SSns6
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 25. SPC00390599_cefepim.doc
+Cefepim MIP 1 g prášok na injekčný/infúzny roztok:
+Cefepim MIP 1 g prášok na injekčný/infúzny roztok:
+Cefepim-VKesa+
+MIP-TooShort
+1-Quantity
+g-Quantity
+prášok-SSis4
+na-TooShort
+injekčný-AAfs4x
+infúzny-AAfs4x
+roztok:-SSis2
+Každá injekčná liekovka obsahuje monohydrát cefepímiumdichloridu zodpovedajúci 1 g cefepímu.
+Každá injekčná liekovka obsahuje monohydrát cefepímiumdichloridu zodpovedajúci 1 g cefepímu.
+Každá-PAfs1
+injekčná-AAfs1x
+liekovka-SSfs1
+obsahuje-VKesc+
+monohydrát-SSis2
+cefepímiumdichloridu-Unknown
+zodpovedajúci-Gkfs4x
+AS: 1 g cefepímu. 
+1-Quantity
+Cefepim MIP 2 g prášok na injekčný/infúzny roztok:
+Cefepim MIP 2 g prášok na injekčný/infúzny roztok:
+Cefepim-VKesa+
+MIP-TooShort
+2-Quantity
+g-Quantity
+prášok-SSis4
+na-TooShort
+injekčný-AAfs4x
+infúzny-AAfs4x
+roztok:-SSis2
+Každá injekčná liekovka obsahuje monohydrát cefepímiumdichloridu zodpovedajúci 2 g cefepímu.
+Každá injekčná liekovka obsahuje monohydrát cefepímiumdichloridu zodpovedajúci 2 g cefepímu.
+Každá-PAfs1
+injekčná-AAfs1x
+liekovka-SSfs1
+obsahuje-VKesc+
+monohydrát-SSis2
+cefepímiumdichloridu-Unknown
+zodpovedajúci-Gkfs4x
+AS: 2 g cefepímu. 
+2-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 26. SPC00390788_sevelamer.docx
+Jedna tableta obsahuje 800 mg sevelamériumkarbonátu.
+Jedna tableta obsahuje 800 mg sevelamériumkarbonátu.
+Jedna-NFfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 800 mg sevelamériumkarbonátu. 
+800-Quantity
+Pomocné látky so známym účinkom
+Pomocné látky so známym účinkom
+Pomocné-AAfp4x
+látky-SSfs2
+so-TooShort
+známym-SAmp3
+účinkom-SSis7
+Jedna filmom obalená tableta obsahuje 286,25 mg monohydrátu laktózy.
+Jedna filmom obalená tableta obsahuje 286,25 mg monohydrátu laktózy.
+Jedna-NFfs1
+filmom-SSis7
+obalená-Gtfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 286,25 mg monohydrátu laktózy. 
+286,25-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 27. SPC00391143_rasagiline.docx
+Každá tableta obsahuje 1 mg razagilínu (ako razagilíniumtartrát).
+Každá tableta obsahuje 1 mg razagilínu .
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 1 mg razagilínu 
+1-Quantity
+.-TooShort
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 28. SPC00391279_cinakalcet.doc
+Každá tableta obsahuje 30 mg cinakalcetu (vo forme chloridu)
+Každá tableta obsahuje 30 mg cinakalcetu 
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 30 mg cinakalcetu 
+30-Quantity
+Každá tableta obsahuje 60 mg cinakalcetu (vo forme chloridu)
+Každá tableta obsahuje 60 mg cinakalcetu 
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 60 mg cinakalcetu 
+60-Quantity
+Každá tableta obsahuje 90 mg cinakalcetu (vo forme chloridu)
+Každá tableta obsahuje 90 mg cinakalcetu 
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 90 mg cinakalcetu 
+90-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 29. SPC00391575_lifsar.docx
+Document 30. SPC00392016_bisoprolol.doc
+2,5 mg:
+2,5 mg:
+2,5-TooShort
+mg:-TooShort
+Každá filmom obalená tableta obsahuje 2,5 mg bisoprololiumfumarátu.
+Každá filmom obalená tableta obsahuje 2,5 mg bisoprololiumfumarátu.
+Každá-PAfs1
+filmom-SSis7
+obalená-Gtfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 2,5 mg bisoprololiumfumarátu. 
+2,5-Quantity
+5mg:
+5mg:
+5mg:-%
+Každá filmom obalená tableta obsahuje 5 mg bisoprololiumfumarátu.
+Každá filmom obalená tableta obsahuje 5 mg bisoprololiumfumarátu.
+Každá-PAfs1
+filmom-SSis7
+obalená-Gtfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 5 mg bisoprololiumfumarátu. 
+5-Quantity
+10 mg:
+10 mg:
+10-TooShort
+mg:-TooShort
+Každá filmom obalená tableta obsahuje 10 mg bisoprololiumfumarátu.
+Každá filmom obalená tableta obsahuje 10 mg bisoprololiumfumarátu.
+Každá-PAfs1
+filmom-SSis7
+obalená-Gtfs1x
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 10 mg bisoprololiumfumarátu. 
+10-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 31. SPC00392060_cinacalcet.doc
+Každá tableta obsahuje 30 mg cinakalcetu (vo forme chloridu).
+Každá tableta obsahuje 30 mg cinakalcetu .
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 30 mg cinakalcetu 
+30-Quantity
+.-TooShort
+Každá tableta obsahuje 60 mg cinakalcetu (vo forme chloridu).
+Každá tableta obsahuje 60 mg cinakalcetu .
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 60 mg cinakalcetu 
+60-Quantity
+.-TooShort
+Každá tableta obsahuje 90 mg cinakalcetu (vo forme chloridu).
+Každá tableta obsahuje 90 mg cinakalcetu .
+Každá-PAfs1
+tableta-SSfs4
+obsahuje-VKesc+
+AS: 90 mg cinakalcetu 
+90-Quantity
+.-TooShort
+Pomocná látka so známym účinkom:
+Pomocná látka so známym účinkom:
+Pomocná-AAfs1x
+látka-SSfp2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+Každá 30 mg tableta obsahuje 67,2 mg laktózy.
+Každá 30 mg tableta obsahuje 67,2 mg laktózy.
+Každá-PAfs1
+AS: 30 mg tableta 
+30-Quantity
+obsahuje-VKesc+
+AS: 67,2 mg laktózy. 
+67,2-Quantity
+Každá 60 mg tableta obsahuje 134,3 mg laktózy.
+Každá 60 mg tableta obsahuje 134,3 mg laktózy.
+Každá-PAfs1
+AS: 60 mg tableta 
+60-Quantity
+obsahuje-VKesc+
+AS: 134,3 mg laktózy. 
+134,3-Quantity
+Každá 90 mg tableta obsahuje 202,0 mg laktózy.
+Každá 90 mg tableta obsahuje 202,0 mg laktózy.
+Každá-PAfs1
+AS: 90 mg tableta 
+90-Quantity
+obsahuje-VKesc+
+AS: 202,0 mg laktózy. 
+202,0-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+Document 32. SPC00393267_melipramin.doc
+Liečivo:
+Liečivo:
+Liečivo:-SSnp2
+25 mg imipramíniumchloridu v jednej filmom obalenej tablete.
+25 mg imipramíniumchloridu v jednej filmom obalenej tablete.
+AS: 25 mg imipramíniumchloridu 
+25-Quantity
+v-TooShort
+jednej-NFfs6
+filmom-SSis7
+obalenej-Gtfs2x
+tablete.-SSfs6
+Pomocná látka so známym účinkom:
+Pomocná látka so známym účinkom:
+Pomocná-AAfs1x
+látka-SSfp2
+so-TooShort
+známym-SAmp3
+účinkom:-SSis7
+Jedna filmom obalená tableta Melipraminu obsahuje 110,5 mg monohydrátu laktózy.
+Jedna filmom obalená tableta Melipraminu obsahuje 110,5 mg monohydrátu laktózy.
+Jedna-NFfs1
+filmom-SSis7
+obalená-Gtfs1x
+tableta-SSfs4
+Melipraminu-SSis2
+obsahuje-VKesc+
+AS: 110,5 mg monohydrátu laktózy. 
+110,5-Quantity
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný zoznam pomocných látok, pozri časť 6.1.
+Úplný-AAfs1x
+zoznam-SSis1
+pomocných-AAfp2x
+látok,-SSfp2
+pozri-VMdsb+
+časť-SSfs1
+6.1.-0
+=====DICTIONARY=====
+dihydricum
+vápnika
+chloridov
+racekadotrilu
+sacharózy
+atropíniumsulfát
+hydrochlorid
+difenoxylátu
+tetryzolini
+hydrochloridum
+paracetamol
+kodeíniumfosfát
+hemihydrát
+kofeín
+paracetamolum
+budezonidu
+dihydrátu
+formoteroliumfumarátu
+monohydrát
+laktózy
+gestodénu
+etinylestradiolu
+monohydrátu
+laktózy
+sacharózy
+budezonid
+dihydrát
+formoteroliumfumarátu
+budezonid
+dihydrát
+formoteroliumfumarátu
+monohydrát
+laktózy
+dávka
+paracetamolu
+fenylefríniumchloridu
+guaifenezínu
+tekutého
+maltitolu
+sodík
+propylénglykolu
+bezvodého
+etanolu
+draslíka
+ibuprofénu
+sorbitol
+Meloxicam
+Mylan
+meloxikamu
+laktózy
+Meloxicam
+Mylan
+meloxikamu
+laktózy
+salmeterolu
+flutikazónpropionátu
+salmeterolu
+flutikazónpropionátu
+beklometazóndipropionátu
+dihydrátu
+formoteroliumfumarátu
+beklometazóndipropionátu
+dihydrátu
+formoteroliumfumarátu
+tiotropia
+olodaterolu
+vápnika
+cholekalciferolu
+aspartamu
+sorbitolu
+sacharózy
+Medice
+parikalcitolu
+Medice
+parikalcitolu
+parikalcitolu
+Saponín
+kodeíniumfosfátu
+extrakt
+paracetamolu
+sodíka
+aspartámu
+vorikonazolu
+vorikonazolu
+pregabalínu
+ezetimibu
+monohydrátu
+laktózy
+cefuroxímu
+cefuroxímiumaxetilu
+cefuroxímu
+cefuroxímiumaxetilu
+monohydrátu
+mometazónfuroátu
+bezvodého
+mometazónfuroátu
+benzalkóniumchloridu
+cefepímu
+cefepímu
+sevelamériumkarbonátu
+monohydrátu
+laktózy
+razagilínu
+cinakalcetu
+cinakalcetu
+cinakalcetu
+bisoprololiumfumarátu
+bisoprololiumfumarátu
+bisoprololiumfumarátu
+cinakalcetu
+cinakalcetu
+cinakalcetu
+tableta
+laktózy
+tableta
+laktózy
+tableta
+laktózy
+imipramíniumchloridu
+monohydrátu
+laktózy
+=====DICTIONARY=====
