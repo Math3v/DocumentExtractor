@@ -31,6 +31,7 @@ import utils.PostgreSQLPersistable;
 public class Main {
 	
 	public static final FileOutput asFile = new FileOutput( "active-substances.txt" );
+	public static final Dictionary asDict = new Dictionary();
 		
 	public static String parseToHTML(String fileName) throws IOException, SAXException, TikaException {
 	    ContentHandler handler = new ToXMLContentHandler();
@@ -180,8 +181,10 @@ public class Main {
 		bs.printFullTag("parikalcitolu");
 		
 		new Test();
-		System.exit(0);
+		//System.exit(0);
 		parseDirectory("./data");
+		
+		asDict.showDictionary();
 		
 		/* Close connection */
 		try {

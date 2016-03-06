@@ -11,7 +11,7 @@ public class Dictionary {
 	}
 	
 	public boolean addWord(String word) {
-		return dictionary.add(word);
+		return dictionary.add(prepareWord(word));
 	}
 	
 	protected void delWord(int i) {
@@ -24,6 +24,16 @@ public class Dictionary {
 			System.out.println(s);
 		}
 		System.out.println("=====DICTIONARY=====");
+	}
+	
+	private String prepareWord(String word) {
+		String tmp = word.trim();
+		if( tmp.charAt(tmp.length() - 1) == '.' ||
+			tmp.charAt(tmp.length() - 1) == ',' ) {
+			return tmp.substring(0, tmp.length() - 1);
+		} else {
+			return tmp;
+		}
 	}
 
 }

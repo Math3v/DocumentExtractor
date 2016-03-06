@@ -127,6 +127,9 @@ public class Section {
 		}
 		System.out.print("AS: ");
 		for(int i = 0; i < tags.length; i++) {
+			if( tags[i].equals("Quantity") == false ) {
+				Main.asDict.addWord(tokens[pos+i]);
+			}
 			System.out.print(tokens[pos+i]+" ");
 		}
 		System.out.println();
