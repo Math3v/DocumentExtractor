@@ -26,6 +26,22 @@ public class Dictionary {
 		System.out.println("=====DICTIONARY=====");
 	}
 	
+	public Object[] toArray() {
+		Object[] returnArray = new Object[dictionary.size()];
+		int idx = 0;
+		
+		for( String s : dictionary ) {
+			returnArray[idx] = s;
+			idx++;
+		}
+		
+		return returnArray;
+	}
+	
+	public int size() {
+		return dictionary.size();
+	}
+	
 	private String prepareWord(String word) {
 		String tmp = word.trim();
 		if( tmp.charAt(tmp.length() - 1) == '.' ||

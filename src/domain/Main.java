@@ -22,6 +22,7 @@ import org.jsoup.select.Elements;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 
+import gui.DictionaryJTable;
 import nlp.QuantityClassifier;
 import utils.DatabaseConnection;
 import utils.FileOutput;
@@ -184,7 +185,7 @@ public class Main {
 		//System.exit(0);
 		parseDirectory("./data");
 		
-		asDict.showDictionary();
+		new DictionaryJTable( Main.asDict );
 		
 		/* Close connection */
 		try {
