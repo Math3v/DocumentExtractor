@@ -84,9 +84,13 @@ public class Section {
 			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "AAis2x", "SSis2"}, pos) ||
 
 			checkOccurence(tokens, ir, new String[] {"Unknown", "SSis1", "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"SSis1", "Unknown", "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"%", "Unknown",     "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Unknown", "%",     "Quantity", "Quantity"}, pos) ||
 			checkOccurence(tokens, ir, new String[] {"%", "%",           "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"SSis2", "SSfs2",   "Quantity", "Quantity"}, pos) ) {
+			checkOccurence(tokens, ir, new String[] {"SSis2", "SSfs2",   "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"Unknown", "SSfs4", "Quantity", "Quantity"}, pos) ||
+			checkOccurence(tokens, ir, new String[] {"AAfs1x", "SSfs4",  "Quantity", "Quantity"}, pos) ) {
 			return 4;
 		}
 		if(
