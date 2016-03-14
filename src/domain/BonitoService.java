@@ -9,6 +9,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import utils.Logger;
+
 public class BonitoService {
 
 	private final static String username = System.getenv("SNR_USERNAME");
@@ -28,11 +30,10 @@ public class BonitoService {
 						.timeout(7000)
 						.get();
 			Elements elements = document.select("td.word");
-			//System.out.println( document.html() );
 			ListIterator<Element> it = elements.listIterator();
 			while( it.hasNext() ) {
 				Element e = it.next();
-				System.out.println(e.text());
+				Main.l.logln(e.text(), Logger.INF);
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -88,7 +89,7 @@ public class BonitoService {
 			System.exit(1);
 		}
 		if( document == null ) {
-			System.err.println("Error: document empty");
+			Main.l.logln("Error: document empty", Logger.ERR);
 			System.exit(1);
 		} else {
 			Elements elements = document.select("td.word");
@@ -129,6 +130,6 @@ public class BonitoService {
 	}
 	
 	public void printFullTag(String word) {
-		System.out.println( word+": "+getFullTag(word) );
+		Main.l.logln( word+": "+getFullTag(word) );
 	}
 }

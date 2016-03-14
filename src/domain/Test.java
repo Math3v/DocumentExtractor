@@ -3,6 +3,7 @@ package domain;
 import nlp.BonitoPosTagger;
 import nlp.IPosTagger;
 import nlp.IPosTagger.POS;
+import utils.Logger;
 import nlp.ITokenizer;
 import nlp.QuantityClassifier;
 import nlp.SimplePosTagger;
@@ -16,7 +17,7 @@ public class Test {
 		testSimplePosTagger();
 		testBonitoPosTagger();
 		testRemoveBrackets();
-		System.out.println("Tests passed!");
+		Main.l.logln("Tests passed!", Logger.CRI);
 	}
 
 	public void testQuantityClassifier() {

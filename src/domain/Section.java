@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 import nlp.ITokenizer;
 import nlp.QuantityClassifier;
 import nlp.SimpleTokenizer;
+import utils.Logger;
 
 public class Section {
 	
@@ -49,18 +50,18 @@ public class Section {
 			String tokens[] = t.tokenize(section);
 			int irIdx = 0, tokIdx = 0;
 			
-			System.out.println("---------------------------");
+			Main.l.logln("---------------------------");
 			for(; tokIdx < tokens.length - 1; tokIdx++, irIdx++) {
 				if(ir.charAt(irIdx) == 'Q' && ir.charAt(irIdx+1) == 'G'
 				|| ir.charAt(irIdx) == 'Q' && ir.charAt(irIdx+1) == 'A') {
-					System.out.println(tokens[tokIdx] + " " + tokens[tokIdx+1] + " " + tokens[tokIdx+2]);
+					Main.l.logln(tokens[tokIdx] + " " + tokens[tokIdx+1] + " " + tokens[tokIdx+2]);
 					tokIdx += 2;
 					irIdx++;
 				} else if(ir.charAt(irIdx) == 'Q') {
 					tokIdx++;
 				}
 			}
-			System.out.println("---------------------------");
+			Main.l.logln("---------------------------");
 		} 
 	}
 	
@@ -70,7 +71,7 @@ public class Section {
 		
 		for(int i = 0; i < tokens.length; ) {
 			int step = checkOccurences(tokens, ir, i);
-			System.out.println(tokens[i]+"-"+ir[i]);
+			Main.l.logln(tokens[i]+"-"+ir[i], Logger.INF);
 			i += step;
 		}
 	}
@@ -129,14 +130,14 @@ public class Section {
 				return false;
 			}
 		}
-		System.out.print("AS: ");
+		Main.l.log("AS: ", Logger.CRI);
 		for(int i = 0; i < tags.length; i++) {
 			if( tags[i].equals("Quantity") == false ) {
 				Main.asDict.addWord(tokens[pos+i]);
 			}
-			System.out.print(tokens[pos+i]+" ");
+			Main.l.log(tokens[pos+i]+" ", Logger.CRI);
 		}
-		System.out.println();
+		Main.l.logln("", Logger.CRI);
 		return true;
 	}
 	
@@ -149,7 +150,7 @@ public class Section {
 				ir.substring(i, i+4).equals("QQAG") ||
 				ir.substring(i, i+4).equals("QQUU") ||
 				ir.substring(i, i+4).equals("UUQQ")) {
-				System.out.println("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]+" "+tokens[i+3]);
+				Main.l.logln("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]+" "+tokens[i+3]);
 				Main.asFile.writeln("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]+" "+tokens[i+3]);
 				return true;
 			}
@@ -172,7 +173,7 @@ public class Section {
 				ir.substring(i, i+3).equals("QQG") ||
 				ir.substring(i, i+3).equals("QQU") ||
 				ir.substring(i, i+3).equals("UQQ")) {
-				System.out.println("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]);
+				Main.l.logln("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]);
 				Main.asFile.writeln("AS: "+tokens[i]+" "+tokens[i+1]+" "+tokens[i+2]);
 				return true;
 			}

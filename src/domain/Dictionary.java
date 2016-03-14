@@ -2,6 +2,8 @@ package domain;
 
 import java.util.ArrayList;
 
+import utils.Logger;
+
 public class Dictionary {
 	
 	private ArrayList<String> dictionary = null;
@@ -19,11 +21,11 @@ public class Dictionary {
 	}
 	
 	public void showDictionary() {
-		System.out.println("=====DICTIONARY=====");
+		Main.l.logln("=====DICTIONARY=====", Logger.INF);
 		for(String s : dictionary) {
-			System.out.println(s);
+			Main.l.logln(s, Logger.INF);
 		}
-		System.out.println("=====DICTIONARY=====");
+		Main.l.logln("=====DICTIONARY=====", Logger.INF);
 	}
 	
 	public Object[] toArray() {

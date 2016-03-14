@@ -12,6 +12,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
 import domain.Dictionary;
+import domain.Main;
+import utils.Logger;
 
 public class DictionaryJTable extends JPanel {
 
@@ -69,7 +71,7 @@ public class DictionaryJTable extends JPanel {
 			public void actionPerformed(ActionEvent e) {
 				
 				for( int i = 0; i < data.length; i++ ) {
-					System.out.println("Dict "+i+" "+data[i][0]+":"+data[i][1]);
+					Main.l.logln("Dict "+i+" "+data[i][0]+":"+data[i][1], Logger.INF);
 				}
 				
 				frame.setVisible(false);

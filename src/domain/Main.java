@@ -27,12 +27,14 @@ import nlp.QuantityClassifier;
 import utils.DatabaseConnection;
 import utils.FileOutput;
 import utils.IPersistable;
+import utils.Logger;
 import utils.PostgreSQLPersistable;
 
 public class Main {
 	
 	public static final FileOutput asFile = new FileOutput( "active-substances.txt" );
 	public static final Dictionary asDict = new Dictionary();
+	public static final Logger l = new Logger(Logger.ERR | Logger.CRI);
 		
 	public static String parseToHTML(String fileName) throws IOException, SAXException, TikaException {
 	    ContentHandler handler = new ToXMLContentHandler();
@@ -88,7 +90,7 @@ public class Main {
 			String section = e.text();
 			
 			if( match.size() > 0 ) {
-				System.out.println(section);
+				Main.l.logln(section);
 				if( Section.usageSectionHeadingSPC(section) ) {
 					SectionStateMachine.startUsage();
 				} else {
@@ -113,8 +115,8 @@ public class Main {
 			String section = e.text();
 			
 			if( match.size() > 0 ) {
-				System.out.println("Count: "+cnt);
-				System.out.println(section);
+				Main.l.logln("Count: "+cnt);
+				Main.l.logln(section);
 				cnt = 0;
 			} else {
 				cnt += c.quantityCount(section);
@@ -139,10 +141,10 @@ public class Main {
 				}
 			} else if( SectionStateMachine.isActiveSubstance() && section.length() > 0 ) {
 				IntermediateRepresentation ir = new IntermediateRepresentation();
-				System.out.println(section);
+				Main.l.logln(section, Logger.INF);
 				section = Section.removeBrackets(section);
 				String[] irValue = ir.getIntermediateRepresentation(section);
-				System.out.println(section);
+				Main.l.logln(section, Logger.INF);
 				Section.printActiveSubstances(section, irValue);
 			}
 		}
@@ -159,16 +161,16 @@ public class Main {
 				continue;
 			}
 	        if (fileEntry.isDirectory()) {
-	            System.out.println("Skipping " + fileEntry.getName() + " directory...");
+	            Main.l.logln("Skipping " + fileEntry.getName() + " directory...", Logger.INF);
 	        } else {
 	            try {
-	            	System.out.println("Document "+documentId+". "+fileEntry.getName());
+	            	Main.l.logln(fileEntry.getName().substring(0, fileEntry.getName().indexOf('.')), Logger.CRI);
 	            	String htmlDocument = parseToHTML(fileEntry.getAbsolutePath());
 	            	//parseSectionHeadings(htmlDocument, new Integer(documentId));
 	            	//printQuantitiesCounts(htmlDocument, documentId);
 	            	parseActiveSubstances(htmlDocument, documentId);
 	            } catch (Exception e) {
-		            System.out.println("Error: parseDirectory " + e.getMessage());
+		            Main.l.logln("Error: parseDirectory " + e.getMessage(), Logger.ERR);
 		            e.printStackTrace();
 		            System.exit(1);
 	            }
@@ -178,11 +180,8 @@ public class Main {
 	}
 	
 	public static void main(String args[]) {
-		BonitoService bs = new BonitoService();
-		bs.printFullTag("parikalcitolu");
 		
 		new Test();
-		//System.exit(0);
 		parseDirectory("./data");
 		
 		new DictionaryJTable( Main.asDict );
@@ -193,7 +192,7 @@ public class Main {
 				DatabaseConnection.getConnection().close();
 		} catch (SQLException e) {
 			e.printStackTrace();
-			System.err.println(e.getClass().getName()+": "+e.getMessage());
+			Main.l.logln(e.getClass().getName()+": "+e.getMessage(), Logger.ERR);
 			System.exit(1);
 		}
 		

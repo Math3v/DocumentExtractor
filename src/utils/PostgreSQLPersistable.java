@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+import domain.Main;
 import domain.Section;
 
 public class PostgreSQLPersistable implements IPersistable {
@@ -39,8 +40,8 @@ public class PostgreSQLPersistable implements IPersistable {
 			String sql = "SELECT * FROM sections;";
 			ResultSet rs = stmt.executeQuery(sql);
 			while( rs.next() ) {
-				System.out.print("ID: "+rs.getInt("id")+" DOC_ID: "+rs.getInt("doc_id")+" ");
-				System.out.print("STYPE: "+rs.getString("stype")+"\n");
+				Main.l.log("ID: "+rs.getInt("id")+" DOC_ID: "+rs.getInt("doc_id")+" ", Logger.INF);
+				Main.l.log("STYPE: "+rs.getString("stype")+"\n", Logger.INF);
 			}
 		} catch(Exception e) {
 			System.err.println(e.getClass().getName()+": "+e.getMessage());
