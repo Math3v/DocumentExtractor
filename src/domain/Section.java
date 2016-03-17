@@ -95,23 +95,41 @@ public class Section {
 			return 4;
 		}
 		if(
-			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSis2"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "AAis2x"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSip2"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "Unknown"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSfs2"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSfs4"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "Dx"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "%"}, pos) ||
-			
-			checkOccurence(tokens, ir, new String[] {"Unknown",  "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"SSis2",    "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"SSis1",    "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"SSip1",    "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"VLdscm+",  "Quantity", "Quantity"}, pos) ||
-			checkOccurence(tokens, ir, new String[] {"%",        "Quantity", "Quantity"}, pos) ) {
-			return 3;
-		}
+				checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSis2"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "AAis2x"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSip2"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "Unknown"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSfs2"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "SSfs4"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "Dx"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "Quantity", "%"}, pos) ||
+				
+				checkOccurence(tokens, ir, new String[] {"Unknown",  "Quantity", "Quantity"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"SSis2",    "Quantity", "Quantity"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"SSis1",    "Quantity", "Quantity"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"SSip1",    "Quantity", "Quantity"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"VLdscm+",  "Quantity", "Quantity"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"%",        "Quantity", "Quantity"}, pos) ) {
+				return 3;
+			}
+		if(
+				checkOccurence(tokens, ir, new String[] {"Quantity", "SSis2"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "AAis2x"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "SSip2"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "Unknown"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "SSfs2"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "SSfs4"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "Dx"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"Quantity", "%"}, pos) ||
+				
+				checkOccurence(tokens, ir, new String[] {"Unknown",  "Quantity"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"SSis2",    "Quantity"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"SSis1",    "Quantity"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"SSip1",    "Quantity"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"VLdscm+",  "Quantity"}, pos) ||
+				checkOccurence(tokens, ir, new String[] {"%",        "Quantity"}, pos) ) {
+				return 2;
+			}
 		
 		return 1;
 	}

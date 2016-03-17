@@ -27,6 +27,11 @@ public class IntermediateRepresentation {
 		return 1 == c.quantityCount(new String(t1 + " " + t2));
 	}
 	
+	private boolean isQuantity(String t1) {
+		QuantityClassifier c = new QuantityClassifier();
+		return 1 == c.quantityCount(t1);
+	}
+	
 	public String getIntermediateRepresentation__(String section) {
 		ITokenizer t = new SimpleTokenizer();
 		String[] tokens = t.tokenize(section);
@@ -52,7 +57,9 @@ public class IntermediateRepresentation {
 		String[] result = new String[tokens.length];
 		
 		for(int i = 0; i < tokens.length; i++) {
-			if( i != tokens.length - 1 && isQuantity(tokens[i], tokens[i+1])) {
+			if( isQuantity(tokens[i]) ) {
+				result[i] = "Quantity";
+			} else if( i != tokens.length - 1 && isQuantity(tokens[i], tokens[i+1])) {
 				result[i] = "Quantity";
 				result[i+1] = "Quantity";
 				i++;

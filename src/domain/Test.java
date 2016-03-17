@@ -26,9 +26,11 @@ public class Test {
 		assert 1 == c.quantityCount(" alebo preco lebo 8 g len");
 		assert 2 == c.quantityCount(" ahoj 3 ml a 5,0 g");
 		assert 3 == c.quantityCount("raz 2,3 mg a 3.5 ml lebo 5 mikrogramov");
+		assert 3 == c.quantityCount("raz 2,3mg a 3.5ml lebo 5mikrogramov");
 		assert 2 == c.quantityCount("30 mg lebo 6 ml");
 		assert 2 == c.quantityCount("obsahuje: 320 mikrogramov budezonidu/inhaláciu a 9 mikrogramov dihydrátu formoteroliumfumarátu/inhaláciu");
 		assert 5 == c.quantityCount("Saponín 5 mg, hemihydrát kodeíniumfosfátu 3,06 mg, prilbicová tinktúra 40 mg, pomarančová tinktúra 150 mg, tekutý tymianový extrakt 30 mg v");
+		assert 5 == c.quantityCount("Saponín 5mg, hemihydrát kodeíniumfosfátu 3,06mg, prilbicová tinktúra 40mg, pomarančová tinktúra 150mg, tekutý tymianový extrakt 30mg v");
 	}
 	
 	public void testSimplePosTagger() {
@@ -43,6 +45,7 @@ public class Test {
 		IntermediateRepresentation ir = new IntermediateRepresentation();
 		assert ir.getIntermediateRepresentation("25")[0] == "Quantity";
 		assert ir.getIntermediateRepresentation("mg")[0] == "Quantity";
+		assert ir.getIntermediateRepresentation("25mg")[0] == "Quantity";
 		assert ir.getIntermediateRepresentation("monohydrátu")[0] == "SSis2";
 		assert ir.getIntermediateRepresentation("lakózy")[0] == "SSfs2";
 	}
