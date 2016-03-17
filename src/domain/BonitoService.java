@@ -42,6 +42,9 @@ public class BonitoService {
 	}
 	
 	public String getFullTag(String word) {
+		
+		boolean isUpper = false;
+		
 		/* Do not prompt for short words */
 		if( word.length() < 4 ) {
 			return "TooShort";
@@ -50,6 +53,10 @@ public class BonitoService {
 		if( word.charAt(word.length() - 1) == ',' || word.charAt(word.length() - 1) == '.' ||
 			word.charAt(word.length() - 1) == ':') {
 			word = word.substring(0, word.length() - 1);
+		}
+		/* If word starts with upper case letter, sabotage it */
+		if( Character.isUpperCase(word.codePointAt(0)) ) {
+			isUpper = true;
 		}
 		
 		Document document = null;
@@ -66,9 +73,17 @@ public class BonitoService {
 			Elements elements = document.select("td.word");
 			if( elements.size() > 0 ) {
 				Element element = elements.get(0);
-				return element.text();
+				if( isUpper ) {
+					return "Upper"+element.text();
+				} else {
+					return element.text();
+				}
 			} else {
-				return "Unknown";
+				if( isUpper ) {
+					return "UpperUnknown";
+				} else {
+					return "Unknown";
+				}
 			}
 		}
 		
