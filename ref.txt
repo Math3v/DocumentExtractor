@@ -6,6 +6,8 @@ AS: 100 mg cytarabínu
 AS: 500 mg cytarabínu
 AS: 1000 mg cytarabínu
 AS: 2000 mg cytarabínu
+SPC00323612_uromitexan
+AS: 400 mg mesny
 SPC00331139_tadalafil
 AS: 5 mg tadalafilu.
 AS: 10 mg tadalafilu.
