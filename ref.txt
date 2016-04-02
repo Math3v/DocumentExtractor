@@ -109,6 +109,11 @@ SPC00390446_mometasone
 AS: 51,73 mikrogramov monohydrátu mometazónfuroátu,
 AS: 50 mikrogramov bezvodého mometazónfuroátu.
 AS: 20 mikrogramov benzalkóniumchloridu
+SPC00391390_doxyhexal
+AS: 104,1 mg monohydrátu doxycyklínu,
+AS: 100 mg doxycyklínu.
+AS: 208,2 mg monohydrátu doxycyklínu,
+AS: 200 mg doxycyklínu.
 SPC00393283_coldrex
 # !!!!!
 #AS: paracetamol 500
