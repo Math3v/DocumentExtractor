@@ -1,3 +1,11 @@
+SPC00126112_maxalt
+AS: 5 mg rizatriptanu.
+AS: 10 mg rizatriptanu.
+SPC00268190_alexan
+AS: 100 mg cytarabínu
+AS: 500 mg cytarabínu
+AS: 1000 mg cytarabínu
+AS: 2000 mg cytarabínu
 SPC00331139_tadalafil
 AS: 5 mg tadalafilu.
 AS: 10 mg tadalafilu.
@@ -23,6 +31,11 @@ AS: 6,83 mg timololiumhydrogenmaleinátu,
 AS: 5 mg timololu.
 SPC00337546_terbinafin
 AS: 250 mg terbinafínu.
+SPC00341498_lexaurin
+AS: 1,5 mg bromazepamu.
+AS: 3 mg bromazepamu.
+AS: 133,17 mg monohydrátu laktózy.
+AS: 131,67 mg monohydrátu laktózy.
 SPC00350917_sildenafil
 AS: 25 mg sildenafilu
 AS: 50 mg sildenafilu
@@ -59,6 +72,34 @@ SPC00382542_truflo
 AS: 250 mikrogramov flutikazónpropionátu.
 # !!!!!!!
 AS: 227 µg flutikazónpropionátu.
+SPC00383889_uroxal
+AS: 5 mg oxybutyníniumchloridu,
+AS: 4,54 mg oxybutynínu.
+SPC00386096_xanthadu
+AS: 0,02 mg etinylestradiolu
+AS: 3 mg drospirenónu.
+AS: monohydrát laktózy 44 mg.
+AS: bezvodá kaktóza 89,5 mg.
+SPC00387099_injexate
+AS: 50 mg metotrexátu
+AS: 7,5 mg metotrexátu.
+AS: 10 mg metotrexátu.
+AS: 12,5 mg metotrexátu.
+AS: 15 mg metotrexátu.
+AS: 17,5 mg metotrexátu.
+AS: 20 mg metotrexátu.
+AS: 22,5 mg metotrexátu.
+AS: 25 mg metotrexátu.
+AS: 27,5 mg metotrexátu.
+AS: 30 mg metotrexátu.
+AS: 1 mmol sodíka.
+SPC00390172_oxaliplatin
+AS: 5 mg oxaliplatiny.
+AS: 50 mg oxaliplatiny.
+AS: 100 mg oxaliplatiny.
+AS: 150 mg oxaliplatiny.
+AS: 200 mg oxaliplatiny.
+AS: 250 mg oxaliplatiny.
 SPC00390361_furocef
 AS: 250 mg cefuroxímu,
 AS: 300,715 mg cefuroxímiumaxetilu.
@@ -88,6 +129,32 @@ AS: 25 mg eplerenónu.
 AS: 50 mg eplerenónu.
 AS: 35,7 mg monohydrátu laktózy
 AS: 71,4 mg monohydrátu laktózy
+SPC00394580_triplixam
+AS: 1,6975 mg perindoprilu,
+AS: 2,5 mg perindoprilu arginínu,
+AS: 0,625 mg indapamidu
+AS: 6,935 mg amlodipíniumbesilátu,
+AS: 5 mg amlodipínu.
+AS: 3,395 mg perindoprilu,
+AS: 5 mg perindoprilu arginínu,
+AS: 1,25 mg indapamidu
+AS: 6,935 mg amlodipíniumbesilátu,
+AS: 5 mg amlodipínu.
+AS: 3,395 mg perindoprilu,
+AS: 5 mg perindoprilu arginínu,
+AS: 1,25 mg indapamidu
+AS: 13,870 mg amlodipíniumbesilátu,
+AS: 10 mg amlodipínu.
+AS: 6,790 mg perindoprilu,
+AS: 10 mg perindoprilu arginínu,
+AS: 2,5 mg indapamidu
+AS: 6,935 mg amlodipíniumbesilátu,
+AS: 5 mg amlodipínu.
+AS: 6,790 mg perindoprilu,
+AS: 10 mg perindoprilu arginínu,
+AS: 2,5 mg indapamidu
+AS: 13,870 mg amlodipíniumbesilátu,
+AS: 10 mg amlodipínu.
 SPC00395402_perindopril
 AS: 10 mg perindoprilu arginínu,
 AS: 6,790 mg perindoprilu.
