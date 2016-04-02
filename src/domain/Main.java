@@ -126,7 +126,7 @@ public class Main {
 	
 	public static void parseActiveSubstances(String htmlDocument, Integer documentId) {
 		Document doc = Jsoup.parse(htmlDocument);
-		Elements els = doc.select("p");
+		Elements els = doc.select("p, h1, h2, h3");
 		
 		for(int i = 0; i < els.size(); i++) {
 			Element e = els.get(i);
