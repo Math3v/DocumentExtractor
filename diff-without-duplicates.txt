@@ -1,0 +1,114 @@
+SPC00126112_maxalt						SPC00126112_maxalt
+AS: 5 mg rizatriptanu.						AS: 5 mg rizatriptanu. 
+SPC00268190_alexan						SPC00268190_alexan
+AS: 100 mg cytarabínu						AS: 100 mg cytarabínu 
+SPC00323612_uromitexan						SPC00323612_uromitexan
+AS: 400 mg mesny					      <
+SPC00331139_tadalafil						SPC00331139_tadalafil
+AS: 5 mg tadalafilu.						AS: 5 mg tadalafilu. 
+AS: 225,50 mg monohydrátu laktózy.				AS: 225,50 mg monohydrátu laktózy. 
+SPC00332201_salofalk						SPC00332201_salofalk
+							      >	AS: 500 mg granulátu 
+AS: 500 mg mesalazínu.						AS: 500 mg mesalazínu. 
+							      >	AS: 3 g granulátu 
+AS: 3 g mesalazínu.						AS: 3 g mesalazínu. 
+							      >	AS: 500 mg granulátu 
+AS: 1,0 mg aspartámu						AS: 1,0 mg aspartámu 
+AS: 0,02mg sachrózy.					      |	AS: a 0,02mg sachrózy.  
+SPC00332739_dualkopt						SPC00332739_dualkopt
+AS: 22,25 mg dorzolamidiumchloridu,				AS: 22,25 mg dorzolamidiumchloridu, 
+AS: 20 mg dorzolamidu						AS: 20 mg dorzolamidu 
+AS: 6,83 mg timololiumhydrogenmaleinátu,			AS: 6,83 mg timololiumhydrogenmaleinátu, 
+AS: 5 mg timololu.						AS: 5 mg timololu. 
+SPC00337546_terbinafin						SPC00337546_terbinafin
+AS: 250 mg terbinafínu.					AS: 250 mg terbinafínu. 
+SPC00341498_lexaurin						SPC00341498_lexaurin
+AS: 1,5 mg bromazepamu.						AS: 1,5 mg bromazepamu. 
+AS: 133,17 mg monohydrátu laktózy.				AS: 133,17 mg monohydrátu laktózy. 
+SPC00350917_sildenafil						SPC00350917_sildenafil
+AS: 25 mg sildenafilu						AS: 25 mg sildenafilu 
+							      >	AS: 25 mg tableta 
+AS: 1,86 mg monohydrát laktózy.				AS: 1,86 mg monohydrát laktózy. 
+SPC00358238_afreloxa						SPC00358238_afreloxa
+AS: 875 mg amoxicilínu						AS: 875 mg amoxicilínu 
+AS: 125 mg kyseliny klavulanovej.			      |	AS: 125 mg kyseliny 
+SPC00361235_inhafort						SPC00361235_inhafort
+AS: 12 mikrogramov dihydrátu formoteroliumfumarátu.		AS: 12 mikrogramov dihydrátu formoteroliumfumarátu. 
+AS: 25 mg monohydrátu laktózy					AS: 25 mg monohydrátu laktózy 
+SPC00374163_septolete						SPC00374163_septolete
+AS: 3 mg benzydamíniumchloridu					AS: 3 mg benzydamíniumchloridu 
+AS: 1 mg cetylpyridíniumchloridu.				AS: 1 mg cetylpyridíniumchloridu. 
+							      >	AS: 2471,285 mg pastilka 
+SPC00378501_nogrip						SPC00378501_nogrip
+AS: 500 mg paracetamolu,					AS: 500 mg paracetamolu, 
+AS: 200 mg kyseliny askorbovej,				      |	AS: 200 mg kyseliny 
+AS: 25 mg feniramíniumhydrogénmaleinátu			AS: 25 mg feniramíniumhydrogénmaleinátu 
+AS: 11,555 g sacharózy						AS: 11,555 g sacharózy 
+AS: 15,2 mg etanolu.						AS: 15,2 mg etanolu. 
+SPC00381393_paricalcitol					SPC00381393_paricalcitol
+AS: 2 mikrogramy parikalcitolu.					AS: 2 mikrogramy parikalcitolu. 
+SPC00381758_mar							SPC00381758_mar
+AS: 200 mg ibuprofenu						AS: 200 mg ibuprofenu 
+AS: 5 mg fenylefríniumchloridu					AS: 5 mg fenylefríniumchloridu 
+SPC00382542_truflo						SPC00382542_truflo
+AS: 250 mikrogramov flutikazónpropionátu.			AS: 250 mikrogramov flutikazónpropionátu. 
+AS: 227 µg flutikazónpropionátu.			      <
+SPC00383889_uroxal						SPC00383889_uroxal
+AS: 5 mg oxybutyníniumchloridu,				AS: 5 mg oxybutyníniumchloridu, 
+AS: 4,54 mg oxybutynínu.					AS: 4,54 mg oxybutynínu. 
+SPC00386096_xanthadu						SPC00386096_xanthadu
+AS: 0,02 mg etinylestradiolu					AS: 0,02 mg etinylestradiolu 
+AS: 3 mg drospirenónu.						AS: 3 mg drospirenónu. 
+AS: monohydrát laktózy 44 mg.					AS: monohydrát laktózy 44 mg. 
+AS: bezvodá kaktóza 89,5 mg.				      <
+SPC00387099_injexate						SPC00387099_injexate
+AS: 50 mg metotrexátu						AS: 50 mg metotrexátu 
+AS: 1 mmol sodíka.						AS: 1 mmol sodíka. 
+SPC00390172_oxaliplatin						SPC00390172_oxaliplatin
+							      >	AS: 1 ml infúzneho koncentrátu 
+AS: 5 mg oxaliplatiny.						AS: 5 mg oxaliplatiny.  
+SPC00390361_furocef						SPC00390361_furocef
+AS: 250 mg cefuroxímu,						AS: 250 mg cefuroxímu, 
+AS: 300,715 mg cefuroxímiumaxetilu.				AS: 300,715 mg cefuroxímiumaxetilu. 
+AS: 500 mg cefuroxímu,						AS: 500 mg cefuroxímu, 
+AS: 601,43 mg cefuroxímiumaxetilu.				AS: 601,43 mg cefuroxímiumaxetilu. 
+SPC00390446_mometasone						SPC00390446_mometasone
+AS: 51,73 mikrogramov monohydrátu mometazónfuroátu,		AS: 51,73 mikrogramov monohydrátu mometazónfuroátu, 
+AS: 50 mikrogramov bezvodého mometazónfuroátu.		AS: 50 mikrogramov bezvodého mometazónfuroátu. 
+AS: 20 mikrogramov benzalkóniumchloridu			AS: 20 mikrogramov benzalkóniumchloridu 
+SPC00391390_doxyhexal						SPC00391390_doxyhexal
+AS: 104,1 mg monohydrátu doxycyklínu,			      |	AS: 104,1 mg monohydrátu 
+AS: 100 mg doxycyklínu.					AS: 100 mg doxycyklínu. 
+SPC00393283_coldrex						SPC00393283_coldrex
+AS: sacharóza 2 077 mg					      <
+AS: aspartam 12 mg						AS: aspartam 12 mg 
+AS: citrát sodný 500 mg				      <
+AS: 117,3 mg sodíka						AS: 117,3 mg sodíka 
+AS: cyklaman sodný 100 mg				      <
+AS: 11,5 mg sodíka						AS: 11,5 mg sodíka 
+SPC00393314_gerasa						SPC00393314_gerasa
+AS: 100 mg kyseliny acetylsalicylovej.			      |	AS: 100 mg kyseliny 
+AS: 60 mg monohydrátu laktózy.				AS: 60 mg monohydrátu laktózy. 
+SPC00393868_eplerenon						SPC00393868_eplerenon
+AS: 25 mg eplerenónu.						AS: 25 mg eplerenónu. 
+							      >	AS: 25 mg tableta 
+AS: 35,7 mg monohydrátu laktózy				AS: 35,7 mg monohydrátu laktózy 
+							      >	AS: 50 mg tableta 
+SPC00394580_triplixam						SPC00394580_triplixam
+AS: 1,6975 mg perindoprilu,					AS: 1,6975 mg perindoprilu, 
+AS: 2,5 mg perindoprilu arginínu,			      |	AS: 2,5 mg perindoprilu 
+AS: 0,625 mg indapamidu					      |	AS: arginínu, 0,625 mg 
+AS: 6,935 mg amlodipíniumbesilátu,				AS: 6,935 mg amlodipíniumbesilátu, 
+AS: 5 mg amlodipínu.						AS: 5 mg amlodipínu. 
+SPC00395402_perindopril						SPC00395402_perindopril
+AS: 10 mg perindoprilu arginínu,			      |	AS: 10 mg perindoprilu 
+AS: 6,790 mg perindoprilu.					AS: 6,790 mg perindoprilu. 
+AS: 141,56 mg monohydrátu laktózy.				AS: 141,56 mg monohydrátu laktózy. 
+SPC00395679_coltowan						SPC00395679_coltowan
+AS: 10 mg ezetimibu.						AS: 10 mg ezetimibu. 
+AS: 55 mg monohydrátu laktózy.				AS: 55 mg monohydrátu laktózy. 
+SPC00397743_budenofalk						SPC00397743_budenofalk
+AS: budezonid v množstve 2 mg.				      <
+AS: cetylalkohol 8,40 mg					AS: cetylalkohol 8,40 mg 
+AS: propylénglykol 600,30 mg				      |	AS: 600,30 mg dávka 
+							      >

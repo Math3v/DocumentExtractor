@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="domain.BonitoService" project="DocumentExtractor" 
+    file="/DocumentExtractor/src/domain/BonitoService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="124" y="730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="false" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="domain.IntermediateRepresentation" project="DocumentExtractor" 
+    file="/DocumentExtractor/src/domain/IntermediateRepresentation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="408" y="705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="false" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="domain.Section" project="DocumentExtractor" 
+    file="/DocumentExtractor/src/domain/Section.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="778" y="782"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="false" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="domain.SectionStateMachine" project="DocumentExtractor" 
+    file="/DocumentExtractor/src/domain/SectionStateMachine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="136" y="416"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="false" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="domain.Main" project="DocumentExtractor" 
+    file="/DocumentExtractor/src/domain/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="281" width="261" x="267" y="268"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="false" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="domain.Test" project="DocumentExtractor" 
+    file="/DocumentExtractor/src/domain/Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="754" y="365"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="false" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="8">    
+    <bendpoint x="255" y="589"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="10">    
+    <bendpoint x="276" y="589"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="14">    
+    <bendpoint x="708" y="514"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
