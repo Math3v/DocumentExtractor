@@ -90,15 +90,16 @@ public class Main {
 			String section = e.text();
 			
 			if( match.size() > 0 ) {
-				Main.l.logln(section);
+				//Main.l.logln(section);
 				if( Section.usageSectionHeadingSPC(section) ) {
 					SectionStateMachine.startUsage();
 				} else {
 					SectionStateMachine.endUsage();
 				}
 			} else if( SectionStateMachine.isUsage() && section.length() > 0 ) {
-				IPersistable p = new PostgreSQLPersistable();
-				p.insertSection(new Section(documentId.toString(), "usage", section));
+				//IPersistable p = new PostgreSQLPersistable();
+				//p.insertSection(new Section(documentId.toString(), "usage", section));
+				System.out.println(section);
 			}
 		}
 	}
@@ -166,7 +167,7 @@ public class Main {
 	            try {
 	            	Main.l.logln(fileEntry.getName().substring(0, fileEntry.getName().indexOf('.')), Logger.CRI);
 	            	String htmlDocument = parseToHTML(fileEntry.getAbsolutePath());
-	            	//parseSectionHeadings(htmlDocument, new Integer(documentId));
+	            	parseSectionHeadings(htmlDocument, new Integer(documentId));
 	            	//printQuantitiesCounts(htmlDocument, documentId);
 	            	parseActiveSubstances(htmlDocument, documentId);
 	            } catch (Exception e) {
